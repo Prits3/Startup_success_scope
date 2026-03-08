@@ -92,10 +92,10 @@ Generated artifacts:
 ## Run App
 
 ```bash
-streamlit run app.py --server.headless true --server.address 127.0.0.1 --server.port 8501
+streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 ```
 
-Open: `http://127.0.0.1:8501`
+Open: `http://localhost:8501`
 
 ## Deployment
 
