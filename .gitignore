@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data/model artifacts generated locally
+model/*.pkl
+data/startups_raw.csv
+data/big_startup_secsees_dataset.csv
