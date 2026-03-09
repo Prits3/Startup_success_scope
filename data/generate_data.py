@@ -1,109 +1,118 @@
+import argparse
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
 
-def generate_startups_raw(n_rows: int = 12000, seed: int = 42) -> pd.DataFrame:
-    rng = np.random.default_rng(seed)
+INDUSTRIES = [
+    "FinTech",
+    "HealthTech",
+    "EdTech",
+    "SaaS",
+    "AI/ML",
+    "E-commerce",
+    "CleanTech",
+    "Cybersecurity",
+]
 
-    categories = [
-        "Software",
-        "FinTech",
-        "Health Care",
-        "E-Commerce",
-        "AI",
-        "EdTech",
-        "Cybersecurity",
-        "CleanTech",
-        "Biotech",
-    ]
-    countries = ["USA", "GBR", "DEU", "IND", "CAN", "SGP", "FRA", "AUS", "NLD"]
+LOCATIONS = [
+    "San Francisco",
+    "New York",
+    "Austin",
+    "Boston",
+    "Seattle",
+    "London",
+    "Berlin",
+    "Singapore",
+    "Toronto",
+    "Bangalore",
+]
 
-    category = rng.choice(categories, n_rows)
-    country = rng.choice(countries, n_rows)
 
-    founded_base = pd.Timestamp("2008-01-01")
-    founded_offsets = rng.integers(0, 15 * 365, size=n_rows)
-    founded_at = founded_base + pd.to_timedelta(founded_offsets, unit="D")
+def _sigmoid(x: np.ndarray) -> np.ndarray:
+    return 1.0 / (1.0 + np.exp(-x))
 
-    days_to_first = rng.integers(30, 1200, size=n_rows)
-    duration = rng.integers(30, 2500, size=n_rows)
 
-    first_funding_at = founded_at + pd.to_timedelta(days_to_first, unit="D")
-    last_funding_at = first_funding_at + pd.to_timedelta(duration, unit="D")
+def generate_synthetic_startup_data(n_samples: int = 3000, random_state: int = 42) -> pd.DataFrame:
+    rng = np.random.default_rng(random_state)
 
-    funding_rounds = rng.integers(1, 9, size=n_rows)
-    funding_total_usd = np.clip(rng.lognormal(mean=14.5, sigma=1.25, size=n_rows), 5e4, 8e8)
+    funding_amount = np.round(rng.lognormal(mean=2.9, sigma=1.0, size=n_samples), 2)
+    funding_amount = np.clip(funding_amount, 0.25, 600.0)
 
-    cat_bonus = {
-        "Software": 0.08,
-        "FinTech": 0.12,
-        "Health Care": 0.10,
-        "E-Commerce": 0.03,
-        "AI": 0.14,
-        "EdTech": 0.04,
-        "Cybersecurity": 0.11,
-        "CleanTech": 0.06,
-        "Biotech": 0.09,
-    }
-    ctry_bonus = {
-        "USA": 0.12,
-        "GBR": 0.08,
-        "DEU": 0.07,
-        "IND": 0.05,
-        "CAN": 0.06,
-        "SGP": 0.06,
-        "FRA": 0.05,
-        "AUS": 0.04,
-        "NLD": 0.05,
+    num_funding_rounds = rng.integers(1, 8, size=n_samples)
+    industry_sector = rng.choice(INDUSTRIES, size=n_samples)
+    location = rng.choice(LOCATIONS, size=n_samples)
+    num_milestones = rng.integers(0, 18, size=n_samples)
+    team_size = rng.integers(2, 250, size=n_samples)
+    years_active = np.round(rng.uniform(0.3, 12.0, size=n_samples), 1)
+
+    industry_bonus = {
+        "FinTech": 0.20,
+        "HealthTech": 0.18,
+        "EdTech": 0.07,
+        "SaaS": 0.15,
+        "AI/ML": 0.23,
+        "E-commerce": 0.05,
+        "CleanTech": 0.11,
+        "Cybersecurity": 0.17,
     }
 
-    score = (
-        0.18 * np.log1p(funding_total_usd)
-        + 0.08 * funding_rounds
-        - 0.0002 * days_to_first
-        + 0.00018 * duration
-        + np.vectorize(cat_bonus.get)(category)
-        + np.vectorize(ctry_bonus.get)(country)
-        - 2.3
-        + rng.normal(0, 0.35, n_rows)
-    )
-    prob = 1 / (1 + np.exp(-score))
+    location_bonus = {
+        "San Francisco": 0.22,
+        "New York": 0.18,
+        "Austin": 0.12,
+        "Boston": 0.14,
+        "Seattle": 0.15,
+        "London": 0.16,
+        "Berlin": 0.10,
+        "Singapore": 0.12,
+        "Toronto": 0.09,
+        "Bangalore": 0.08,
+    }
 
-    status = np.where(
-        prob > 0.62,
-        rng.choice(["ipo", "acquired", "operating"], size=n_rows, p=[0.35, 0.5, 0.15]),
-        rng.choice(["operating", "closed"], size=n_rows, p=[0.85, 0.15]),
+    latent_score = (
+        0.028 * np.log1p(funding_amount)
+        + 0.085 * num_funding_rounds
+        + 0.11 * np.log1p(num_milestones)
+        + 0.07 * np.log1p(team_size)
+        + 0.06 * years_active
+        + np.vectorize(industry_bonus.get)(industry_sector)
+        + np.vectorize(location_bonus.get)(location)
+        - 1.05
+        + rng.normal(0, 0.18, size=n_samples)
     )
 
-    df = pd.DataFrame(
+    success_probability = np.clip(_sigmoid(latent_score), 0.02, 0.98)
+    success_outcome = rng.binomial(1, success_probability)
+
+    return pd.DataFrame(
         {
-            "permalink": [f"/organization/startup-{i}" for i in range(n_rows)],
-            "name": [f"Startup {i}" for i in range(n_rows)],
-            "homepage_url": [f"https://startup{i}.example.com" for i in range(n_rows)],
-            "category_list": category,
-            "funding_total_usd": funding_total_usd.astype(int),
-            "status": status,
-            "country_code": country,
-            "state_code": "NA",
-            "region": "Global",
-            "city": "Unknown",
-            "funding_rounds": funding_rounds,
-            "founded_at": founded_at.astype(str),
-            "first_funding_at": first_funding_at.astype(str),
-            "last_funding_at": last_funding_at.astype(str),
+            "funding_amount": funding_amount,
+            "num_funding_rounds": num_funding_rounds,
+            "industry_sector": industry_sector,
+            "location": location,
+            "num_milestones": num_milestones,
+            "team_size": team_size,
+            "years_active": years_active,
+            "success_probability": np.round(success_probability * 100, 2),
+            "success_outcome": success_outcome,
         }
     )
-    return df
 
 
-def main() -> Path:
-    out = Path(__file__).resolve().parent / "startups_raw.csv"
-    df = generate_startups_raw()
-    df.to_csv(out, index=False)
-    print(f"Generated synthetic dataset: {out} ({len(df):,} rows)")
-    return out
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Generate synthetic startup dataset.")
+    parser.add_argument("--samples", type=int, default=3000, help="Number of rows to generate.")
+    parser.add_argument("--seed", type=int, default=42, help="Random seed.")
+    args = parser.parse_args()
+
+    output_path = Path(__file__).resolve().parent / "startup_data.csv"
+    df = generate_synthetic_startup_data(n_samples=args.samples, random_state=args.seed)
+    df.to_csv(output_path, index=False)
+
+    print(f"Saved {len(df)} rows to {output_path}")
+    print(df.head(5).to_string(index=False))
 
 
 if __name__ == "__main__":

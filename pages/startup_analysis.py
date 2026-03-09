@@ -1,116 +1,135 @@
-from pathlib import Path
-import pickle
-
+import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from model.predict import predict_startup
+from model.predict import get_feature_importance, predict_startup
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-CATEGORIES_PATH = PROJECT_ROOT / "model" / "categories.pkl"
-DATA_FALLBACK = PROJECT_ROOT / "data" / "startups_raw.csv"
+def _confidence_score(payload: dict, df: pd.DataFrame) -> float:
+    cols = ["funding_amount", "num_funding_rounds", "num_milestones", "team_size", "years_active"]
+    inside = 0
+    for col in cols:
+        low, high = df[col].quantile(0.05), df[col].quantile(0.95)
+        if low <= payload[col] <= high:
+            inside += 1
+    return round(58 + 42 * (inside / len(cols)), 1)
 
 
-def _load_options():
-    if CATEGORIES_PATH.exists():
-        with open(CATEGORIES_PATH, "rb") as f:
-            cats = pickle.load(f)
-        return cats["categories"], cats["countries"]
+def _analyst_note(payload: dict, prob: float, risk: str) -> str:
+    return (
+        f"This startup is positioned in {payload['industry_sector']} with {payload['num_funding_rounds']} funding rounds and "
+        f"{payload['num_milestones']} milestones. Current model output indicates {prob:.1f}% success probability "
+        f"with {risk.lower()} profile. Main watchpoint is execution consistency as the company scales."
+    )
 
-    if DATA_FALLBACK.exists():
-        import pandas as pd
 
-        df = pd.read_csv(DATA_FALLBACK, usecols=["category_list", "country_code"])
-        categories = (
-            df["category_list"].fillna("Unknown").astype(str).apply(lambda x: x.split("|")[0]).unique().tolist()
+def render(df: pd.DataFrame) -> None:
+    st.markdown("<p class='page-title'>Analyze</p>", unsafe_allow_html=True)
+    st.markdown(
+        "<p class='page-sub'>Evaluate one startup and get AI score, confidence, recommendation, and reasoning.</p>",
+        unsafe_allow_html=True,
+    )
+
+    industries = sorted(df["industry_sector"].unique().tolist())
+    locations = sorted(df["location"].unique().tolist())
+
+    left, right = st.columns([1, 1])
+
+    with left:
+        st.markdown("#### Input")
+        with st.container(border=True):
+            industry = st.selectbox("Industry", industries)
+            location = st.selectbox("Location", locations)
+            funding = st.slider("Funding Amount (M$)", 0.5, 250.0, 12.0, 0.5)
+            rounds = st.slider("Funding Rounds", 1, 10, 3)
+            milestones = st.slider("Milestones", 0, 20, 7)
+            team = st.slider("Team Size", 2, 500, 35)
+            years = st.slider("Years Active", 0.2, 15.0, 3.0)
+            run = st.button("Analyze Startup", type="primary", width='stretch', key="analyze_submit")
+
+    with right:
+        st.markdown("#### Result")
+        if not run:
+            st.info("Run analysis to generate result.")
+            return
+
+        payload = {
+            "funding_amount": float(funding),
+            "num_funding_rounds": int(rounds),
+            "industry_sector": industry,
+            "location": location,
+            "num_milestones": int(milestones),
+            "team_size": int(team),
+            "years_active": float(years),
+        }
+
+        with st.spinner("AI is evaluating startup profile..."):
+            try:
+                pred = predict_startup(payload)
+            except Exception as exc:
+                st.error(
+                    "Prediction failed. Ensure model artifacts exist by running "
+                    "`python model/train.py` from the project root."
+                )
+                st.code(str(exc))
+                return
+
+        prob = pred["success_probability"]
+        risk = pred["risk_level"]
+        confidence = _confidence_score(payload, df)
+        recommendation = {
+            "High Potential": "Prioritize for deeper diligence",
+            "Moderate Potential": "Proceed with conditional diligence",
+            "High Risk": "Deprioritize until stronger traction",
+        }[risk]
+
+        r1, r2 = st.columns(2)
+        r1.metric("Success Probability", f"{prob:.1f}%")
+        r2.metric("Confidence", f"{confidence:.1f}%")
+        st.metric("Recommendation", recommendation)
+
+        gauge = go.Figure(
+            go.Indicator(
+                mode="gauge+number",
+                value=prob,
+                number={"suffix": "%"},
+                gauge={
+                    "axis": {"range": [0, 100]},
+                    "bar": {"color": "#2bc6f4"},
+                    "steps": [
+                        {"range": [0, 45], "color": "#44292d"},
+                        {"range": [45, 70], "color": "#4d4026"},
+                        {"range": [70, 100], "color": "#1f4d3a"},
+                    ],
+                },
+            )
         )
-        countries = df["country_code"].fillna("Unknown").astype(str).unique().tolist()
-        return sorted(categories), sorted(countries)
+        gauge.update_layout(paper_bgcolor="#0A101A", font_color="#e8f0fb", margin=dict(l=8, r=8, t=8, b=8), height=250)
+        st.plotly_chart(gauge, width='stretch')
 
-    return ["Unknown"], ["Unknown"]
+    st.markdown("#### AI Reasoning")
+    st.markdown("<div class='ai-brief'><b>AI Analyst Note</b><br/>" + _analyst_note(payload, prob, risk) + "</div>", unsafe_allow_html=True)
 
-
-def show():
-    st.markdown("## Startup Analysis")
-
-    categories, countries = _load_options()
-    categories = categories[:80]
-
-    with st.form("analysis_form"):
-        col1, col2 = st.columns(2)
-        with col1:
-            funding = st.number_input("Total Funding ($)", 0, 500_000_000, 1_000_000, 50_000)
-            rounds = st.slider("Funding Rounds", 1, 10, 2)
-            category = st.selectbox("Industry", categories)
-        with col2:
-            country = st.selectbox("Country", countries)
-            days_to_funding = st.number_input("Days from Founded to First Funding", 0, 3000, 365)
-            funding_duration = st.number_input("Funding Duration (days)", 0, 5000, 500)
-
-        submitted = st.form_submit_button("Analyze", use_container_width=True)
-
-    if not submitted:
+    try:
+        fi = get_feature_importance(top_n=8).sort_values("importance")
+    except Exception as exc:
+        st.warning("Feature importance is temporarily unavailable.")
+        st.code(str(exc))
         return
-
-    result = predict_startup(funding, rounds, category, country, days_to_funding, funding_duration)
-    st.markdown("---")
-
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Success Probability", f"{result['probability']}%")
-    c2.metric("Risk Level", result["risk_level"])
-    c3.metric("Signal", result["signal"])
-
-    gauge = go.Figure(
-        go.Indicator(
-            mode="gauge+number",
-            value=result["probability"],
-            title={"text": "Success Probability", "font": {"color": "white"}},
-            gauge={
-                "axis": {"range": [0, 100]},
-                "bar": {"color": result["color"]},
-                "steps": [
-                    {"range": [0, 20], "color": "#1a1a2e"},
-                    {"range": [20, 40], "color": "#16213e"},
-                    {"range": [40, 100], "color": "#0f3460"},
-                ],
-            },
-        )
-    )
-    gauge.update_layout(paper_bgcolor="#0A1628", font_color="white", height=290)
-    st.plotly_chart(gauge, use_container_width=True)
-
-    st.markdown("### Key Success Factors")
-    imp = dict(sorted(result["feature_importance"].items(), key=lambda x: x[1]))
-    fig2 = px.bar(
-        x=list(imp.values()),
-        y=list(imp.keys()),
+    fig = px.bar(
+        fi,
+        x="importance",
+        y="feature",
         orientation="h",
-        color=list(imp.values()),
-        color_continuous_scale=["#0A1628", "#00B4D8"],
+        title="Top Drivers",
+        color_discrete_sequence=["#2bc6f4"],
     )
-    fig2.update_layout(
-        paper_bgcolor="#0A1628",
-        plot_bgcolor="#0A1628",
-        font_color="white",
-        showlegend=False,
-        coloraxis_showscale=False,
+    fig.update_layout(
+        paper_bgcolor="#0A101A",
+        plot_bgcolor="#0A101A",
+        font_color="#e8f0fb",
+        xaxis_title="Relative Impact",
+        yaxis_title="",
     )
-    st.plotly_chart(fig2, use_container_width=True)
-
-    if "compared_startups" not in st.session_state:
-        st.session_state.compared_startups = []
-
-    if st.button("Add to Comparison"):
-        st.session_state.compared_startups.append(
-            {
-                "Industry": category,
-                "Country": country,
-                "Funding": funding,
-                "Rounds": rounds,
-                "Probability (%)": result["probability"],
-                "Risk": result["risk_level"],
-            }
-        )
-        st.success("Added to comparison list.")
+    st.plotly_chart(fig, width='stretch')

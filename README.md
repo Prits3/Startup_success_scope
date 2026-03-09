@@ -1,24 +1,18 @@
 # VentureScope AI
 
-AI-powered startup evaluation platform with predictive scoring, market intelligence, and startup comparison.
+VentureScope AI is an AI-powered startup evaluation platform built with Streamlit and a RandomForest model.
 
-## Core Capabilities
+## Features
 
-- Success probability prediction (0-100%)
+- Startup success probability prediction (0-100%)
 - Risk classification:
   - High Potential
   - Moderate Potential
   - High Risk
-- Feature importance chart for model explainability
-- Market insights by industry/country/funding bands
-- Side-by-side startup comparison workflow
-- Fintech dashboard UI with dark navy + teal theme
-
-## Tech Stack
-
-- Frontend: Streamlit
-- ML model: RandomForestClassifier (scikit-learn)
-- Data: CSV startup dataset (`startups_raw.csv` compatible schema)
+- Feature importance visualization
+- Market insights dashboard with industry/location trends
+- Side-by-side startup comparison tool
+- Professional fintech style with dark navy and teal theme
 
 ## Project Structure
 
@@ -26,109 +20,64 @@ AI-powered startup evaluation platform with predictive scoring, market intellige
 venturescope-ai/
 ├── app.py
 ├── model/
-│   ├── __init__.py
 │   ├── train.py
-│   ├── predict.py
-│   └── *.pkl (generated artifacts)
+│   └── predict.py
 ├── data/
-│   ├── generate_data.py
-│   ├── startups_raw.csv
-│   └── big_startup_secsees_dataset.csv
+│   └── generate_data.py
 ├── pages/
-│   ├── __init__.py
 │   ├── startup_analysis.py
 │   ├── market_insights.py
 │   └── comparison.py
-├── .streamlit/
-│   └── config.toml
-├── Procfile
 ├── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
-## Dataset Requirements
+## Setup
 
-CSV columns expected:
-
-- `category_list`
-- `funding_total_usd`
-- `status`
-- `country_code`
-- `funding_rounds`
-- `founded_at`
-- `first_funding_at`
-- `last_funding_at`
-
-The training pipeline auto-detects data from:
-
-1. `data/startups_raw.csv`
-2. `data/big_startup_secsees_dataset.csv`
-
-If neither file exists, it auto-generates a synthetic dataset via `data/generate_data.py`.
-
-## Local Setup
+1. Create and activate a virtual environment (recommended).
+2. Install dependencies:
 
 ```bash
-cd ~/Desktop/venturescope-ai
-python3 -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Train Model
+## Run the Pipeline
+
+1. Generate synthetic data:
 
 ```bash
-python3 model/train.py
+python data/generate_data.py
 ```
 
-Generated artifacts:
+2. Train the model:
 
-- `model/model.pkl`
-- `model/encoders.pkl`
-- `model/categories.pkl`
-- `model/metrics.pkl`
+```bash
+python model/train.py
+```
 
-## Run App
+3. Launch Streamlit app:
 
 ```bash
 streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 ```
 
-Open: `http://localhost:8501`
+4. Open in browser:
 
-## Deployment
-
-### Option 1: Streamlit Community Cloud
-
-1. Push repository to GitHub
-2. In Streamlit Cloud, create app from repo
-3. Set main file to `app.py`
-4. Ensure `requirements.txt` is present (already included)
-
-### Option 2: Render / PaaS using Procfile
-
-- Build command:
-
-```bash
-pip install -r requirements.txt
+```text
+http://localhost:8501
 ```
 
-- Start command (already in `Procfile`):
+## Input Features
 
-```bash
-streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
-```
-
-## Product Workflow
-
-1. Dashboard: high-level module entry points
-2. Startup Analysis: input startup profile, get AI score + risk + importance
-3. Market Insights: trends by industry, country, and funding bucket
-4. Compare Startups: compare saved analyses side-by-side
+- `funding_amount`
+- `num_funding_rounds`
+- `industry_sector`
+- `location`
+- `num_milestones`
+- `team_size`
+- `years_active`
 
 ## Notes
 
-- If `model/model.pkl` is missing, the app trains automatically at startup.
-- Model metrics are shown in the sidebar after training.
-- Keep large CSV files out of Git history; `.gitignore` already excludes data/model binaries.
+- Model artifacts are saved to `model/startup_success_model.joblib` and `model/training_metrics.joblib`.
+- If model files are missing, run training before using prediction pages.

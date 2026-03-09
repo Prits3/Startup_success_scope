@@ -1,0 +1,2501 @@
+funding_amount,num_funding_rounds,industry_sector,location,num_milestones,team_size,years_active,success_probability,success_outcome
+24.65,7,SaaS,San Francisco,1,7,0.6,55.9,0
+6.42,1,E-commerce,London,12,76,9.5,61.22,1
+38.49,2,CleanTech,Singapore,8,137,10.9,67.54,1
+46.55,2,E-commerce,London,15,81,10.6,70.83,1
+2.58,2,AI/ML,Bangalore,1,155,9.9,63.14,1
+4.94,4,Cybersecurity,Berlin,6,213,11.9,65.95,0
+20.65,7,EdTech,London,0,65,7.2,61.9,1
+13.25,1,CleanTech,San Francisco,12,223,11.6,69.56,1
+17.87,6,Cybersecurity,London,15,220,11.4,80.87,1
+7.74,5,AI/ML,New York,2,228,4.0,69.43,1
+43.79,5,CleanTech,Singapore,5,20,10.4,74.37,1
+39.56,5,HealthTech,New York,15,74,9.6,73.99,1
+19.41,1,Cybersecurity,Bangalore,0,32,9.4,57.83,1
+56.11,6,AI/ML,Boston,17,31,10.8,70.89,0
+29.01,2,HealthTech,Seattle,15,15,4.8,60.1,0
+7.7,4,FinTech,New York,2,111,5.0,57.15,0
+26.28,5,E-commerce,Austin,2,23,7.8,60.77,1
+6.97,5,SaaS,Bangalore,12,75,8.9,79.05,0
+43.75,3,EdTech,Austin,0,245,10.6,64.05,0
+17.29,3,SaaS,London,9,221,10.5,66.87,0
+15.11,4,Cybersecurity,Bangalore,1,234,8.7,66.19,1
+9.2,1,SaaS,Berlin,9,11,11.5,59.25,1
+61.72,6,FinTech,San Francisco,6,165,2.4,63.15,0
+15.57,1,EdTech,Boston,12,159,11.4,73.57,1
+11.84,4,HealthTech,Boston,15,34,1.1,62.09,1
+12.78,5,E-commerce,Austin,8,226,6.8,67.04,1
+30.95,1,CleanTech,Austin,11,102,1.4,49.33,1
+26.19,7,CleanTech,London,10,244,6.9,71.39,1
+27.46,3,E-commerce,Boston,17,30,4.9,64.99,0
+27.96,1,CleanTech,Austin,4,163,1.3,50.66,0
+154.72,5,SaaS,Seattle,4,34,7.9,54.03,1
+12.1,4,E-commerce,Boston,6,237,8.9,75.38,1
+10.89,5,FinTech,Austin,13,152,2.3,64.05,0
+8.05,6,AI/ML,Seattle,15,20,8.4,72.82,1
+33.65,4,AI/ML,Bangalore,5,55,2.4,62.66,1
+56.2,6,FinTech,London,1,91,1.9,62.8,1
+16.22,3,AI/ML,London,10,5,2.0,57.89,1
+7.84,4,E-commerce,Bangalore,10,4,7.3,55.46,0
+7.97,2,EdTech,Berlin,6,231,9.4,57.18,1
+34.83,5,AI/ML,Austin,3,245,7.3,70.09,0
+38.22,2,EdTech,Boston,15,134,9.8,71.64,1
+31.29,5,EdTech,Seattle,15,225,7.2,66.64,0
+9.34,6,HealthTech,Seattle,13,164,9.6,72.07,1
+22.92,7,EdTech,New York,10,8,11.7,77.26,1
+20.42,7,CleanTech,New York,4,179,4.9,66.22,1
+22.62,1,Cybersecurity,Boston,7,6,2.1,46.27,0
+43.44,1,E-commerce,Bangalore,1,204,1.9,44.2,1
+22.73,7,AI/ML,Singapore,4,93,7.3,71.2,0
+35.83,3,AI/ML,Toronto,8,37,6.7,56.0,1
+19.44,1,SaaS,New York,7,66,2.5,50.64,1
+24.27,3,SaaS,Seattle,1,171,10.6,67.03,0
+34.17,6,AI/ML,London,17,212,11.5,79.79,1
+4.23,3,CleanTech,Seattle,4,143,3.3,60.89,1
+13.2,1,SaaS,Seattle,9,41,2.7,60.28,1
+11.35,6,AI/ML,Boston,8,225,2.8,72.35,1
+9.59,2,SaaS,San Francisco,8,198,4.8,65.04,0
+13.8,3,EdTech,Toronto,15,103,10.3,65.97,1
+81.04,1,EdTech,Bangalore,13,139,7.3,56.72,0
+7.65,5,FinTech,San Francisco,15,241,1.1,64.88,1
+47.86,4,SaaS,Seattle,6,95,5.8,66.5,1
+3.38,7,E-commerce,London,4,8,1.4,58.88,1
+13.0,3,E-commerce,Singapore,7,38,5.1,58.72,0
+21.39,2,Cybersecurity,Bangalore,10,150,5.0,58.67,1
+32.66,2,FinTech,Seattle,6,249,7.9,68.67,0
+37.01,2,CleanTech,Singapore,8,185,6.7,66.56,1
+40.18,4,CleanTech,Bangalore,2,155,10.5,69.99,1
+12.82,1,SaaS,Toronto,10,82,0.5,48.65,1
+11.45,3,EdTech,Austin,12,110,9.4,62.04,0
+42.86,6,EdTech,Toronto,9,11,0.6,50.87,1
+15.01,6,E-commerce,Seattle,15,94,3.9,61.6,0
+5.07,5,CleanTech,San Francisco,17,156,10.6,75.21,1
+5.85,7,E-commerce,Singapore,16,226,8.4,74.23,1
+7.25,6,AI/ML,Toronto,1,230,2.3,54.48,0
+29.88,5,E-commerce,Boston,15,205,6.0,64.75,0
+20.96,7,FinTech,Seattle,6,7,8.7,71.24,1
+36.25,1,AI/ML,Boston,8,203,11.3,65.39,0
+11.85,6,FinTech,New York,7,56,7.7,72.38,1
+21.3,3,Cybersecurity,Bangalore,5,154,0.6,51.82,0
+33.97,6,Cybersecurity,San Francisco,15,236,6.1,70.54,0
+13.34,7,AI/ML,London,11,222,2.1,68.93,0
+28.7,4,EdTech,San Francisco,17,166,0.9,61.67,0
+9.38,1,E-commerce,Berlin,17,76,7.3,53.94,0
+12.64,3,E-commerce,Bangalore,7,131,9.4,62.22,0
+12.41,3,E-commerce,Berlin,13,176,0.7,55.14,1
+5.5,7,AI/ML,Berlin,9,129,9.5,72.2,1
+29.58,7,HealthTech,Toronto,8,102,8.6,66.7,0
+11.37,4,FinTech,Bangalore,13,101,9.1,62.81,1
+18.4,7,EdTech,Toronto,12,150,3.2,63.14,0
+29.39,4,AI/ML,Austin,16,10,4.9,56.75,1
+28.4,3,SaaS,London,13,249,1.7,58.08,0
+35.35,6,AI/ML,Toronto,11,27,3.1,70.53,1
+16.47,5,EdTech,Austin,16,246,3.8,57.99,0
+11.9,4,Cybersecurity,Berlin,1,10,4.0,51.62,0
+16.78,4,EdTech,San Francisco,13,129,2.3,69.28,1
+3.36,5,CleanTech,Toronto,7,105,2.5,59.75,0
+4.28,6,SaaS,Berlin,7,144,10.8,71.41,1
+4.84,4,SaaS,Singapore,14,109,9.5,68.53,0
+6.7,1,AI/ML,Toronto,4,224,4.3,57.53,0
+27.11,1,EdTech,Austin,15,6,11.4,67.89,1
+7.35,2,HealthTech,Seattle,8,246,3.1,55.66,1
+12.45,4,SaaS,Toronto,6,172,5.1,58.59,1
+66.63,5,CleanTech,New York,5,195,9.8,66.58,1
+12.73,6,HealthTech,Toronto,7,36,5.5,65.33,0
+38.0,2,SaaS,Austin,16,18,3.0,48.43,0
+7.14,6,E-commerce,London,1,100,4.6,57.95,0
+14.8,5,E-commerce,London,9,82,6.2,60.67,0
+7.03,1,SaaS,Berlin,15,196,7.6,66.09,0
+12.95,3,FinTech,Toronto,8,224,5.0,59.82,0
+42.11,3,FinTech,Boston,10,108,5.3,65.29,1
+3.23,7,SaaS,New York,6,192,3.4,60.18,0
+28.06,7,CleanTech,Seattle,2,16,6.6,65.43,0
+23.05,6,FinTech,Berlin,11,186,2.9,60.97,0
+10.03,4,Cybersecurity,Singapore,16,26,10.5,67.76,1
+4.28,4,E-commerce,Singapore,9,167,9.0,74.2,1
+19.53,3,FinTech,Boston,7,96,5.1,65.75,0
+10.7,6,EdTech,Bangalore,2,104,9.0,65.53,0
+22.94,1,HealthTech,San Francisco,17,70,0.4,67.7,1
+18.58,2,Cybersecurity,New York,15,102,4.3,56.86,0
+90.18,1,AI/ML,San Francisco,16,218,5.5,69.85,1
+14.31,4,EdTech,Bangalore,6,202,5.8,54.35,0
+6.53,3,EdTech,New York,11,86,9.1,64.56,1
+21.74,2,AI/ML,Berlin,7,74,11.6,62.76,1
+22.65,3,FinTech,Toronto,4,128,4.7,60.57,1
+70.75,7,EdTech,Singapore,3,171,4.4,65.51,1
+41.89,4,HealthTech,Bangalore,6,47,7.4,62.92,1
+25.97,6,AI/ML,San Francisco,9,182,3.6,73.75,1
+78.52,7,E-commerce,Seattle,2,237,2.0,59.61,1
+5.54,7,SaaS,London,12,211,11.6,78.91,1
+9.59,3,HealthTech,Berlin,8,137,9.8,70.54,0
+7.2,7,EdTech,Berlin,15,81,11.5,69.22,1
+12.31,7,CleanTech,London,5,82,2.8,60.52,1
+4.59,7,HealthTech,Boston,0,185,0.5,57.9,1
+34.3,3,HealthTech,New York,5,114,5.4,65.28,0
+14.55,2,FinTech,Seattle,17,28,11.2,73.66,0
+4.18,5,CleanTech,Austin,5,170,1.9,57.03,0
+6.58,7,FinTech,London,12,36,1.7,63.22,0
+24.87,7,AI/ML,Singapore,15,246,1.1,64.24,1
+42.02,4,Cybersecurity,London,5,105,9.3,70.4,0
+133.85,2,E-commerce,London,11,86,9.5,63.87,1
+334.91,3,SaaS,San Francisco,3,15,8.4,63.16,0
+27.51,5,HealthTech,Berlin,6,43,0.9,56.58,0
+6.76,4,FinTech,Seattle,5,237,8.8,71.19,0
+2.16,3,HealthTech,New York,12,135,5.5,61.11,1
+23.75,3,Cybersecurity,Austin,15,225,2.1,56.37,1
+8.06,1,HealthTech,Singapore,4,239,3.8,56.54,1
+12.0,3,FinTech,Bangalore,5,14,6.2,44.3,0
+9.85,5,CleanTech,London,14,96,4.2,61.61,0
+15.79,2,SaaS,Bangalore,8,209,11.6,63.04,0
+52.77,7,EdTech,New York,9,124,5.9,74.43,1
+21.26,1,E-commerce,Austin,12,128,4.7,52.92,0
+15.51,5,AI/ML,Bangalore,2,143,8.2,65.1,1
+6.45,4,Cybersecurity,New York,15,176,7.9,69.61,1
+3.41,6,SaaS,Berlin,6,234,0.3,56.43,1
+11.18,7,E-commerce,Austin,11,221,7.5,69.3,1
+17.22,4,Cybersecurity,Boston,7,157,3.2,61.63,0
+106.48,5,SaaS,Seattle,13,145,4.7,65.73,0
+20.7,5,EdTech,Boston,11,91,8.6,66.81,0
+48.56,4,Cybersecurity,Toronto,3,30,6.8,56.91,1
+11.03,2,HealthTech,Bangalore,3,177,4.6,50.83,0
+5.56,4,FinTech,London,15,2,2.3,55.81,1
+6.92,2,AI/ML,London,9,175,6.2,64.8,1
+8.8,4,Cybersecurity,San Francisco,4,125,4.0,56.03,0
+152.7,5,FinTech,Austin,2,197,11.0,75.47,1
+7.99,2,CleanTech,San Francisco,2,237,6.6,63.39,0
+42.03,2,CleanTech,Toronto,16,139,10.4,70.73,1
+7.37,6,Cybersecurity,Austin,17,144,4.9,69.5,0
+46.14,3,SaaS,Boston,7,122,10.0,70.75,1
+26.71,2,EdTech,Toronto,3,94,1.0,57.39,1
+15.54,5,AI/ML,Singapore,7,24,3.8,60.62,0
+17.45,6,HealthTech,Berlin,2,9,1.2,49.69,1
+9.44,6,CleanTech,San Francisco,9,181,0.7,55.95,0
+28.39,6,E-commerce,London,11,228,11.1,80.22,0
+11.53,7,SaaS,London,17,15,8.7,78.21,1
+5.34,5,AI/ML,Boston,5,83,7.6,64.42,0
+5.06,3,E-commerce,Singapore,3,152,6.5,54.71,0
+21.6,7,AI/ML,Bangalore,2,176,7.0,68.72,1
+88.15,2,CleanTech,Austin,6,184,7.8,67.78,1
+21.33,3,Cybersecurity,Boston,10,174,10.0,64.46,1
+16.14,6,Cybersecurity,Boston,1,22,7.3,55.71,0
+24.19,7,AI/ML,Toronto,13,64,9.1,81.37,0
+67.09,3,E-commerce,San Francisco,8,118,3.6,60.87,0
+22.63,6,EdTech,Toronto,14,17,11.7,72.96,1
+12.05,7,FinTech,Singapore,8,87,0.7,62.18,1
+54.94,6,SaaS,Seattle,2,97,4.8,66.51,1
+27.9,1,CleanTech,London,0,244,10.6,53.69,1
+84.42,5,HealthTech,Toronto,10,80,2.4,58.26,1
+21.83,2,AI/ML,Singapore,9,242,2.0,58.28,1
+5.34,6,HealthTech,Austin,14,175,4.6,58.39,1
+4.63,1,SaaS,San Francisco,15,173,5.3,59.46,1
+94.72,7,HealthTech,Berlin,2,205,11.2,74.13,0
+101.87,2,E-commerce,New York,5,210,10.1,64.63,1
+15.19,3,CleanTech,San Francisco,3,57,5.7,57.26,1
+12.39,2,CleanTech,Bangalore,1,106,11.7,57.66,0
+78.37,6,E-commerce,Seattle,0,133,7.8,56.6,0
+6.01,3,HealthTech,Berlin,1,244,10.5,65.86,0
+7.43,6,AI/ML,Austin,9,12,3.2,60.84,0
+34.58,1,FinTech,New York,2,120,6.0,52.1,0
+12.25,4,EdTech,San Francisco,3,55,0.6,53.34,0
+18.08,7,AI/ML,Boston,2,53,0.4,59.11,0
+15.43,7,E-commerce,San Francisco,13,190,8.6,72.8,1
+25.47,2,FinTech,Seattle,11,52,1.7,45.68,1
+74.25,3,CleanTech,Boston,17,198,6.7,68.77,1
+19.9,3,SaaS,London,2,248,8.4,59.61,1
+34.6,4,Cybersecurity,London,3,194,0.7,57.32,1
+2.34,4,AI/ML,Boston,8,44,5.6,59.69,1
+17.31,1,AI/ML,Seattle,11,37,8.3,61.12,1
+7.82,6,E-commerce,San Francisco,2,110,10.7,74.85,1
+5.37,2,CleanTech,Boston,3,138,3.8,56.06,1
+7.55,3,HealthTech,Bangalore,7,195,11.7,73.67,1
+13.01,6,AI/ML,Bangalore,0,106,10.2,69.9,1
+45.42,5,FinTech,Seattle,7,43,7.9,70.5,1
+4.82,3,SaaS,Bangalore,13,247,4.9,53.34,0
+18.74,7,CleanTech,London,9,226,8.6,72.92,1
+11.2,3,CleanTech,New York,7,164,9.8,66.79,1
+13.1,4,EdTech,Toronto,8,174,3.8,64.01,1
+49.54,2,SaaS,Seattle,17,233,11.9,70.11,1
+31.13,2,AI/ML,Berlin,9,119,10.9,69.79,1
+69.23,4,SaaS,Berlin,9,38,6.0,63.86,1
+15.57,4,HealthTech,Boston,16,152,8.8,74.82,1
+9.06,6,EdTech,Singapore,2,113,6.4,62.88,0
+14.53,3,SaaS,London,1,200,9.2,67.71,1
+23.16,7,AI/ML,Boston,8,193,10.0,71.25,1
+21.68,5,Cybersecurity,Austin,5,118,0.6,50.74,1
+6.14,1,AI/ML,Singapore,3,93,1.2,39.45,1
+19.9,6,SaaS,Austin,2,106,4.2,65.85,1
+22.83,5,E-commerce,New York,15,158,11.0,75.67,0
+225.31,3,CleanTech,Toronto,11,159,5.0,65.63,1
+118.73,4,SaaS,Boston,12,128,10.7,70.19,1
+7.74,3,SaaS,Berlin,2,133,5.7,55.48,1
+13.63,5,HealthTech,Singapore,6,247,3.7,63.42,0
+4.21,4,CleanTech,Toronto,11,64,10.8,73.29,0
+10.07,4,CleanTech,Berlin,9,45,6.9,69.16,0
+24.92,2,HealthTech,Singapore,12,200,4.5,64.05,1
+60.69,3,EdTech,Toronto,12,233,0.8,56.27,0
+8.77,4,EdTech,Bangalore,7,152,1.6,60.37,1
+9.45,4,Cybersecurity,San Francisco,14,101,1.9,60.71,1
+2.12,3,FinTech,Singapore,4,88,4.6,56.31,0
+15.45,5,HealthTech,New York,1,118,7.4,65.59,0
+6.28,2,EdTech,Toronto,16,15,3.9,47.48,0
+10.7,4,AI/ML,San Francisco,0,133,1.1,54.64,1
+7.56,1,HealthTech,Austin,5,68,3.4,47.29,0
+16.54,4,AI/ML,New York,2,67,5.1,66.53,1
+3.13,6,E-commerce,Berlin,4,140,11.9,72.81,1
+4.19,6,CleanTech,San Francisco,7,240,4.9,73.11,0
+152.82,5,FinTech,San Francisco,2,53,1.3,53.02,1
+5.02,6,HealthTech,London,8,228,7.1,77.57,1
+6.07,1,FinTech,Bangalore,16,130,11.1,60.0,1
+114.08,3,Cybersecurity,London,2,243,9.5,62.9,1
+331.98,5,E-commerce,Seattle,16,96,10.1,70.34,1
+5.63,6,AI/ML,Berlin,7,249,11.2,79.67,1
+12.58,5,CleanTech,London,10,165,7.7,69.89,1
+25.57,6,AI/ML,Boston,7,168,11.9,76.49,1
+102.38,2,HealthTech,London,5,141,0.7,50.83,0
+6.77,2,AI/ML,San Francisco,1,114,10.1,59.73,1
+14.22,1,E-commerce,Austin,10,132,10.3,67.02,1
+39.54,5,FinTech,Berlin,16,212,11.0,78.06,0
+28.07,5,AI/ML,Boston,9,198,5.9,74.28,1
+12.48,2,SaaS,San Francisco,10,7,9.5,64.88,0
+15.9,6,FinTech,New York,11,174,2.6,55.83,0
+4.6,6,EdTech,Toronto,6,208,7.4,61.69,0
+14.32,3,SaaS,Boston,2,186,4.5,60.16,1
+13.92,2,EdTech,San Francisco,9,125,7.3,61.04,0
+22.92,6,EdTech,Singapore,15,85,8.2,67.85,1
+10.43,5,E-commerce,London,5,168,4.4,56.83,0
+29.12,2,SaaS,Seattle,15,166,2.8,62.65,0
+50.03,2,SaaS,Toronto,15,94,4.1,60.4,1
+21.23,4,CleanTech,Boston,4,102,8.1,66.92,0
+25.84,4,FinTech,London,10,93,8.2,66.86,1
+19.17,2,EdTech,Singapore,13,13,9.0,60.85,1
+18.18,7,FinTech,Berlin,8,9,1.8,54.93,0
+8.83,3,Cybersecurity,Austin,12,22,9.9,65.28,0
+24.94,3,HealthTech,Berlin,16,107,8.4,56.58,0
+16.49,1,CleanTech,Singapore,11,128,0.7,43.01,1
+147.4,7,HealthTech,New York,15,103,4.2,70.46,1
+87.65,2,EdTech,New York,14,238,5.8,72.16,0
+26.73,7,AI/ML,Berlin,14,57,4.5,62.15,0
+8.47,4,CleanTech,New York,15,99,1.7,53.7,0
+5.98,7,HealthTech,Toronto,4,63,2.7,63.15,1
+59.81,2,HealthTech,New York,0,76,0.6,56.31,1
+23.64,2,Cybersecurity,Bangalore,2,146,1.4,51.26,0
+29.37,6,EdTech,Berlin,4,78,3.4,63.15,1
+3.18,6,HealthTech,Seattle,12,80,9.9,72.17,1
+45.94,4,E-commerce,Austin,9,168,6.5,61.73,0
+28.63,1,FinTech,Boston,8,207,5.3,60.3,0
+5.99,7,CleanTech,Singapore,0,54,8.0,61.57,0
+11.34,3,Cybersecurity,Singapore,12,29,6.6,64.84,0
+23.66,7,CleanTech,Austin,6,61,1.8,54.65,0
+19.15,7,EdTech,London,13,145,2.9,69.69,1
+13.57,6,FinTech,Bangalore,2,240,2.9,62.27,0
+16.39,5,SaaS,Austin,5,41,7.3,64.18,0
+14.13,5,EdTech,Berlin,0,12,5.7,46.18,1
+21.17,4,Cybersecurity,New York,5,133,4.8,59.35,1
+79.16,1,E-commerce,Toronto,16,247,6.8,65.0,1
+1.4,3,Cybersecurity,New York,8,139,11.7,69.67,1
+14.34,6,CleanTech,Austin,7,231,4.0,66.07,0
+21.68,6,E-commerce,Seattle,4,161,6.4,62.39,1
+24.43,4,FinTech,Boston,4,9,5.9,60.05,0
+12.53,5,FinTech,New York,12,108,8.7,67.12,0
+3.14,1,FinTech,Berlin,17,192,8.8,64.73,1
+25.23,4,AI/ML,San Francisco,13,128,8.8,74.21,1
+102.24,4,HealthTech,Bangalore,13,50,2.7,61.42,1
+3.92,7,Cybersecurity,San Francisco,8,46,5.6,66.02,1
+43.11,3,HealthTech,Boston,1,166,9.8,64.38,1
+13.09,2,Cybersecurity,Bangalore,13,116,4.8,61.12,1
+17.09,3,E-commerce,New York,14,144,11.8,69.68,0
+6.34,2,FinTech,San Francisco,9,94,4.6,59.68,1
+13.01,4,FinTech,Singapore,1,86,6.1,68.6,1
+66.69,5,SaaS,San Francisco,12,167,5.9,66.52,1
+32.55,6,EdTech,Toronto,16,3,5.4,65.6,0
+102.75,7,EdTech,Seattle,4,109,10.2,69.11,1
+58.99,1,AI/ML,Toronto,2,93,2.1,53.8,1
+28.19,2,HealthTech,Austin,13,195,6.9,67.17,0
+103.95,3,HealthTech,New York,5,182,7.5,64.91,1
+28.19,2,E-commerce,Bangalore,12,107,10.3,58.74,1
+41.6,6,Cybersecurity,Singapore,12,67,7.4,62.76,1
+13.51,1,EdTech,Bangalore,4,60,11.5,57.54,0
+19.42,1,Cybersecurity,Boston,0,54,10.5,60.7,0
+9.05,7,EdTech,Seattle,10,69,4.4,61.32,1
+48.89,7,EdTech,London,7,190,10.4,75.44,0
+5.59,2,FinTech,Seattle,15,13,11.5,60.75,0
+39.74,3,SaaS,Austin,6,8,3.3,52.56,0
+15.02,4,SaaS,Boston,4,135,7.4,60.26,0
+58.63,4,E-commerce,Berlin,15,57,3.6,58.56,0
+38.51,7,HealthTech,San Francisco,13,208,7.9,74.95,1
+112.24,3,HealthTech,Boston,11,188,1.4,54.18,1
+37.74,1,SaaS,Austin,17,192,8.9,62.46,0
+3.77,3,FinTech,San Francisco,14,115,5.2,60.9,1
+17.0,4,HealthTech,New York,15,110,7.2,63.67,1
+5.63,4,E-commerce,Seattle,14,107,0.6,59.86,0
+10.82,4,Cybersecurity,New York,7,50,8.4,65.75,0
+82.37,7,AI/ML,Boston,1,142,6.1,60.64,0
+34.38,6,HealthTech,London,10,216,7.6,70.77,0
+9.03,2,Cybersecurity,Toronto,13,65,4.0,60.65,1
+6.59,3,AI/ML,San Francisco,17,16,2.0,55.25,0
+18.78,5,E-commerce,Seattle,12,142,5.4,70.72,0
+5.38,3,HealthTech,New York,10,101,11.3,67.44,1
+9.29,3,AI/ML,Seattle,10,199,3.0,63.54,1
+24.83,2,FinTech,Seattle,2,214,8.2,67.62,0
+57.7,2,E-commerce,Singapore,0,237,0.9,48.05,1
+33.41,6,HealthTech,Seattle,0,99,8.7,61.92,1
+1.84,6,Cybersecurity,Bangalore,16,225,3.1,60.98,1
+24.64,6,FinTech,New York,14,31,5.6,73.46,1
+19.53,3,E-commerce,San Francisco,4,94,4.6,54.65,1
+27.49,1,HealthTech,San Francisco,7,67,1.6,58.04,0
+91.49,2,E-commerce,Boston,8,230,4.3,55.97,0
+2.31,3,SaaS,New York,4,150,4.4,59.54,0
+10.06,4,Cybersecurity,San Francisco,7,92,6.4,60.54,1
+32.82,7,E-commerce,Austin,6,39,11.7,70.65,1
+3.74,7,EdTech,Bangalore,12,196,5.8,64.13,1
+79.52,1,FinTech,Toronto,13,164,11.0,68.92,0
+26.27,5,AI/ML,San Francisco,1,213,5.7,67.44,0
+42.38,3,SaaS,Bangalore,8,110,1.6,57.23,1
+10.27,2,FinTech,Austin,17,39,3.0,54.38,0
+41.01,4,AI/ML,Seattle,15,84,5.1,62.93,1
+52.9,1,HealthTech,Boston,14,155,4.1,59.79,1
+22.94,3,HealthTech,Seattle,13,61,10.4,65.52,0
+22.97,4,FinTech,Singapore,0,19,8.2,64.45,1
+23.82,2,EdTech,Singapore,17,206,7.1,62.16,0
+7.66,5,HealthTech,London,13,133,6.0,67.04,1
+15.68,4,FinTech,Berlin,15,100,4.9,66.24,0
+15.6,6,SaaS,Singapore,16,139,7.5,71.15,1
+26.67,2,HealthTech,New York,4,185,1.8,48.13,0
+49.39,1,HealthTech,Boston,0,2,2.2,37.35,0
+6.31,4,SaaS,New York,11,111,3.8,66.77,0
+16.04,2,FinTech,Singapore,8,65,2.3,55.17,0
+79.95,5,Cybersecurity,Seattle,0,24,8.2,55.79,0
+8.64,1,SaaS,Berlin,4,10,0.6,44.84,0
+7.99,5,Cybersecurity,London,17,111,2.2,60.97,1
+22.25,7,Cybersecurity,Austin,6,136,10.9,72.67,1
+42.28,1,Cybersecurity,New York,4,127,12.0,62.74,0
+18.38,3,AI/ML,Bangalore,11,196,6.0,68.59,1
+68.65,6,SaaS,Austin,11,115,6.1,61.47,1
+42.81,4,E-commerce,New York,5,148,9.3,64.12,1
+42.17,2,FinTech,Boston,15,204,0.7,57.61,0
+31.63,2,CleanTech,Bangalore,10,165,5.3,65.28,1
+186.35,6,EdTech,Austin,2,227,1.5,61.94,1
+14.8,7,FinTech,Bangalore,5,56,5.0,62.95,1
+2.45,3,HealthTech,Seattle,15,197,11.8,77.35,1
+90.4,4,HealthTech,Toronto,1,174,9.1,60.5,1
+11.5,6,FinTech,Berlin,0,146,11.8,71.83,1
+20.24,2,E-commerce,San Francisco,11,2,9.0,61.15,1
+67.33,2,FinTech,London,7,136,7.4,61.23,0
+3.66,6,CleanTech,Seattle,4,214,9.1,72.86,0
+5.2,2,SaaS,Austin,8,161,8.0,60.5,1
+3.66,6,E-commerce,London,3,3,5.7,60.58,1
+8.21,4,EdTech,New York,6,73,3.7,50.21,1
+28.21,7,HealthTech,Berlin,4,143,6.4,70.86,0
+30.7,1,HealthTech,Toronto,10,203,3.3,54.03,0
+23.96,7,E-commerce,San Francisco,12,112,6.0,74.75,1
+4.42,2,E-commerce,Seattle,16,214,2.0,54.17,1
+1.8,1,EdTech,Berlin,1,199,6.9,57.93,1
+19.19,6,EdTech,San Francisco,5,68,3.2,64.82,0
+11.34,4,Cybersecurity,Boston,4,50,3.7,57.97,0
+28.77,6,CleanTech,Austin,10,225,6.1,71.83,0
+36.67,1,SaaS,San Francisco,9,148,2.2,59.51,0
+20.87,1,HealthTech,Toronto,15,212,11.6,70.11,1
+38.87,4,EdTech,Seattle,16,230,5.5,55.56,1
+22.86,7,AI/ML,Singapore,13,107,4.4,66.57,0
+30.88,3,AI/ML,London,3,13,0.6,57.79,0
+8.98,6,HealthTech,Toronto,0,227,10.2,63.65,0
+15.19,7,FinTech,Bangalore,16,146,7.6,76.47,0
+22.13,7,SaaS,Berlin,16,31,5.2,70.61,1
+41.29,4,CleanTech,Boston,4,133,3.2,55.63,0
+12.26,5,HealthTech,Seattle,0,8,9.0,52.8,0
+30.61,4,SaaS,Toronto,12,73,11.4,68.82,1
+13.93,5,HealthTech,Seattle,10,88,4.8,73.51,1
+16.16,4,HealthTech,London,15,114,1.9,57.57,1
+41.66,4,AI/ML,New York,10,142,1.6,59.13,1
+2.48,4,EdTech,Bangalore,13,210,0.4,49.61,0
+4.97,5,EdTech,Berlin,14,89,9.0,72.44,0
+4.13,6,Cybersecurity,Boston,0,184,11.8,69.96,1
+1.76,7,HealthTech,London,2,235,11.9,73.46,1
+9.22,5,HealthTech,Seattle,14,187,9.5,77.88,1
+38.45,1,Cybersecurity,New York,3,65,2.2,54.24,0
+13.67,5,AI/ML,Toronto,3,170,11.7,69.41,1
+22.15,3,FinTech,Toronto,13,71,4.1,54.94,1
+54.01,1,SaaS,Toronto,3,120,4.2,58.32,1
+68.56,1,AI/ML,Boston,2,159,8.3,62.27,0
+16.96,5,EdTech,Austin,0,74,0.9,43.13,0
+70.36,7,AI/ML,San Francisco,8,2,10.0,67.09,1
+19.93,4,E-commerce,Singapore,11,209,12.0,67.08,0
+7.87,4,EdTech,Boston,13,182,9.4,63.58,1
+10.03,1,CleanTech,Toronto,16,32,9.4,51.36,0
+4.13,5,SaaS,Toronto,11,95,4.9,58.65,1
+7.48,1,Cybersecurity,New York,13,66,1.1,48.25,0
+12.7,6,FinTech,Bangalore,3,244,9.6,69.92,1
+40.59,6,EdTech,New York,6,235,7.3,76.02,1
+101.57,7,E-commerce,Seattle,5,173,10.9,73.86,0
+4.56,2,Cybersecurity,Seattle,1,111,1.7,49.16,1
+26.92,2,HealthTech,Bangalore,17,14,3.9,57.6,0
+6.42,3,Cybersecurity,Berlin,4,63,4.5,55.64,1
+29.22,6,HealthTech,Toronto,8,24,8.3,70.32,0
+15.94,2,SaaS,London,6,197,9.5,67.13,1
+2.91,7,EdTech,Toronto,0,23,11.5,66.32,1
+45.98,2,SaaS,Toronto,16,170,3.8,70.38,0
+9.92,1,Cybersecurity,Toronto,3,238,6.1,60.53,1
+10.66,2,E-commerce,Seattle,1,78,0.6,40.42,0
+6.24,6,CleanTech,Boston,6,171,3.3,64.67,1
+9.45,5,EdTech,Bangalore,2,220,4.7,55.7,1
+27.88,3,Cybersecurity,Singapore,17,108,7.2,67.87,0
+15.04,5,SaaS,Bangalore,3,113,5.8,56.64,1
+25.25,5,E-commerce,London,5,51,4.6,55.65,0
+26.1,4,E-commerce,Bangalore,4,108,7.6,63.08,1
+68.08,4,E-commerce,Singapore,0,218,10.0,67.6,1
+12.9,1,AI/ML,Singapore,0,166,3.1,52.33,0
+4.15,2,SaaS,New York,9,51,4.3,60.77,0
+52.84,4,E-commerce,London,4,132,8.5,67.0,1
+13.05,1,Cybersecurity,Singapore,1,177,9.4,60.66,1
+55.4,4,SaaS,Singapore,5,21,10.0,64.47,0
+26.67,1,AI/ML,Bangalore,4,191,2.7,57.23,0
+15.94,6,HealthTech,Boston,7,51,6.6,72.01,1
+25.76,1,EdTech,Boston,17,75,10.8,64.45,1
+127.87,1,CleanTech,Bangalore,5,105,4.9,53.93,0
+145.04,5,E-commerce,Bangalore,12,127,5.3,70.49,1
+19.48,2,HealthTech,New York,13,229,11.8,71.91,1
+21.33,3,AI/ML,Boston,0,57,1.6,51.4,0
+53.32,3,CleanTech,Bangalore,9,65,8.6,65.85,1
+7.8,2,FinTech,New York,8,95,10.2,67.18,1
+25.36,6,FinTech,Singapore,9,214,2.1,61.76,0
+17.71,5,SaaS,New York,3,241,8.7,71.38,1
+24.88,2,E-commerce,New York,8,114,5.8,58.81,1
+7.9,5,EdTech,Singapore,2,173,10.3,74.23,1
+3.71,5,CleanTech,Berlin,17,229,10.9,75.45,1
+2.29,4,CleanTech,London,10,211,10.5,68.02,1
+5.95,5,AI/ML,Toronto,0,170,1.1,57.6,0
+11.49,7,SaaS,Boston,9,136,9.2,75.23,1
+13.56,4,FinTech,London,16,246,11.1,78.98,1
+126.12,3,CleanTech,Berlin,13,61,7.6,62.04,1
+54.93,4,Cybersecurity,Singapore,4,91,7.3,65.89,1
+6.94,6,SaaS,Boston,16,178,0.8,62.55,1
+25.73,5,AI/ML,Berlin,3,7,10.3,67.34,1
+12.1,1,CleanTech,Seattle,4,126,0.8,44.32,0
+13.68,4,E-commerce,London,2,213,4.0,60.24,1
+21.87,6,HealthTech,Toronto,16,45,11.1,75.74,1
+33.76,2,E-commerce,Boston,12,201,11.4,72.68,0
+12.95,7,Cybersecurity,Berlin,9,104,11.9,76.5,0
+52.66,6,CleanTech,Bangalore,12,215,5.9,66.81,0
+5.8,6,SaaS,Singapore,4,159,2.4,64.61,1
+18.29,1,AI/ML,Bangalore,1,40,6.0,49.53,1
+244.12,5,EdTech,London,15,184,1.5,67.15,1
+22.72,4,E-commerce,Austin,17,15,10.5,70.8,1
+76.19,5,HealthTech,Bangalore,0,62,6.9,66.53,0
+19.92,6,EdTech,Berlin,0,222,5.0,61.34,0
+32.48,3,EdTech,Austin,10,219,1.2,52.97,1
+17.17,4,EdTech,Boston,0,13,5.0,52.14,0
+15.33,5,EdTech,Austin,12,96,10.4,71.87,1
+8.34,6,FinTech,Toronto,17,25,8.5,68.3,1
+27.95,6,E-commerce,San Francisco,5,69,1.3,65.4,1
+7.76,3,SaaS,Singapore,5,241,2.2,58.75,1
+35.36,7,Cybersecurity,London,15,50,4.9,66.58,0
+53.8,1,HealthTech,San Francisco,6,161,1.5,63.33,1
+26.22,4,E-commerce,Berlin,4,201,11.2,68.37,1
+13.65,5,HealthTech,Singapore,1,220,7.9,61.81,0
+28.62,1,AI/ML,Singapore,15,89,1.4,50.86,0
+13.35,4,SaaS,London,16,174,9.5,76.59,0
+46.32,5,SaaS,Boston,1,121,4.6,68.78,0
+2.91,5,E-commerce,New York,14,28,3.2,63.42,0
+12.99,1,CleanTech,San Francisco,2,57,7.0,62.28,0
+2.48,2,EdTech,Boston,2,187,0.5,52.53,1
+4.08,2,CleanTech,Berlin,6,172,5.7,59.69,0
+71.08,5,HealthTech,San Francisco,7,131,10.2,75.7,1
+44.49,3,EdTech,Bangalore,15,195,11.2,71.21,1
+8.85,5,EdTech,London,12,173,4.3,66.88,1
+4.05,6,Cybersecurity,Austin,2,86,7.8,63.72,1
+0.94,6,FinTech,Bangalore,10,74,3.0,65.39,1
+10.55,2,SaaS,New York,15,236,6.9,70.74,0
+204.47,7,SaaS,Bangalore,11,243,3.3,67.77,1
+28.08,2,CleanTech,Austin,4,9,7.0,53.65,0
+10.39,1,SaaS,Boston,2,198,2.3,52.7,1
+28.94,1,Cybersecurity,Seattle,8,34,11.3,62.29,0
+3.82,2,E-commerce,Bangalore,8,215,10.7,57.86,1
+13.5,7,E-commerce,Austin,6,148,4.2,69.27,1
+20.08,2,CleanTech,Bangalore,1,172,9.4,57.81,0
+16.67,5,HealthTech,Boston,2,175,1.4,58.55,1
+40.08,3,SaaS,Austin,9,152,9.0,64.9,1
+25.65,1,AI/ML,Berlin,16,64,3.6,62.4,1
+35.46,4,HealthTech,Berlin,10,202,1.9,63.97,1
+9.13,1,FinTech,Boston,7,139,8.2,61.38,0
+44.6,4,HealthTech,New York,16,137,5.8,63.39,1
+92.66,4,CleanTech,Boston,12,80,6.5,64.21,1
+6.89,4,E-commerce,London,12,4,6.4,60.81,0
+7.48,2,EdTech,San Francisco,10,139,1.0,54.33,0
+69.12,6,E-commerce,San Francisco,13,87,0.9,62.86,1
+15.01,5,E-commerce,Bangalore,9,165,7.3,66.15,1
+73.98,2,CleanTech,San Francisco,11,92,7.6,68.01,1
+11.68,4,Cybersecurity,Seattle,11,243,0.9,59.53,1
+77.87,1,Cybersecurity,Singapore,13,170,4.7,61.31,0
+20.73,7,HealthTech,Boston,16,115,7.5,70.43,1
+23.53,6,CleanTech,Seattle,5,177,8.0,78.74,1
+86.9,3,SaaS,San Francisco,12,162,10.0,70.85,0
+12.66,5,SaaS,Singapore,0,155,5.2,60.36,0
+7.09,5,E-commerce,Berlin,9,145,6.7,66.59,0
+11.6,5,AI/ML,Toronto,16,233,7.1,69.24,0
+28.57,1,SaaS,Toronto,11,80,4.0,54.79,1
+3.8,7,Cybersecurity,Boston,4,109,0.9,61.26,0
+34.38,7,HealthTech,San Francisco,10,64,0.3,61.17,1
+10.6,7,FinTech,Boston,6,143,10.1,76.86,1
+57.27,7,FinTech,New York,7,246,2.6,62.54,1
+1.66,7,CleanTech,London,4,152,7.7,75.93,1
+8.28,6,SaaS,New York,11,53,7.1,72.59,1
+3.37,1,SaaS,Bangalore,3,230,5.0,56.34,0
+7.95,4,E-commerce,Berlin,7,197,10.1,59.72,1
+23.28,2,SaaS,Austin,16,111,8.5,61.98,1
+15.19,2,AI/ML,Bangalore,13,38,0.6,58.44,0
+14.11,6,FinTech,Singapore,7,101,9.4,84.81,1
+15.5,6,HealthTech,Seattle,17,201,6.2,75.86,1
+22.27,4,Cybersecurity,New York,0,145,4.4,62.89,1
+6.63,6,SaaS,Boston,17,48,8.8,73.49,0
+36.85,1,HealthTech,London,6,41,8.3,57.39,1
+35.26,2,EdTech,Singapore,14,241,3.9,62.38,1
+26.71,7,EdTech,Austin,17,112,11.8,72.84,0
+31.71,4,EdTech,Singapore,10,172,7.9,61.26,1
+24.44,4,EdTech,Austin,10,91,7.4,59.04,1
+139.08,4,E-commerce,Austin,13,24,1.1,58.8,1
+16.66,2,FinTech,Seattle,4,104,3.6,56.44,1
+13.37,6,EdTech,New York,3,173,5.5,65.62,1
+8.55,6,SaaS,Seattle,6,84,7.7,69.16,0
+6.47,5,AI/ML,Boston,8,151,6.3,63.88,1
+5.24,3,Cybersecurity,Austin,13,110,9.2,64.51,0
+7.47,5,Cybersecurity,Singapore,4,85,3.4,57.59,0
+16.93,7,EdTech,Boston,10,65,8.5,65.7,0
+25.39,5,AI/ML,Berlin,0,66,9.9,64.43,1
+19.13,4,FinTech,Singapore,0,65,9.3,58.68,0
+8.45,2,AI/ML,Berlin,17,180,9.3,70.2,1
+44.71,4,HealthTech,Austin,15,85,10.7,74.55,1
+38.07,3,FinTech,Toronto,15,185,1.3,52.84,1
+15.49,5,E-commerce,Austin,5,79,8.5,64.2,0
+9.46,1,HealthTech,Austin,9,83,11.6,72.99,1
+31.45,2,SaaS,Toronto,12,231,7.0,59.01,0
+21.93,6,FinTech,Boston,4,219,2.8,66.53,1
+4.27,3,E-commerce,Berlin,13,101,12.0,68.02,1
+16.98,4,CleanTech,San Francisco,12,68,2.3,64.89,1
+23.62,4,AI/ML,Berlin,7,179,4.2,64.73,1
+7.39,4,CleanTech,Toronto,7,19,2.3,51.21,0
+21.97,6,SaaS,Singapore,5,115,5.7,66.85,0
+4.24,2,HealthTech,London,14,150,5.2,61.82,0
+69.14,6,HealthTech,Toronto,17,169,6.0,70.47,0
+63.3,2,HealthTech,Austin,17,28,11.2,62.83,0
+14.12,3,HealthTech,Boston,13,2,5.9,63.32,0
+26.14,5,EdTech,San Francisco,6,70,6.3,69.84,1
+1.63,7,HealthTech,Berlin,14,31,10.7,69.99,1
+5.72,2,AI/ML,Singapore,4,127,9.9,64.1,0
+13.55,5,HealthTech,Singapore,16,230,3.1,64.29,1
+6.22,1,AI/ML,Singapore,4,73,0.5,43.55,0
+37.13,1,EdTech,New York,7,114,7.7,51.84,1
+133.93,6,E-commerce,Berlin,1,55,10.2,64.49,1
+5.6,6,AI/ML,Singapore,1,12,6.8,61.36,1
+7.87,3,Cybersecurity,Austin,7,176,2.8,51.39,0
+23.0,5,SaaS,Seattle,9,65,9.0,70.73,1
+91.02,3,EdTech,Bangalore,0,137,8.1,62.76,0
+5.35,2,AI/ML,Seattle,15,171,6.9,68.63,1
+23.31,4,E-commerce,Singapore,2,210,10.4,65.61,0
+112.31,3,SaaS,London,17,48,9.5,61.69,0
+3.48,6,AI/ML,Berlin,4,146,8.1,72.58,1
+5.05,3,SaaS,Berlin,6,227,8.1,64.84,1
+11.9,3,EdTech,Berlin,2,121,8.0,61.3,1
+10.8,4,EdTech,Singapore,14,12,6.4,68.11,0
+40.96,6,Cybersecurity,Bangalore,13,66,5.7,64.4,1
+23.14,2,E-commerce,Austin,1,199,8.6,45.63,0
+3.08,7,FinTech,Bangalore,1,198,7.4,63.77,1
+30.43,4,Cybersecurity,Berlin,10,79,6.0,66.25,1
+10.2,5,E-commerce,London,15,50,1.8,58.56,1
+65.0,7,FinTech,Boston,1,74,8.5,66.19,0
+9.7,4,E-commerce,Seattle,3,62,7.9,55.41,1
+9.62,2,AI/ML,Berlin,9,185,4.3,58.16,0
+31.22,6,Cybersecurity,Boston,1,210,4.5,59.0,1
+38.98,1,SaaS,Austin,5,13,3.2,51.89,1
+28.45,4,AI/ML,Toronto,0,185,11.6,66.65,0
+3.37,7,EdTech,Seattle,8,188,10.4,71.63,1
+31.13,3,EdTech,Berlin,12,153,6.9,59.49,0
+6.46,5,AI/ML,San Francisco,7,218,5.0,69.73,1
+22.99,4,CleanTech,San Francisco,4,11,8.9,64.6,1
+4.38,2,Cybersecurity,Toronto,7,175,6.5,60.92,0
+28.4,3,CleanTech,New York,9,33,11.7,69.51,1
+8.11,4,AI/ML,Singapore,2,224,0.9,56.04,0
+5.04,1,AI/ML,Bangalore,2,125,0.7,42.82,0
+37.11,3,EdTech,Seattle,3,24,7.0,54.82,1
+23.14,3,CleanTech,Toronto,17,187,2.7,56.7,0
+9.84,6,EdTech,Seattle,13,187,7.4,77.19,1
+77.57,1,EdTech,Bangalore,2,117,9.4,52.08,0
+11.7,6,CleanTech,Austin,5,78,1.9,57.51,0
+18.77,3,AI/ML,Seattle,7,6,5.5,59.42,1
+23.78,5,EdTech,Boston,3,227,8.4,65.85,1
+9.78,4,CleanTech,Singapore,15,47,10.1,72.35,0
+29.11,3,Cybersecurity,San Francisco,16,210,6.1,66.53,1
+10.66,7,EdTech,Toronto,4,148,2.7,60.37,1
+12.04,2,AI/ML,San Francisco,0,171,7.2,64.13,0
+71.0,1,SaaS,Boston,4,174,5.6,65.59,1
+6.42,6,E-commerce,London,10,214,9.3,76.44,0
+1.63,5,Cybersecurity,New York,14,10,6.8,64.59,1
+91.01,7,AI/ML,Seattle,6,247,3.6,70.24,0
+232.6,4,CleanTech,Bangalore,4,12,9.1,63.27,1
+12.12,1,AI/ML,Toronto,4,249,6.4,59.89,0
+2.62,1,Cybersecurity,San Francisco,0,66,2.4,43.7,1
+13.32,4,SaaS,London,0,211,6.9,65.3,1
+13.65,2,SaaS,London,7,22,11.4,66.25,1
+15.03,7,SaaS,San Francisco,11,116,8.6,75.16,0
+5.97,1,Cybersecurity,Berlin,0,136,3.8,42.63,1
+32.45,7,AI/ML,London,3,238,8.6,74.96,0
+30.71,2,HealthTech,Berlin,16,32,3.6,48.21,1
+4.08,1,FinTech,Austin,17,11,6.6,54.58,0
+36.57,2,AI/ML,Austin,11,162,6.5,62.01,1
+141.55,2,CleanTech,Singapore,9,14,3.2,54.37,0
+21.58,3,SaaS,Singapore,10,194,4.4,68.94,1
+12.97,3,AI/ML,New York,6,11,11.3,70.22,1
+15.77,4,CleanTech,Austin,3,242,3.2,64.31,1
+33.62,4,AI/ML,London,6,134,9.7,73.78,1
+3.22,1,Cybersecurity,Toronto,12,237,8.1,66.58,1
+21.42,1,E-commerce,Austin,11,33,6.5,63.1,1
+12.3,2,E-commerce,Austin,12,69,1.9,48.11,0
+115.33,2,CleanTech,Toronto,10,114,2.7,51.69,0
+15.27,1,E-commerce,Berlin,1,9,2.4,44.15,1
+96.34,3,FinTech,Bangalore,11,27,7.2,63.44,1
+6.03,4,SaaS,Singapore,15,83,11.7,72.54,0
+32.7,3,HealthTech,Bangalore,11,184,10.6,68.86,0
+25.01,3,AI/ML,New York,10,177,0.6,56.5,1
+7.62,4,HealthTech,Austin,4,23,3.5,63.45,1
+21.7,4,AI/ML,Austin,14,16,2.1,53.78,1
+61.1,3,EdTech,San Francisco,8,164,11.7,73.79,1
+13.15,2,FinTech,Singapore,4,91,3.1,57.15,0
+3.35,3,FinTech,Berlin,8,198,2.7,50.9,1
+17.86,1,AI/ML,San Francisco,2,75,7.6,57.39,0
+7.37,4,FinTech,New York,16,91,6.8,65.62,1
+12.91,7,CleanTech,New York,12,56,2.9,67.91,1
+16.75,3,CleanTech,Seattle,5,68,8.1,61.28,0
+3.3,1,E-commerce,Seattle,14,177,1.4,50.13,0
+3.61,5,HealthTech,Austin,0,118,0.5,45.51,1
+29.43,1,CleanTech,Bangalore,6,165,1.3,59.61,0
+10.78,2,E-commerce,Austin,11,21,4.6,53.43,0
+1.4,2,SaaS,London,0,134,11.7,64.33,1
+39.84,7,FinTech,Seattle,12,115,6.7,71.47,0
+23.86,7,AI/ML,Boston,14,227,9.1,75.24,1
+8.9,4,CleanTech,Toronto,10,107,4.1,67.61,1
+4.87,5,FinTech,Bangalore,3,27,8.7,56.64,1
+41.92,5,FinTech,San Francisco,13,174,11.6,78.55,1
+25.77,5,SaaS,Seattle,6,39,4.5,57.23,1
+196.88,4,AI/ML,New York,13,227,12.0,76.23,1
+27.67,7,SaaS,Seattle,11,97,7.8,70.81,1
+26.78,6,SaaS,Berlin,1,196,9.1,64.97,1
+15.38,1,EdTech,Seattle,1,164,3.3,49.28,0
+41.13,3,FinTech,Boston,0,117,7.8,49.74,1
+33.96,7,FinTech,Boston,1,146,6.3,67.51,1
+63.54,3,FinTech,Austin,5,47,11.5,68.64,1
+10.79,2,E-commerce,Boston,0,20,10.9,50.04,1
+11.76,7,CleanTech,Boston,16,192,4.9,75.26,0
+11.26,5,SaaS,Berlin,16,239,11.4,72.46,1
+40.08,4,FinTech,San Francisco,3,215,10.7,71.95,1
+81.32,3,SaaS,San Francisco,5,77,7.2,62.85,1
+11.49,1,Cybersecurity,London,13,90,1.3,52.62,0
+11.88,3,HealthTech,Berlin,11,91,2.2,62.57,0
+24.88,4,SaaS,Austin,10,176,1.2,68.88,0
+14.21,7,AI/ML,Austin,17,156,1.6,70.54,0
+47.09,3,EdTech,Berlin,11,199,11.7,73.6,1
+1.91,2,SaaS,Boston,12,236,2.8,64.15,0
+7.95,3,SaaS,Singapore,9,99,8.4,65.94,1
+8.31,7,SaaS,New York,9,166,7.7,78.48,1
+1.79,4,E-commerce,New York,5,126,7.7,66.59,0
+6.93,3,AI/ML,London,9,238,2.7,61.72,0
+7.28,5,FinTech,Boston,16,89,7.1,70.89,1
+14.86,5,FinTech,Singapore,6,48,7.6,59.56,1
+55.31,3,SaaS,London,2,95,7.0,63.2,1
+14.22,7,Cybersecurity,Boston,10,155,2.5,60.36,1
+6.48,5,FinTech,New York,14,238,8.8,67.44,1
+17.17,1,FinTech,New York,17,207,1.2,57.31,0
+51.89,3,E-commerce,Singapore,9,6,7.2,52.67,1
+6.85,7,SaaS,Austin,14,128,5.4,69.71,1
+7.31,3,HealthTech,London,4,41,3.2,56.46,1
+31.77,4,HealthTech,Toronto,7,91,9.7,69.38,0
+14.56,5,E-commerce,Toronto,7,236,2.4,54.6,1
+34.73,5,AI/ML,Austin,5,246,11.2,77.58,1
+17.93,7,E-commerce,New York,12,40,10.6,73.49,1
+36.66,2,EdTech,Singapore,15,36,4.5,57.9,0
+6.46,4,AI/ML,Berlin,5,174,3.9,56.3,1
+17.96,4,CleanTech,Boston,2,103,1.9,53.75,0
+14.72,2,EdTech,London,14,109,11.0,71.33,1
+5.39,5,SaaS,New York,15,218,7.6,74.46,1
+3.81,1,HealthTech,Singapore,16,230,0.7,49.25,0
+36.08,4,E-commerce,Singapore,4,225,6.3,59.81,0
+12.79,3,FinTech,Austin,12,196,1.3,53.75,0
+6.54,2,HealthTech,Seattle,12,245,7.0,61.68,0
+16.51,6,E-commerce,Boston,14,180,6.3,62.67,0
+56.15,2,FinTech,San Francisco,14,221,1.3,59.45,1
+1.86,2,Cybersecurity,New York,17,136,9.8,70.34,1
+4.07,6,SaaS,Bangalore,8,14,3.4,55.71,1
+7.22,7,SaaS,Seattle,1,204,6.6,67.54,1
+78.35,1,AI/ML,New York,3,232,7.8,62.94,1
+24.11,2,E-commerce,San Francisco,15,79,11.6,72.67,0
+39.15,5,SaaS,Boston,15,108,6.1,65.87,0
+5.81,6,Cybersecurity,Bangalore,0,143,11.0,66.11,0
+5.93,7,Cybersecurity,Boston,6,163,4.5,64.52,1
+28.44,4,HealthTech,Bangalore,4,169,10.3,64.44,0
+19.26,1,E-commerce,Seattle,5,99,3.1,53.0,0
+31.46,7,EdTech,Singapore,11,213,8.6,72.57,0
+15.06,2,Cybersecurity,Singapore,9,203,1.3,55.01,1
+24.0,1,EdTech,San Francisco,8,235,11.8,72.65,1
+21.29,5,EdTech,San Francisco,7,144,11.5,77.88,1
+39.56,5,E-commerce,Bangalore,11,21,5.5,53.3,0
+40.73,1,CleanTech,Bangalore,12,211,6.4,61.94,1
+3.6,2,HealthTech,New York,0,21,7.3,55.42,1
+1.92,5,AI/ML,Berlin,2,50,3.5,56.41,1
+49.49,2,EdTech,Bangalore,6,72,8.2,60.95,1
+59.6,5,AI/ML,Bangalore,7,47,8.5,62.22,0
+6.55,3,AI/ML,Austin,17,181,6.4,71.93,1
+2.83,5,Cybersecurity,Toronto,16,111,2.0,62.88,1
+20.07,4,Cybersecurity,Berlin,11,56,11.1,67.08,0
+46.1,3,E-commerce,Bangalore,0,3,1.6,38.47,0
+109.68,3,E-commerce,New York,1,55,7.7,52.0,1
+30.46,5,Cybersecurity,Berlin,8,173,1.5,59.34,0
+12.53,4,HealthTech,San Francisco,10,198,2.0,60.6,1
+7.44,5,E-commerce,Boston,11,75,0.5,49.82,1
+18.38,5,CleanTech,San Francisco,2,20,4.6,63.13,0
+13.47,2,HealthTech,Seattle,15,140,7.8,70.56,0
+6.59,7,Cybersecurity,Toronto,8,196,6.4,70.11,1
+141.0,4,E-commerce,Berlin,10,19,8.2,61.99,0
+108.33,6,EdTech,Boston,0,199,8.2,67.76,1
+56.6,7,SaaS,Seattle,14,44,1.9,65.32,0
+7.24,7,SaaS,Boston,9,65,1.0,57.59,1
+42.74,5,Cybersecurity,Singapore,4,156,7.6,65.48,1
+34.45,6,Cybersecurity,Austin,5,14,7.9,65.86,1
+28.29,4,CleanTech,San Francisco,6,77,6.8,66.51,0
+63.41,6,E-commerce,London,0,36,3.2,55.8,0
+34.31,3,FinTech,Toronto,16,55,9.8,69.3,1
+38.09,5,Cybersecurity,Seattle,14,193,1.2,56.51,0
+34.36,1,HealthTech,Austin,15,58,7.7,64.73,0
+25.55,7,HealthTech,San Francisco,6,12,1.7,63.02,1
+3.05,2,FinTech,Bangalore,10,55,8.0,71.59,1
+19.76,5,Cybersecurity,Singapore,8,23,5.2,61.21,0
+10.42,1,SaaS,New York,8,156,8.7,64.77,1
+5.05,2,HealthTech,San Francisco,10,243,0.9,68.62,0
+97.69,7,FinTech,New York,8,43,6.8,73.17,1
+102.41,6,SaaS,Boston,13,182,2.0,65.54,0
+70.75,2,E-commerce,Toronto,1,91,8.3,52.32,1
+23.46,1,Cybersecurity,New York,3,19,1.7,55.32,0
+70.15,6,AI/ML,Toronto,16,172,1.2,60.71,1
+18.39,7,AI/ML,San Francisco,15,54,8.6,77.84,0
+22.26,2,CleanTech,Singapore,14,129,1.0,51.29,0
+6.09,5,Cybersecurity,Austin,6,127,2.9,60.19,0
+27.03,2,EdTech,Bangalore,8,150,9.9,57.3,0
+19.31,6,Cybersecurity,Seattle,0,35,9.8,72.01,1
+4.94,3,AI/ML,Austin,5,64,10.3,65.98,1
+17.27,1,Cybersecurity,Austin,13,184,4.1,52.23,0
+16.78,3,FinTech,Toronto,6,233,6.5,68.72,1
+109.68,4,FinTech,Seattle,8,4,9.3,64.41,1
+44.44,6,Cybersecurity,Boston,2,104,1.9,62.19,0
+18.38,1,E-commerce,Singapore,8,220,8.8,64.27,1
+23.31,7,HealthTech,London,12,73,1.4,67.42,1
+19.0,5,Cybersecurity,Berlin,10,113,11.0,64.31,1
+14.84,7,FinTech,Seattle,10,226,7.8,77.01,1
+6.16,7,E-commerce,San Francisco,16,242,6.1,71.39,1
+15.63,2,HealthTech,San Francisco,4,164,6.0,60.68,0
+8.62,1,FinTech,San Francisco,5,174,2.4,55.02,1
+5.21,6,CleanTech,London,11,154,4.3,59.28,1
+30.3,2,CleanTech,London,8,72,8.8,64.36,1
+26.88,2,FinTech,Singapore,17,221,6.6,59.38,1
+3.04,4,FinTech,Toronto,1,10,6.5,55.03,0
+16.08,7,AI/ML,New York,2,16,2.6,63.13,1
+49.19,6,FinTech,Bangalore,6,151,8.4,75.26,1
+52.42,4,E-commerce,Bangalore,8,209,4.9,57.29,1
+50.7,2,Cybersecurity,Berlin,16,203,2.4,64.33,1
+18.9,3,CleanTech,London,8,170,11.3,73.28,1
+7.81,5,HealthTech,New York,7,95,6.2,65.45,1
+6.15,2,HealthTech,New York,3,91,6.5,54.85,0
+25.65,4,E-commerce,San Francisco,7,107,11.8,65.85,1
+26.56,1,FinTech,Berlin,9,65,4.6,57.43,0
+65.85,3,AI/ML,Seattle,10,105,11.3,69.81,0
+54.6,2,SaaS,New York,10,27,8.4,68.56,1
+15.92,5,E-commerce,New York,7,81,7.7,63.67,1
+5.24,7,HealthTech,San Francisco,2,235,3.0,62.66,0
+13.21,2,CleanTech,Berlin,2,177,0.9,49.6,1
+22.58,6,E-commerce,Berlin,2,37,5.4,56.82,0
+14.85,5,HealthTech,Berlin,11,72,0.4,58.21,0
+10.2,7,EdTech,New York,15,66,1.1,66.94,1
+23.4,7,FinTech,San Francisco,15,71,7.3,75.36,0
+10.98,1,SaaS,New York,5,173,8.8,63.24,1
+9.7,6,EdTech,Singapore,1,223,2.3,58.57,1
+24.82,5,FinTech,Singapore,11,178,8.9,65.74,0
+12.16,1,AI/ML,Austin,0,123,11.4,63.39,0
+23.2,2,AI/ML,San Francisco,11,41,9.0,68.2,0
+23.88,7,FinTech,Boston,6,37,9.5,76.39,1
+5.82,4,HealthTech,Toronto,15,203,8.5,71.3,0
+11.23,3,FinTech,New York,11,170,2.9,60.49,1
+76.54,3,E-commerce,Singapore,13,128,4.5,64.18,0
+5.69,6,EdTech,Seattle,7,145,11.4,71.95,1
+2.19,2,FinTech,New York,15,212,8.0,67.64,1
+2.82,2,HealthTech,Bangalore,9,203,9.5,63.58,0
+18.71,5,Cybersecurity,London,11,23,11.6,74.33,1
+18.74,7,EdTech,Berlin,6,99,3.0,61.0,1
+16.16,2,E-commerce,San Francisco,8,12,4.1,60.67,0
+61.2,2,SaaS,Boston,15,97,7.8,72.76,1
+1.26,4,HealthTech,Berlin,7,159,0.6,59.15,1
+27.0,2,EdTech,Berlin,0,53,7.0,58.9,1
+86.61,5,FinTech,San Francisco,6,39,9.8,66.9,1
+5.88,2,E-commerce,Berlin,7,123,7.4,51.96,1
+12.43,1,EdTech,Bangalore,7,132,3.8,49.97,0
+8.56,2,SaaS,Singapore,1,179,8.8,60.55,1
+7.43,7,HealthTech,Austin,2,5,2.0,55.86,1
+13.11,7,CleanTech,Bangalore,5,63,10.8,65.7,0
+75.75,4,HealthTech,Berlin,7,195,1.5,64.27,1
+114.14,3,AI/ML,San Francisco,0,171,10.4,76.13,1
+12.99,6,CleanTech,New York,7,225,6.1,73.66,0
+122.13,2,E-commerce,Bangalore,5,204,5.3,61.49,1
+18.83,5,AI/ML,Austin,0,210,6.2,64.47,0
+104.97,5,Cybersecurity,San Francisco,4,128,2.6,60.28,1
+16.56,5,HealthTech,Seattle,4,239,5.7,66.84,1
+20.72,2,Cybersecurity,London,2,105,10.2,72.6,0
+26.19,6,AI/ML,London,13,225,9.7,75.6,1
+436.53,5,SaaS,Berlin,1,99,2.2,56.07,1
+42.58,7,EdTech,Bangalore,10,112,8.2,74.78,0
+8.96,2,E-commerce,Singapore,11,172,10.3,69.37,1
+47.89,5,Cybersecurity,San Francisco,14,100,9.9,71.83,0
+12.66,6,E-commerce,San Francisco,9,38,5.3,64.2,1
+11.14,2,FinTech,San Francisco,9,224,0.9,55.13,1
+45.09,6,SaaS,Boston,13,114,11.2,76.21,1
+18.75,1,E-commerce,Boston,15,231,4.9,61.95,1
+24.01,6,SaaS,Bangalore,3,100,4.5,59.41,1
+18.43,5,CleanTech,Boston,14,243,9.2,75.75,0
+25.45,2,E-commerce,San Francisco,8,151,3.4,57.38,1
+27.8,1,FinTech,Toronto,1,192,10.1,70.86,0
+2.62,6,AI/ML,Austin,11,189,1.2,64.93,1
+35.4,2,HealthTech,Bangalore,17,52,9.0,64.54,1
+6.81,4,SaaS,Singapore,2,204,11.6,71.31,0
+4.3,1,SaaS,Toronto,0,236,12.0,59.0,0
+17.14,7,CleanTech,Toronto,16,165,11.1,69.81,1
+19.77,4,CleanTech,New York,10,236,10.5,71.06,0
+9.08,7,SaaS,Berlin,3,211,3.6,63.58,1
+41.72,2,AI/ML,Seattle,14,167,11.6,66.17,1
+4.75,2,E-commerce,Berlin,7,120,11.2,63.23,0
+12.1,5,E-commerce,Singapore,5,214,6.6,55.33,0
+10.13,5,E-commerce,London,5,48,5.0,58.89,1
+17.35,6,CleanTech,Boston,10,141,1.6,63.23,0
+24.02,7,Cybersecurity,Bangalore,2,204,7.2,69.59,1
+6.63,6,CleanTech,Berlin,6,236,8.5,68.13,0
+37.5,1,HealthTech,Toronto,5,68,5.0,54.62,0
+19.36,3,SaaS,Austin,1,25,5.1,50.71,1
+2.74,7,SaaS,Toronto,13,84,7.0,69.96,1
+2.56,4,AI/ML,Boston,0,216,0.6,52.96,0
+17.95,7,AI/ML,Seattle,17,131,11.5,76.76,0
+14.57,4,E-commerce,Toronto,1,15,3.7,51.18,1
+16.39,1,SaaS,Boston,6,31,1.9,50.57,1
+17.67,4,EdTech,Austin,1,86,0.4,48.62,0
+22.77,6,SaaS,Bangalore,6,86,10.3,79.56,0
+46.88,5,CleanTech,Bangalore,10,35,10.4,68.71,0
+5.98,1,EdTech,Boston,1,124,1.4,43.72,1
+5.63,2,FinTech,Boston,9,120,2.1,53.79,1
+6.09,6,Cybersecurity,Austin,13,51,5.5,62.88,0
+24.26,7,HealthTech,San Francisco,8,59,2.5,69.79,1
+63.11,6,AI/ML,London,2,166,8.9,70.18,1
+11.81,1,CleanTech,Austin,12,238,1.0,48.99,0
+1.49,5,EdTech,Toronto,3,249,6.7,59.98,1
+3.31,6,EdTech,New York,0,140,4.8,55.18,0
+7.9,5,EdTech,Berlin,7,11,5.7,50.89,1
+10.4,5,HealthTech,London,4,224,5.3,63.97,1
+12.08,4,HealthTech,Berlin,0,237,2.1,57.65,0
+18.89,2,HealthTech,New York,13,70,2.9,58.95,1
+13.31,2,SaaS,Seattle,10,101,1.1,60.56,1
+51.9,6,AI/ML,Berlin,16,8,1.6,64.51,1
+9.24,1,FinTech,Boston,8,200,11.7,70.04,1
+7.67,1,CleanTech,Toronto,7,194,3.6,61.02,1
+29.34,3,E-commerce,London,15,7,3.9,54.43,0
+3.91,6,FinTech,Boston,1,176,1.8,59.93,1
+26.83,5,CleanTech,San Francisco,6,104,9.1,70.72,1
+20.14,5,FinTech,New York,14,137,11.1,80.65,0
+15.68,4,AI/ML,Seattle,5,56,9.5,68.98,1
+88.97,1,SaaS,Seattle,15,204,7.5,61.58,0
+9.76,3,AI/ML,Toronto,5,102,9.8,69.14,1
+142.64,1,Cybersecurity,Singapore,7,210,5.0,55.49,0
+14.51,6,Cybersecurity,New York,16,38,10.4,76.4,1
+5.07,6,EdTech,London,4,147,9.6,71.46,1
+19.49,2,AI/ML,Seattle,17,78,0.3,54.79,0
+6.2,3,Cybersecurity,New York,0,241,6.0,61.21,1
+8.57,3,E-commerce,Berlin,4,140,3.4,46.95,1
+27.03,7,Cybersecurity,London,10,180,1.3,66.89,1
+31.68,4,SaaS,San Francisco,10,23,10.2,68.41,1
+9.76,6,EdTech,Seattle,16,169,0.4,72.25,0
+48.78,4,AI/ML,Singapore,17,27,8.8,70.2,0
+57.83,5,CleanTech,Boston,12,91,11.9,72.0,1
+76.42,4,Cybersecurity,Boston,11,57,5.9,59.51,1
+30.86,2,E-commerce,New York,5,2,4.6,55.77,0
+71.05,7,E-commerce,Austin,14,147,7.4,70.34,0
+2.77,5,AI/ML,Bangalore,11,61,9.7,67.35,0
+13.22,6,EdTech,Berlin,0,129,3.1,57.24,0
+7.64,7,SaaS,New York,14,191,3.2,71.3,1
+20.48,2,SaaS,Seattle,6,46,7.4,63.36,0
+10.26,1,CleanTech,New York,8,178,11.3,66.36,1
+15.39,5,AI/ML,Seattle,8,75,3.8,65.36,1
+119.36,3,CleanTech,New York,14,84,4.7,63.69,0
+15.34,4,FinTech,Berlin,4,145,11.9,72.49,1
+27.49,2,CleanTech,London,7,157,2.4,57.14,1
+14.41,3,AI/ML,Berlin,0,164,1.2,55.92,0
+19.6,3,Cybersecurity,Seattle,6,50,7.2,63.21,1
+18.28,3,SaaS,Austin,1,145,0.6,46.8,0
+28.46,6,SaaS,Austin,10,67,2.4,62.29,1
+58.28,5,HealthTech,Austin,16,70,7.6,72.93,0
+94.39,4,CleanTech,Seattle,8,236,8.0,61.31,1
+24.77,1,E-commerce,Seattle,16,27,6.3,48.21,0
+32.77,4,CleanTech,Berlin,17,104,4.8,66.72,1
+5.75,2,FinTech,San Francisco,0,110,7.0,64.95,1
+16.65,3,HealthTech,Austin,9,62,7.8,59.12,0
+46.54,3,Cybersecurity,Toronto,9,196,9.7,68.92,1
+43.21,1,FinTech,Bangalore,6,122,9.6,61.68,0
+22.46,3,AI/ML,Bangalore,14,180,8.1,66.91,1
+44.1,2,SaaS,Boston,7,97,10.8,68.34,1
+29.69,6,Cybersecurity,New York,0,224,10.1,65.89,1
+60.36,7,CleanTech,New York,9,182,1.9,61.84,0
+24.27,1,Cybersecurity,New York,3,84,11.5,63.98,0
+12.73,5,EdTech,Bangalore,6,240,10.7,69.26,1
+25.43,5,AI/ML,Toronto,9,216,4.1,61.3,1
+0.97,3,E-commerce,Toronto,13,148,0.5,54.41,1
+26.65,4,Cybersecurity,Singapore,5,6,7.4,59.27,1
+0.47,6,FinTech,Boston,6,148,5.4,65.09,1
+3.24,3,Cybersecurity,Seattle,1,173,9.1,64.56,0
+28.55,1,EdTech,Toronto,6,92,6.4,54.54,1
+29.3,3,HealthTech,Toronto,10,37,1.2,57.73,0
+5.68,2,AI/ML,London,11,142,3.2,55.18,0
+8.92,3,CleanTech,Toronto,5,200,10.6,60.4,1
+71.56,2,HealthTech,Boston,1,81,0.7,48.27,0
+11.2,2,FinTech,Seattle,10,115,8.9,66.41,0
+171.22,7,Cybersecurity,Toronto,11,2,3.7,57.4,1
+18.14,1,Cybersecurity,Boston,1,176,5.6,48.81,1
+27.33,5,HealthTech,Singapore,9,216,6.5,69.45,0
+91.55,6,Cybersecurity,Seattle,1,194,3.2,60.05,1
+20.72,5,Cybersecurity,Austin,8,108,7.9,63.04,0
+6.67,7,Cybersecurity,Austin,11,13,8.4,73.65,1
+16.29,1,HealthTech,Berlin,12,124,1.3,49.48,1
+17.54,3,AI/ML,Seattle,12,235,4.7,69.43,1
+4.64,2,Cybersecurity,Boston,13,22,9.0,63.03,1
+14.07,5,Cybersecurity,Singapore,4,55,8.7,68.46,1
+8.65,5,AI/ML,San Francisco,15,209,6.7,71.74,1
+45.8,7,HealthTech,San Francisco,6,142,9.4,66.82,1
+18.81,3,FinTech,Bangalore,6,44,1.6,48.51,0
+13.7,2,EdTech,Berlin,14,8,1.7,47.41,1
+16.34,7,FinTech,London,5,103,8.0,74.13,1
+22.72,5,HealthTech,San Francisco,1,149,8.4,61.6,1
+33.68,6,FinTech,London,12,210,9.8,76.03,1
+6.69,4,CleanTech,Seattle,11,221,2.4,55.0,1
+6.41,4,AI/ML,London,10,115,6.3,67.98,1
+54.85,3,AI/ML,San Francisco,2,106,8.0,66.64,1
+12.03,6,CleanTech,London,11,232,2.9,68.24,1
+4.41,2,SaaS,London,3,194,6.3,63.85,0
+28.33,7,SaaS,Austin,9,53,7.8,72.96,1
+28.89,2,HealthTech,San Francisco,9,170,2.8,63.44,1
+3.93,4,SaaS,Bangalore,13,179,4.7,60.76,0
+22.86,3,HealthTech,Singapore,17,60,2.8,70.59,1
+37.92,5,AI/ML,Berlin,3,244,10.9,68.56,1
+26.43,5,Cybersecurity,Singapore,2,75,3.1,56.78,1
+34.19,7,AI/ML,Berlin,10,138,1.7,70.02,1
+4.46,6,EdTech,New York,17,124,0.7,64.36,1
+25.31,2,E-commerce,Seattle,2,173,0.8,50.73,1
+13.43,2,CleanTech,Toronto,8,225,2.5,57.14,0
+11.21,7,SaaS,Austin,7,99,7.4,62.37,1
+43.4,4,EdTech,Bangalore,5,97,0.5,59.4,1
+79.78,1,E-commerce,San Francisco,11,188,3.7,56.3,1
+109.33,6,HealthTech,Boston,5,238,1.0,68.49,1
+67.68,5,Cybersecurity,Boston,8,227,5.0,58.88,1
+16.29,1,EdTech,Berlin,15,188,0.9,51.42,1
+25.86,6,EdTech,New York,6,176,7.4,67.28,1
+39.13,5,E-commerce,Austin,0,192,8.4,65.11,1
+20.52,5,FinTech,Berlin,15,234,8.9,73.87,1
+20.71,7,HealthTech,Austin,4,4,2.9,61.32,0
+41.42,4,HealthTech,Toronto,13,147,10.5,67.8,0
+17.13,4,SaaS,Toronto,13,10,8.4,63.72,1
+8.76,5,AI/ML,Boston,9,145,1.0,60.79,1
+12.01,2,HealthTech,London,1,99,5.5,58.65,0
+34.26,2,EdTech,Boston,17,77,9.3,68.76,0
+18.23,6,CleanTech,Boston,12,222,3.9,67.14,1
+25.54,2,Cybersecurity,Berlin,7,177,4.8,53.28,1
+35.52,4,FinTech,Austin,15,142,7.7,69.94,0
+12.49,2,E-commerce,New York,14,220,0.9,65.08,1
+38.72,2,FinTech,Austin,13,26,11.6,74.2,0
+26.55,5,AI/ML,Bangalore,3,162,2.3,47.24,0
+5.29,6,Cybersecurity,Austin,11,40,0.6,59.44,1
+76.88,4,CleanTech,Boston,5,59,0.4,58.36,0
+11.01,1,HealthTech,Berlin,1,47,5.0,49.98,1
+3.47,2,EdTech,New York,6,136,10.6,62.8,1
+6.39,2,CleanTech,Austin,1,158,9.9,59.46,0
+6.55,7,CleanTech,New York,1,189,11.0,74.92,0
+19.15,3,EdTech,Bangalore,13,111,6.5,56.04,1
+13.82,3,FinTech,Bangalore,9,234,5.6,67.83,0
+12.98,1,SaaS,Singapore,7,94,4.8,55.09,1
+33.77,4,AI/ML,Austin,3,40,0.8,50.79,1
+25.53,7,SaaS,Berlin,13,11,10.9,76.98,0
+24.93,3,Cybersecurity,Berlin,11,33,6.1,54.34,1
+27.38,5,CleanTech,Toronto,10,112,5.6,62.23,0
+33.65,2,CleanTech,New York,3,104,6.3,56.53,1
+2.21,2,FinTech,Singapore,2,213,9.6,71.73,1
+12.62,6,CleanTech,New York,2,33,2.9,56.01,1
+2.05,1,CleanTech,London,0,67,8.6,44.02,1
+18.84,4,SaaS,Toronto,17,245,8.6,67.44,0
+18.09,3,AI/ML,San Francisco,6,9,10.2,69.14,1
+51.7,1,CleanTech,New York,11,107,0.4,55.04,1
+59.6,4,Cybersecurity,Toronto,17,51,2.3,69.15,1
+22.26,7,AI/ML,San Francisco,16,134,5.8,79.24,1
+11.02,1,FinTech,Berlin,5,243,10.3,65.44,1
+29.52,6,AI/ML,London,8,58,11.6,73.27,1
+10.72,4,E-commerce,Boston,8,93,7.3,69.82,1
+18.15,6,FinTech,Toronto,0,113,2.8,56.61,1
+48.72,1,CleanTech,Toronto,13,200,2.5,50.94,0
+10.4,7,HealthTech,Boston,10,246,7.8,72.62,1
+40.68,1,Cybersecurity,San Francisco,6,25,2.8,47.85,0
+35.78,7,AI/ML,New York,10,123,6.8,72.74,1
+7.0,5,EdTech,New York,13,188,10.1,71.19,1
+48.13,3,FinTech,Bangalore,0,4,4.9,53.3,1
+36.55,1,FinTech,London,11,201,4.7,58.75,1
+20.12,5,E-commerce,Berlin,15,62,0.7,50.48,0
+8.48,1,SaaS,Austin,13,130,3.3,47.72,0
+7.7,5,CleanTech,Toronto,11,244,8.5,69.88,0
+10.62,6,HealthTech,Singapore,1,159,4.5,63.26,1
+31.27,2,Cybersecurity,Singapore,13,247,2.2,55.37,1
+6.99,2,Cybersecurity,Seattle,13,151,1.5,53.64,0
+28.15,2,FinTech,Berlin,8,54,1.4,54.75,1
+5.25,2,E-commerce,London,10,173,8.0,67.62,1
+14.82,1,Cybersecurity,Boston,11,154,7.5,58.86,1
+20.28,2,EdTech,London,2,79,6.4,56.54,0
+209.59,5,FinTech,Boston,4,21,6.2,69.06,1
+4.58,3,Cybersecurity,Bangalore,14,162,2.1,53.59,0
+79.2,6,SaaS,Singapore,17,145,6.2,70.86,1
+21.11,6,FinTech,Singapore,4,193,1.0,61.44,1
+27.42,6,CleanTech,Singapore,7,33,11.1,66.58,1
+20.46,4,E-commerce,Seattle,16,135,1.0,57.97,1
+28.35,3,FinTech,Bangalore,2,205,5.3,59.8,0
+15.59,7,EdTech,Austin,4,223,0.3,61.95,1
+77.79,2,FinTech,London,1,235,9.5,60.28,0
+11.51,4,Cybersecurity,San Francisco,4,54,2.2,58.47,1
+56.39,4,FinTech,Austin,11,44,11.1,76.46,1
+9.54,6,CleanTech,London,6,144,0.8,68.57,1
+17.11,4,AI/ML,Seattle,17,116,9.9,77.33,0
+6.22,6,AI/ML,Bangalore,16,60,8.0,66.66,1
+28.65,7,CleanTech,Berlin,16,27,3.2,66.11,1
+77.1,3,Cybersecurity,Seattle,13,37,2.7,56.64,0
+16.82,7,HealthTech,Seattle,12,86,4.5,70.51,1
+14.93,2,FinTech,Berlin,9,185,10.0,64.05,1
+5.96,7,FinTech,Singapore,17,18,10.4,68.11,0
+14.45,2,E-commerce,Austin,1,28,2.4,44.04,0
+3.7,6,AI/ML,London,13,67,4.4,70.54,1
+7.29,3,FinTech,London,2,218,3.1,58.91,1
+22.8,7,HealthTech,San Francisco,6,247,1.7,69.17,0
+67.97,1,AI/ML,Bangalore,4,111,7.9,61.86,1
+301.63,4,E-commerce,London,10,13,4.3,60.81,0
+10.11,7,EdTech,Austin,14,4,2.9,61.83,0
+76.35,1,Cybersecurity,Berlin,1,215,10.4,61.15,1
+23.19,2,Cybersecurity,Berlin,10,112,9.1,65.36,1
+15.62,1,CleanTech,Bangalore,3,21,9.4,63.42,0
+28.01,3,SaaS,San Francisco,1,208,0.8,54.81,1
+19.33,3,Cybersecurity,Seattle,7,133,11.0,70.03,1
+20.3,5,E-commerce,New York,10,88,7.0,66.98,1
+12.08,2,AI/ML,London,3,114,6.2,59.85,0
+4.49,2,SaaS,London,7,57,0.4,48.41,0
+3.88,2,CleanTech,Seattle,17,233,10.8,69.21,1
+34.93,7,AI/ML,Bangalore,6,197,6.7,70.07,1
+13.78,7,HealthTech,London,17,51,10.0,75.56,1
+10.01,2,Cybersecurity,Seattle,15,184,8.0,62.6,0
+18.33,2,FinTech,San Francisco,6,46,9.6,66.86,1
+40.24,1,E-commerce,Austin,10,114,8.4,62.58,0
+21.77,7,E-commerce,Toronto,12,187,11.1,74.06,0
+9.43,5,AI/ML,Seattle,8,11,2.9,51.22,1
+61.95,6,FinTech,Bangalore,7,181,2.7,67.2,0
+88.16,3,SaaS,London,5,58,8.6,65.95,0
+29.8,5,Cybersecurity,London,2,175,6.2,61.7,0
+48.12,1,HealthTech,Seattle,0,125,7.3,59.62,0
+62.93,5,E-commerce,London,6,8,8.6,58.26,1
+56.27,5,CleanTech,San Francisco,14,190,6.7,74.54,0
+33.59,3,Cybersecurity,San Francisco,4,66,9.5,67.38,1
+33.06,5,AI/ML,Seattle,3,238,4.0,55.51,0
+30.56,5,EdTech,London,5,210,10.4,71.7,1
+6.07,4,E-commerce,London,10,49,1.6,52.88,0
+36.62,2,SaaS,Seattle,3,151,7.7,59.57,0
+4.68,1,E-commerce,Austin,3,91,10.7,55.77,0
+8.21,7,E-commerce,Singapore,2,151,3.3,60.46,1
+66.92,2,E-commerce,Berlin,5,140,4.1,52.26,0
+42.11,3,HealthTech,San Francisco,3,75,3.9,51.65,0
+80.43,5,CleanTech,Seattle,14,163,6.9,74.19,1
+13.85,2,AI/ML,Singapore,16,66,5.1,60.19,0
+5.74,3,Cybersecurity,Singapore,6,227,1.6,52.67,0
+14.29,5,E-commerce,Austin,1,236,10.7,62.7,0
+20.13,5,Cybersecurity,Bangalore,1,43,2.7,58.72,1
+19.67,5,Cybersecurity,Berlin,5,182,6.5,61.01,1
+56.47,1,Cybersecurity,Seattle,8,232,7.3,63.5,0
+12.66,4,E-commerce,Berlin,9,33,0.8,48.91,1
+25.84,4,AI/ML,Toronto,5,185,1.4,56.33,1
+6.76,5,FinTech,Austin,6,234,11.7,70.1,1
+28.51,2,SaaS,New York,5,57,8.1,59.88,1
+18.23,2,SaaS,Seattle,9,146,0.7,53.72,0
+8.59,6,CleanTech,San Francisco,12,199,9.6,75.49,0
+14.36,5,AI/ML,Toronto,0,84,6.2,57.76,0
+15.12,6,SaaS,Bangalore,8,60,1.2,58.73,1
+13.87,2,HealthTech,Berlin,11,100,8.3,67.48,1
+106.84,7,E-commerce,Bangalore,12,85,6.1,61.46,0
+16.47,2,SaaS,San Francisco,10,181,2.7,58.88,1
+14.24,5,FinTech,Berlin,9,93,10.6,68.73,1
+2.23,2,EdTech,Seattle,12,95,3.7,50.17,1
+7.43,7,Cybersecurity,Austin,6,236,3.6,68.02,0
+13.97,3,FinTech,Boston,10,145,3.5,58.55,1
+9.15,6,SaaS,London,5,232,9.3,67.97,1
+72.36,3,AI/ML,Berlin,7,178,8.6,73.14,1
+15.41,6,FinTech,New York,2,221,10.9,77.5,0
+65.92,4,HealthTech,Berlin,6,50,3.0,50.23,1
+19.33,1,Cybersecurity,Bangalore,2,234,9.5,54.41,1
+18.86,2,AI/ML,San Francisco,4,236,7.0,67.71,1
+16.63,5,HealthTech,Toronto,7,12,3.9,57.84,1
+18.24,2,HealthTech,Berlin,9,90,0.7,59.0,0
+101.37,2,SaaS,Boston,16,104,9.9,70.72,0
+1.79,4,E-commerce,Singapore,0,106,3.1,51.39,1
+2.46,2,E-commerce,Berlin,16,195,7.7,56.56,0
+10.56,1,HealthTech,Singapore,5,175,6.7,61.14,1
+18.44,5,E-commerce,San Francisco,13,54,0.4,52.33,0
+36.24,5,Cybersecurity,San Francisco,12,152,11.9,80.99,1
+29.17,6,HealthTech,Berlin,17,243,9.8,76.89,1
+12.38,7,FinTech,Boston,1,111,6.0,64.01,0
+50.35,1,Cybersecurity,Austin,17,232,8.3,68.52,0
+50.92,3,AI/ML,Seattle,1,163,5.9,70.81,0
+21.85,2,CleanTech,Singapore,15,231,9.0,65.13,0
+47.59,7,EdTech,New York,11,225,1.9,68.34,0
+23.87,4,EdTech,Bangalore,8,6,5.5,54.0,0
+10.37,1,HealthTech,Seattle,7,200,4.2,57.45,1
+36.52,5,HealthTech,New York,1,48,5.7,56.36,1
+20.3,1,SaaS,San Francisco,14,206,5.6,62.19,0
+18.2,2,FinTech,Toronto,13,202,2.0,57.02,0
+79.28,6,CleanTech,New York,16,66,11.7,81.83,0
+1.57,4,AI/ML,Seattle,13,18,0.5,47.5,0
+4.4,6,Cybersecurity,Berlin,17,106,0.4,59.77,1
+5.55,4,AI/ML,London,15,77,4.7,70.19,1
+12.64,6,EdTech,Austin,7,139,7.6,67.05,0
+14.09,4,AI/ML,New York,12,22,2.4,59.65,1
+4.03,1,HealthTech,Singapore,4,12,6.5,49.42,1
+6.79,1,CleanTech,Seattle,14,110,8.8,58.42,1
+7.68,6,E-commerce,San Francisco,10,192,1.4,54.44,1
+212.18,1,HealthTech,New York,7,80,11.8,66.29,0
+110.14,3,AI/ML,London,11,82,4.2,59.47,1
+12.04,1,AI/ML,New York,4,42,7.8,60.98,0
+12.63,3,HealthTech,Boston,11,72,1.6,53.15,1
+5.76,5,FinTech,New York,8,76,8.6,68.65,1
+2.7,2,CleanTech,Singapore,5,66,10.1,59.93,1
+16.17,4,EdTech,Berlin,17,87,1.5,56.27,0
+6.7,7,AI/ML,Singapore,1,72,1.8,58.46,1
+16.7,1,HealthTech,San Francisco,13,170,3.6,54.75,1
+3.67,1,E-commerce,Boston,3,85,0.4,44.32,1
+8.48,2,FinTech,Austin,4,189,11.8,72.06,0
+21.09,6,EdTech,Berlin,2,151,7.3,65.71,0
+26.21,3,AI/ML,Toronto,1,160,7.4,59.48,0
+27.59,5,SaaS,Austin,2,146,11.5,70.62,1
+4.85,1,AI/ML,Singapore,14,230,10.0,58.52,1
+42.72,6,HealthTech,London,16,65,9.8,74.53,0
+8.16,1,SaaS,Toronto,10,245,4.3,54.29,0
+34.22,5,CleanTech,San Francisco,0,53,4.2,54.19,0
+17.98,2,EdTech,Bangalore,15,36,3.7,49.92,1
+4.59,7,HealthTech,Seattle,10,206,4.4,67.93,0
+13.25,3,CleanTech,Austin,9,224,4.6,64.48,1
+26.19,2,CleanTech,New York,17,24,1.9,58.81,1
+33.55,3,E-commerce,Bangalore,7,150,4.5,52.92,0
+15.78,1,CleanTech,Toronto,6,129,5.5,52.63,0
+84.08,2,CleanTech,New York,14,56,3.9,56.48,1
+49.77,5,E-commerce,Seattle,9,131,2.2,63.59,1
+14.06,3,AI/ML,Singapore,12,172,4.7,64.15,0
+38.48,3,FinTech,London,12,144,5.9,66.13,0
+125.69,6,AI/ML,New York,15,130,8.7,78.08,0
+129.09,1,EdTech,Boston,5,221,8.6,59.03,1
+5.32,3,CleanTech,Boston,1,57,2.7,56.82,1
+7.2,2,SaaS,Austin,8,156,0.7,52.15,1
+80.23,4,Cybersecurity,Bangalore,11,80,3.9,58.03,0
+6.31,3,AI/ML,Austin,14,243,2.1,59.34,1
+4.84,1,AI/ML,Singapore,4,64,4.9,60.33,0
+11.18,1,Cybersecurity,Bangalore,13,218,11.8,65.79,1
+27.67,6,SaaS,Singapore,14,158,2.4,68.82,1
+16.41,1,SaaS,Singapore,14,55,4.0,52.3,0
+9.48,6,EdTech,New York,14,190,8.8,69.67,0
+9.26,7,Cybersecurity,New York,17,61,6.3,74.34,1
+8.91,4,CleanTech,Singapore,11,67,0.8,51.09,1
+7.54,3,HealthTech,Singapore,6,87,2.2,59.21,1
+177.97,6,SaaS,Singapore,7,171,11.2,76.85,1
+24.47,7,EdTech,Seattle,13,99,1.5,59.89,1
+44.11,1,E-commerce,London,4,143,7.7,58.07,0
+11.14,7,FinTech,San Francisco,10,139,9.6,75.43,1
+15.09,7,E-commerce,Austin,10,50,3.4,64.53,0
+8.9,1,E-commerce,London,11,59,8.8,67.63,1
+1.28,1,HealthTech,New York,7,78,2.3,50.6,0
+4.58,6,HealthTech,New York,13,57,3.6,68.02,1
+2.97,1,E-commerce,San Francisco,1,229,3.9,50.97,0
+1.92,5,EdTech,Austin,13,96,12.0,71.7,1
+5.5,1,Cybersecurity,Bangalore,14,102,2.8,52.45,0
+68.37,5,CleanTech,Berlin,15,168,1.8,57.97,1
+17.38,2,Cybersecurity,Bangalore,16,197,11.1,70.26,0
+66.06,1,AI/ML,Austin,6,172,2.2,53.93,0
+27.41,1,Cybersecurity,London,0,138,10.6,56.89,0
+39.75,2,FinTech,Toronto,11,244,7.9,69.61,0
+7.38,4,EdTech,Boston,1,225,7.0,61.14,1
+30.69,1,FinTech,Berlin,5,52,9.1,60.15,0
+37.66,6,E-commerce,Berlin,12,41,8.8,73.6,1
+10.21,5,AI/ML,Toronto,10,99,1.6,52.85,0
+31.8,3,EdTech,Bangalore,10,209,12.0,73.88,1
+32.01,7,EdTech,Berlin,13,241,11.3,73.24,0
+10.49,5,E-commerce,London,2,176,10.8,69.48,1
+5.91,5,HealthTech,Toronto,14,173,7.6,67.0,1
+5.56,2,AI/ML,Berlin,10,59,6.4,56.73,0
+19.82,5,AI/ML,Boston,7,148,6.6,73.91,1
+25.2,4,HealthTech,Berlin,8,47,0.5,63.14,1
+8.23,7,HealthTech,London,9,135,6.1,70.49,1
+18.66,4,EdTech,Austin,9,50,7.6,64.76,0
+32.15,5,AI/ML,London,6,20,8.0,68.58,1
+33.72,3,EdTech,Berlin,4,241,4.2,64.54,1
+85.79,1,SaaS,Bangalore,3,223,5.8,47.23,1
+65.17,1,AI/ML,London,6,171,7.7,65.63,0
+6.68,7,HealthTech,New York,4,157,5.3,66.39,1
+97.86,6,AI/ML,Bangalore,9,61,11.6,67.1,1
+10.69,3,HealthTech,London,16,143,8.6,67.36,1
+51.67,5,HealthTech,Austin,1,187,0.3,64.09,0
+19.45,1,HealthTech,Singapore,5,135,0.6,46.96,0
+12.04,1,EdTech,Boston,0,71,8.4,56.53,1
+2.98,4,FinTech,Boston,17,99,5.1,69.65,1
+15.31,5,Cybersecurity,Toronto,12,210,10.1,72.58,1
+3.82,7,EdTech,Toronto,4,65,2.3,59.36,1
+47.81,6,CleanTech,London,7,240,0.5,54.3,0
+82.83,2,Cybersecurity,Boston,13,189,4.8,59.16,1
+8.19,6,CleanTech,Toronto,17,222,8.9,75.32,1
+24.58,4,CleanTech,New York,10,128,11.7,72.86,0
+8.8,6,FinTech,Singapore,4,57,10.6,73.25,1
+9.69,2,EdTech,London,12,10,6.0,56.23,1
+39.43,1,E-commerce,Toronto,12,134,9.8,70.82,1
+17.49,1,AI/ML,Seattle,11,100,1.1,52.04,0
+103.51,7,FinTech,Toronto,0,30,7.0,71.39,1
+11.22,1,AI/ML,San Francisco,12,232,11.1,71.28,0
+49.37,7,CleanTech,Singapore,0,242,4.9,70.44,1
+20.03,6,CleanTech,San Francisco,16,94,11.5,72.62,1
+40.28,2,SaaS,Berlin,15,167,2.9,58.54,1
+11.62,7,HealthTech,New York,10,104,1.5,64.21,1
+17.3,2,EdTech,Bangalore,11,125,6.4,59.2,1
+16.19,2,EdTech,Singapore,1,156,10.9,66.68,0
+7.88,5,EdTech,New York,15,105,3.9,65.02,1
+35.24,3,EdTech,Toronto,4,200,9.7,69.33,1
+34.82,3,SaaS,Austin,4,48,2.3,51.05,0
+32.9,2,FinTech,London,12,167,9.0,64.83,1
+84.52,5,EdTech,San Francisco,16,245,6.8,71.04,1
+77.43,1,EdTech,New York,8,212,2.3,53.87,1
+12.49,2,HealthTech,Austin,9,13,8.7,60.33,1
+26.39,4,Cybersecurity,London,9,30,8.7,63.55,0
+9.74,4,E-commerce,London,5,157,6.3,67.08,0
+18.6,5,Cybersecurity,Toronto,10,231,2.9,61.59,1
+9.98,2,AI/ML,New York,17,211,1.8,65.81,0
+91.84,5,FinTech,Singapore,6,226,11.5,75.17,1
+26.15,6,Cybersecurity,San Francisco,13,39,8.0,74.79,0
+14.61,3,SaaS,Austin,13,130,9.8,70.51,0
+59.96,2,E-commerce,New York,15,182,8.5,62.16,1
+2.07,4,SaaS,New York,13,156,10.0,72.35,1
+2.43,5,SaaS,London,16,194,2.2,70.67,0
+40.28,1,SaaS,Bangalore,12,54,6.1,58.49,1
+19.31,4,EdTech,Berlin,17,115,8.1,69.91,1
+23.35,2,AI/ML,Toronto,12,113,1.5,58.85,0
+4.82,4,E-commerce,London,15,235,2.1,60.3,1
+17.76,7,FinTech,San Francisco,16,52,7.7,75.62,1
+134.76,4,HealthTech,Boston,17,82,10.5,75.09,1
+41.44,6,CleanTech,Toronto,10,7,8.0,68.82,0
+21.54,3,AI/ML,San Francisco,12,39,0.7,52.03,1
+11.72,7,Cybersecurity,San Francisco,17,245,11.7,81.09,1
+12.25,6,AI/ML,Toronto,6,212,1.9,62.77,1
+2.16,7,E-commerce,San Francisco,2,66,3.0,59.19,1
+23.52,6,Cybersecurity,Bangalore,15,176,11.7,80.25,1
+42.33,5,E-commerce,Singapore,11,149,9.3,66.83,1
+3.76,4,EdTech,Berlin,7,226,11.3,63.16,0
+9.38,7,AI/ML,London,12,76,9.7,78.78,1
+5.71,6,HealthTech,San Francisco,0,248,7.9,62.66,0
+6.92,3,EdTech,Seattle,8,93,3.6,47.79,0
+19.17,1,E-commerce,Toronto,4,179,4.1,55.21,0
+2.26,1,HealthTech,Bangalore,5,100,11.4,63.66,1
+33.59,2,E-commerce,Seattle,17,168,10.4,69.11,0
+38.62,1,AI/ML,Toronto,9,85,4.5,55.32,1
+14.14,2,EdTech,Singapore,2,211,4.7,47.87,0
+1.52,1,FinTech,San Francisco,6,160,3.8,51.63,0
+6.71,7,E-commerce,Berlin,4,73,4.1,60.53,1
+62.36,1,CleanTech,Berlin,16,240,10.4,61.1,1
+1.13,5,E-commerce,London,5,177,0.4,56.1,0
+12.84,3,SaaS,Singapore,6,108,5.4,58.22,0
+5.58,2,E-commerce,Toronto,6,35,11.3,61.99,1
+40.63,5,SaaS,London,3,243,6.6,67.93,0
+9.25,7,EdTech,Boston,14,189,5.6,70.91,1
+27.22,6,EdTech,Bangalore,10,167,4.0,65.83,1
+31.99,7,HealthTech,Bangalore,7,208,1.2,62.61,0
+114.0,5,Cybersecurity,Berlin,7,152,2.9,63.78,1
+14.84,5,E-commerce,Berlin,12,59,1.4,57.39,1
+26.47,2,HealthTech,New York,1,60,1.8,40.31,0
+4.12,6,CleanTech,Seattle,16,21,2.2,63.23,1
+59.76,6,HealthTech,New York,10,17,3.8,65.84,1
+8.5,2,AI/ML,London,4,182,0.4,55.98,1
+10.37,3,HealthTech,Toronto,9,213,11.4,65.12,1
+17.77,5,EdTech,Austin,15,42,1.7,56.48,0
+3.81,1,E-commerce,Bangalore,3,144,4.8,45.05,1
+22.85,6,Cybersecurity,New York,9,32,10.6,76.26,1
+47.82,2,Cybersecurity,San Francisco,10,104,1.5,51.14,1
+24.36,1,Cybersecurity,Bangalore,14,198,6.0,55.89,0
+3.71,3,HealthTech,New York,10,203,10.2,72.16,1
+16.06,6,FinTech,Singapore,13,237,6.8,69.58,1
+38.17,2,Cybersecurity,Singapore,13,79,2.8,52.76,0
+2.78,4,Cybersecurity,Boston,16,237,8.9,73.68,0
+6.2,6,EdTech,San Francisco,6,196,8.3,74.23,1
+43.66,1,FinTech,Boston,12,85,4.5,61.66,0
+23.81,6,E-commerce,San Francisco,4,83,0.8,62.43,0
+27.44,3,FinTech,Berlin,15,28,0.4,53.04,0
+116.69,5,FinTech,Toronto,17,230,10.0,74.28,1
+29.04,2,Cybersecurity,Bangalore,5,52,4.1,51.74,0
+35.09,1,SaaS,Toronto,10,68,1.9,51.99,0
+273.35,6,FinTech,Singapore,14,104,6.4,70.05,1
+14.68,6,E-commerce,Toronto,0,36,11.1,62.67,1
+8.18,7,EdTech,Singapore,12,201,0.4,64.17,0
+27.88,5,AI/ML,Berlin,14,175,1.0,67.53,1
+28.19,4,Cybersecurity,Bangalore,15,40,5.2,64.18,1
+10.73,2,HealthTech,Boston,3,42,8.2,67.69,1
+6.47,3,E-commerce,Seattle,13,7,5.9,53.1,0
+183.07,5,CleanTech,Bangalore,14,237,10.8,67.02,1
+25.2,3,SaaS,Boston,0,110,0.8,52.32,1
+8.74,4,Cybersecurity,Austin,12,164,4.3,59.93,1
+45.42,2,SaaS,New York,11,39,4.4,57.54,0
+16.29,4,SaaS,Austin,17,59,4.3,54.58,0
+14.11,2,Cybersecurity,London,0,136,6.0,51.71,1
+31.89,1,E-commerce,Toronto,17,53,9.5,54.23,1
+4.99,1,CleanTech,New York,10,154,4.0,53.84,1
+25.86,4,CleanTech,Berlin,4,231,9.0,65.01,1
+123.09,3,E-commerce,Singapore,6,77,2.0,54.12,0
+28.97,1,HealthTech,Toronto,13,152,6.9,66.37,1
+12.48,4,SaaS,Singapore,17,229,4.7,67.6,0
+10.95,2,CleanTech,New York,5,223,6.6,53.98,0
+12.06,1,AI/ML,Seattle,17,3,1.6,52.68,0
+14.1,1,EdTech,Bangalore,11,29,11.5,61.84,1
+12.46,4,EdTech,Bangalore,3,246,10.9,66.54,1
+45.44,7,CleanTech,Berlin,10,231,10.0,75.09,1
+3.21,2,HealthTech,Bangalore,14,81,10.7,66.94,0
+43.03,2,FinTech,Berlin,0,130,2.0,46.57,1
+12.43,2,CleanTech,San Francisco,1,144,6.2,57.11,0
+26.49,3,EdTech,Bangalore,0,167,4.0,56.45,0
+5.89,6,CleanTech,New York,10,188,10.7,72.11,1
+68.62,3,AI/ML,Boston,1,94,2.5,51.34,0
+63.16,5,Cybersecurity,Austin,16,222,2.9,65.35,0
+47.45,7,AI/ML,Singapore,2,16,8.3,64.96,1
+4.0,7,CleanTech,San Francisco,1,10,1.3,48.3,1
+41.64,4,CleanTech,Berlin,4,239,8.9,65.42,0
+27.24,5,HealthTech,Toronto,13,45,3.4,68.17,0
+3.65,7,Cybersecurity,Singapore,16,248,8.0,74.06,0
+17.74,6,E-commerce,Boston,4,72,10.5,70.51,1
+26.17,3,FinTech,Toronto,9,92,7.4,55.44,0
+31.69,1,FinTech,Boston,13,8,2.8,54.08,1
+21.7,1,EdTech,Berlin,14,236,0.9,51.1,0
+24.32,7,FinTech,London,2,91,0.8,58.93,1
+79.33,4,EdTech,San Francisco,15,43,1.3,59.46,0
+61.93,3,Cybersecurity,San Francisco,15,121,7.1,69.19,1
+1.03,3,SaaS,New York,13,40,4.4,54.45,1
+13.23,2,FinTech,Bangalore,9,197,3.1,58.51,1
+15.42,6,SaaS,Bangalore,7,20,2.9,64.56,0
+3.15,5,HealthTech,Seattle,16,125,11.4,73.85,1
+19.97,7,CleanTech,Bangalore,15,99,1.7,59.71,1
+63.36,3,FinTech,San Francisco,9,11,3.9,59.17,1
+6.13,4,CleanTech,Bangalore,13,14,5.8,62.64,1
+25.44,1,SaaS,Austin,7,130,0.3,44.13,1
+7.27,7,FinTech,San Francisco,13,99,11.1,80.33,1
+9.28,4,E-commerce,Singapore,1,34,1.5,45.47,0
+79.63,4,SaaS,Boston,16,36,8.3,69.19,1
+10.56,3,CleanTech,Austin,9,201,7.7,61.98,1
+28.85,2,AI/ML,Singapore,10,183,9.8,66.37,1
+2.8,7,CleanTech,Boston,3,152,7.9,74.75,1
+117.02,4,SaaS,Singapore,9,208,9.3,65.14,1
+33.2,5,FinTech,New York,0,19,5.2,61.37,1
+15.14,1,HealthTech,San Francisco,16,172,6.0,70.2,1
+32.32,2,SaaS,Boston,13,188,8.5,68.97,0
+4.44,6,SaaS,Berlin,8,51,7.0,61.21,1
+59.3,1,CleanTech,Austin,15,135,6.3,54.39,0
+13.14,1,SaaS,New York,14,192,2.7,53.3,0
+14.82,6,CleanTech,Singapore,2,151,3.3,61.45,0
+11.12,3,HealthTech,Seattle,0,63,4.5,55.15,1
+10.17,2,SaaS,Seattle,4,166,0.4,45.46,1
+36.4,4,CleanTech,Austin,0,190,5.2,53.59,0
+23.47,2,FinTech,San Francisco,10,4,0.3,46.95,1
+34.87,1,EdTech,San Francisco,9,142,6.9,60.05,0
+18.02,1,CleanTech,Berlin,9,127,8.5,68.73,1
+30.36,1,AI/ML,San Francisco,1,92,6.9,55.5,0
+11.96,2,CleanTech,Austin,16,12,8.4,56.0,0
+168.97,5,AI/ML,Bangalore,17,22,0.3,54.49,1
+3.79,3,CleanTech,Boston,10,188,1.0,57.54,1
+64.13,1,Cybersecurity,Singapore,0,207,8.5,57.89,0
+71.37,1,Cybersecurity,Boston,7,105,9.7,60.84,1
+7.75,4,FinTech,Bangalore,12,235,8.7,67.96,0
+168.89,6,AI/ML,Toronto,13,232,8.1,71.89,1
+49.18,3,FinTech,Seattle,4,167,8.6,68.34,0
+48.0,1,HealthTech,Berlin,14,146,9.0,74.92,1
+18.69,2,EdTech,Seattle,17,241,8.8,67.98,0
+14.63,4,E-commerce,Bangalore,9,153,8.9,65.02,1
+14.74,2,SaaS,Boston,6,233,1.2,50.88,0
+26.86,7,CleanTech,Toronto,9,244,1.0,57.32,1
+73.79,6,EdTech,Berlin,0,50,4.5,60.54,1
+21.79,3,AI/ML,Berlin,9,165,6.5,67.83,1
+7.3,7,CleanTech,Boston,0,183,9.2,66.54,1
+41.45,3,Cybersecurity,Toronto,0,205,4.2,60.19,0
+45.66,1,HealthTech,Singapore,9,88,3.5,55.57,1
+34.98,7,E-commerce,Toronto,9,215,9.4,75.37,1
+38.3,7,FinTech,Toronto,17,122,3.2,69.8,0
+13.86,3,AI/ML,New York,9,97,9.9,69.57,1
+7.18,5,SaaS,Toronto,17,40,2.4,55.57,1
+7.63,2,Cybersecurity,Toronto,14,81,4.5,57.21,0
+3.54,5,CleanTech,Austin,6,243,5.0,66.77,1
+23.03,5,Cybersecurity,Bangalore,16,179,3.8,62.85,0
+16.72,5,CleanTech,London,8,182,0.3,60.56,0
+11.7,4,SaaS,Boston,10,224,3.1,57.08,1
+0.95,5,E-commerce,Austin,1,68,4.3,58.29,0
+5.22,4,FinTech,Boston,3,166,4.0,61.97,0
+55.75,6,AI/ML,San Francisco,9,94,9.5,72.09,1
+9.35,2,FinTech,Berlin,4,212,0.9,51.29,0
+26.06,4,E-commerce,Singapore,10,106,4.9,64.68,1
+4.52,3,Cybersecurity,Berlin,1,214,0.7,44.78,0
+76.61,4,E-commerce,London,4,187,11.2,65.58,0
+15.74,1,CleanTech,Boston,11,193,9.5,63.73,1
+24.29,3,HealthTech,Singapore,11,231,11.8,79.28,1
+186.01,7,Cybersecurity,Toronto,17,198,10.9,76.37,1
+82.8,1,AI/ML,San Francisco,16,81,4.0,63.61,0
+13.38,5,E-commerce,Boston,14,131,8.4,69.64,1
+10.04,5,CleanTech,Bangalore,0,119,3.9,52.38,1
+13.12,4,E-commerce,Toronto,10,18,10.7,65.59,1
+30.26,1,EdTech,Bangalore,4,149,5.1,50.86,0
+16.36,1,AI/ML,New York,4,110,4.7,56.2,1
+12.24,2,E-commerce,Seattle,3,99,11.0,55.68,1
+78.82,1,CleanTech,New York,8,29,10.1,62.93,1
+16.21,1,SaaS,Toronto,2,127,11.6,66.22,1
+181.2,2,AI/ML,London,9,145,1.1,58.28,1
+19.9,2,AI/ML,Austin,2,28,3.1,57.3,0
+108.34,6,FinTech,San Francisco,9,159,3.8,72.16,1
+25.98,5,FinTech,Singapore,11,43,5.3,65.31,1
+47.61,1,FinTech,Toronto,3,37,5.8,51.9,0
+8.81,5,E-commerce,Toronto,1,101,3.7,52.83,1
+7.74,1,SaaS,Bangalore,14,98,9.5,56.23,1
+28.78,3,CleanTech,Toronto,13,228,2.9,57.36,0
+48.84,1,E-commerce,Singapore,4,18,8.4,55.67,1
+18.92,1,HealthTech,Toronto,15,88,10.3,71.8,0
+5.02,1,FinTech,Bangalore,3,184,7.4,60.4,1
+4.66,4,EdTech,Seattle,16,63,4.4,56.7,1
+4.36,4,Cybersecurity,Singapore,2,245,2.5,50.6,0
+3.1,3,FinTech,Toronto,11,186,1.9,56.24,1
+20.28,5,HealthTech,New York,0,236,9.0,70.88,1
+55.98,6,FinTech,Berlin,3,237,5.8,67.2,1
+17.93,6,SaaS,Boston,7,29,0.8,60.94,0
+1.9,5,Cybersecurity,New York,1,115,11.8,69.83,1
+15.02,4,E-commerce,New York,8,186,8.2,69.56,1
+15.44,4,SaaS,New York,4,4,10.2,57.75,1
+147.82,2,HealthTech,Toronto,1,114,5.4,63.44,1
+4.23,4,EdTech,Singapore,17,172,11.5,66.7,1
+12.3,1,AI/ML,New York,17,198,2.6,62.36,1
+100.07,7,EdTech,Berlin,17,104,2.5,64.31,0
+28.5,3,E-commerce,Berlin,2,216,10.7,63.84,0
+31.92,6,Cybersecurity,London,6,169,10.7,74.27,1
+20.38,7,HealthTech,Berlin,5,13,6.1,66.92,1
+25.28,4,EdTech,Bangalore,5,70,1.8,55.41,1
+39.55,7,HealthTech,London,7,234,3.9,73.58,1
+8.09,4,E-commerce,Berlin,9,2,9.1,65.28,0
+43.73,1,SaaS,London,8,28,10.2,64.58,1
+4.6,1,EdTech,Boston,5,87,4.4,59.3,0
+25.24,1,HealthTech,Toronto,17,248,1.0,54.42,1
+21.73,7,FinTech,Seattle,17,176,8.1,79.29,1
+9.81,4,SaaS,Singapore,5,38,9.0,66.76,0
+17.77,3,E-commerce,Berlin,3,99,5.3,53.27,0
+9.75,4,HealthTech,Berlin,9,235,7.1,67.5,0
+6.22,2,FinTech,Singapore,6,56,11.9,68.93,0
+12.76,7,SaaS,Singapore,17,144,3.2,67.72,1
+6.03,7,E-commerce,London,7,117,7.0,70.4,1
+25.1,1,EdTech,Berlin,0,190,7.4,56.56,1
+5.75,6,EdTech,London,2,188,6.7,65.23,0
+37.04,3,HealthTech,Boston,1,208,10.5,54.42,1
+5.58,1,E-commerce,Singapore,6,31,7.4,61.31,0
+10.32,7,CleanTech,Toronto,5,114,6.2,65.94,1
+9.73,1,CleanTech,Singapore,15,173,1.7,48.78,1
+68.38,2,AI/ML,Singapore,16,105,8.5,63.05,1
+25.29,1,E-commerce,Toronto,2,167,1.8,44.86,1
+14.71,4,SaaS,Boston,17,159,0.6,56.59,1
+29.93,5,FinTech,San Francisco,10,93,6.0,66.82,1
+2.21,3,EdTech,Boston,5,26,7.0,54.31,0
+17.41,1,E-commerce,Singapore,7,242,12.0,67.15,1
+133.96,1,E-commerce,Toronto,7,206,8.6,68.91,1
+20.75,7,Cybersecurity,London,3,223,10.2,77.77,0
+19.45,6,Cybersecurity,Singapore,15,76,4.4,71.29,0
+31.44,7,HealthTech,San Francisco,0,80,6.3,65.93,1
+44.51,4,FinTech,Berlin,1,82,11.7,69.07,1
+2.47,4,EdTech,Berlin,4,9,5.2,55.52,1
+3.38,6,Cybersecurity,London,2,44,9.7,66.42,1
+22.43,5,CleanTech,Singapore,1,78,6.5,59.6,0
+8.89,4,FinTech,Seattle,6,246,2.9,65.29,1
+67.49,3,HealthTech,London,6,52,7.1,68.52,1
+13.26,4,AI/ML,Berlin,2,127,2.9,58.44,1
+2.63,1,E-commerce,Singapore,14,137,0.3,42.23,1
+5.11,2,Cybersecurity,Austin,15,91,3.1,55.35,0
+1.16,6,CleanTech,Boston,12,229,2.6,57.22,1
+14.38,7,HealthTech,Seattle,9,25,4.6,67.31,0
+15.05,1,FinTech,Austin,17,217,10.7,69.33,0
+11.89,1,E-commerce,Boston,6,186,4.8,52.9,1
+53.46,1,AI/ML,Boston,7,77,10.2,66.95,0
+60.25,6,Cybersecurity,Boston,0,192,6.8,67.63,1
+15.33,3,AI/ML,Seattle,12,108,0.4,58.52,1
+2.15,3,AI/ML,London,1,242,2.5,50.54,1
+33.69,1,EdTech,Berlin,11,11,11.2,59.34,1
+31.67,7,FinTech,Boston,14,9,7.4,72.3,1
+24.76,4,Cybersecurity,Toronto,3,136,11.2,74.91,1
+48.5,6,CleanTech,Seattle,11,233,3.9,66.14,0
+5.67,5,HealthTech,Singapore,5,17,8.7,67.89,1
+135.47,1,E-commerce,New York,7,194,9.3,67.19,1
+6.96,6,EdTech,New York,9,234,11.7,74.46,1
+38.44,4,SaaS,Seattle,4,122,0.5,60.91,1
+3.36,5,CleanTech,Boston,14,216,11.4,77.58,0
+7.17,2,CleanTech,Seattle,7,189,4.9,64.04,0
+82.8,6,HealthTech,New York,8,55,10.1,76.06,0
+14.0,7,EdTech,Seattle,14,213,6.7,79.27,1
+42.09,3,CleanTech,Berlin,4,175,6.9,58.97,1
+23.03,1,Cybersecurity,Singapore,8,5,4.5,60.67,1
+16.36,6,FinTech,Austin,17,142,10.0,77.96,1
+71.08,7,CleanTech,Boston,7,164,3.4,72.04,0
+14.34,4,SaaS,London,2,200,6.1,61.7,1
+3.06,5,AI/ML,London,5,193,6.9,71.83,1
+8.14,2,FinTech,Singapore,17,119,9.0,72.15,1
+31.54,1,E-commerce,Boston,13,76,5.8,51.73,1
+26.99,7,E-commerce,Berlin,14,49,8.3,69.61,1
+3.79,4,E-commerce,Toronto,4,24,6.0,46.28,0
+8.81,2,CleanTech,Austin,15,160,8.0,62.77,1
+10.16,5,Cybersecurity,Toronto,7,240,8.2,65.93,1
+12.61,1,CleanTech,Boston,14,21,8.6,58.64,0
+4.59,1,E-commerce,Boston,15,176,9.9,74.28,1
+9.7,2,Cybersecurity,Berlin,3,146,6.6,66.0,1
+8.77,4,E-commerce,Berlin,16,44,2.6,49.47,1
+39.31,3,E-commerce,London,11,54,8.3,66.16,0
+40.82,2,AI/ML,Austin,13,72,1.2,59.41,0
+15.71,3,CleanTech,San Francisco,13,171,2.9,59.33,0
+12.28,3,FinTech,Bangalore,3,76,9.6,65.07,0
+20.9,4,AI/ML,Toronto,13,207,5.4,67.57,1
+8.03,4,SaaS,Toronto,3,93,6.1,54.63,1
+5.77,7,Cybersecurity,London,4,29,11.9,70.52,1
+7.1,6,FinTech,Toronto,2,25,3.1,59.25,1
+9.63,3,E-commerce,Seattle,3,101,0.5,49.88,1
+5.68,7,HealthTech,San Francisco,17,103,1.6,64.79,1
+21.37,4,Cybersecurity,New York,5,183,3.2,58.37,1
+37.7,2,CleanTech,Austin,6,120,8.8,62.57,0
+3.72,3,HealthTech,Boston,8,42,9.4,68.93,0
+18.64,6,CleanTech,Bangalore,12,54,6.9,66.74,1
+14.59,6,SaaS,Boston,10,142,3.3,71.67,0
+25.57,3,Cybersecurity,Berlin,9,84,6.4,59.62,1
+17.94,2,E-commerce,Austin,15,168,0.5,52.53,1
+4.25,2,FinTech,Berlin,8,230,8.3,62.79,1
+5.14,1,HealthTech,London,13,89,7.5,64.27,0
+18.72,5,SaaS,New York,16,138,0.6,58.44,1
+50.84,4,HealthTech,Seattle,12,208,9.9,79.04,1
+1.99,4,HealthTech,New York,0,54,9.2,55.2,0
+25.68,5,Cybersecurity,Toronto,4,128,3.9,68.72,0
+59.72,6,CleanTech,Singapore,11,77,7.7,70.3,1
+15.6,6,SaaS,Bangalore,8,157,7.3,71.14,1
+31.51,1,HealthTech,Toronto,5,186,2.0,58.08,0
+9.0,5,HealthTech,Austin,6,36,2.6,62.64,0
+16.13,7,Cybersecurity,Singapore,1,48,8.3,65.24,1
+3.59,6,EdTech,New York,4,7,11.2,70.17,1
+1.74,3,FinTech,Bangalore,14,4,7.0,66.37,1
+46.65,3,SaaS,Singapore,0,14,6.9,50.68,0
+6.79,7,SaaS,Berlin,15,177,7.9,79.83,1
+11.52,1,AI/ML,Bangalore,6,226,5.5,60.08,0
+4.54,4,EdTech,Toronto,14,103,0.9,52.42,1
+4.44,1,Cybersecurity,Toronto,4,220,4.9,50.76,0
+15.27,7,E-commerce,New York,14,182,10.8,75.46,1
+8.76,1,Cybersecurity,San Francisco,10,202,9.7,58.77,0
+26.52,1,EdTech,Bangalore,15,185,11.2,63.32,1
+28.58,3,E-commerce,Austin,1,51,2.1,47.54,0
+25.05,2,EdTech,Seattle,14,131,6.2,56.21,1
+23.07,4,E-commerce,San Francisco,4,132,7.1,67.46,1
+88.04,3,E-commerce,Berlin,6,161,2.8,54.48,1
+6.25,3,EdTech,Toronto,0,199,2.7,45.98,1
+17.2,4,Cybersecurity,Toronto,17,29,9.4,66.66,0
+56.41,4,CleanTech,London,11,169,8.2,70.31,1
+64.36,7,Cybersecurity,Berlin,17,208,7.9,75.23,1
+4.39,4,HealthTech,London,10,30,3.4,56.44,1
+13.3,4,E-commerce,Seattle,2,104,6.2,60.01,0
+70.68,5,FinTech,London,6,224,0.6,61.65,1
+30.21,2,FinTech,Bangalore,7,8,1.8,44.57,0
+22.09,5,Cybersecurity,Austin,2,41,6.4,61.48,1
+14.62,7,HealthTech,Seattle,16,201,3.9,72.58,1
+12.38,3,CleanTech,Berlin,17,44,11.6,70.5,1
+24.25,2,SaaS,London,10,176,5.8,61.14,1
+14.12,3,EdTech,San Francisco,10,225,1.3,60.21,1
+17.42,2,FinTech,Austin,12,125,0.5,49.9,1
+19.66,5,E-commerce,Berlin,12,122,8.8,64.24,1
+9.23,7,E-commerce,Berlin,1,108,2.3,56.4,0
+30.94,5,SaaS,Singapore,9,94,2.5,67.56,1
+335.04,1,CleanTech,Bangalore,13,96,5.3,58.56,0
+3.07,3,EdTech,Berlin,14,139,3.4,55.29,0
+25.13,5,AI/ML,London,10,224,7.5,77.33,1
+8.5,3,EdTech,Boston,16,245,6.0,61.86,0
+32.38,5,AI/ML,Boston,10,216,1.6,72.75,1
+19.04,5,HealthTech,Toronto,6,31,9.5,66.01,1
+38.93,3,SaaS,Seattle,7,78,5.3,56.92,0
+58.88,5,AI/ML,Singapore,12,189,7.4,71.16,0
+22.03,3,AI/ML,New York,15,137,0.3,58.08,1
+56.38,1,SaaS,New York,4,84,7.6,56.88,1
+1.74,3,E-commerce,Austin,5,79,3.6,64.37,1
+89.16,4,AI/ML,New York,11,31,6.1,68.25,1
+26.44,1,EdTech,Berlin,13,84,3.8,55.25,0
+53.4,7,HealthTech,Berlin,7,106,12.0,75.58,1
+5.37,4,E-commerce,London,11,105,3.0,55.67,0
+7.92,1,Cybersecurity,Austin,0,138,11.0,64.02,1
+21.03,7,CleanTech,London,5,69,11.0,68.01,0
+17.87,6,E-commerce,New York,17,53,5.2,61.67,0
+24.12,1,Cybersecurity,Seattle,10,222,3.9,56.88,0
+53.76,2,Cybersecurity,New York,15,102,4.8,67.76,1
+3.11,3,AI/ML,San Francisco,3,65,11.9,68.72,1
+48.13,4,FinTech,New York,5,159,7.5,70.19,1
+18.33,6,E-commerce,New York,17,136,6.7,69.89,1
+14.82,3,AI/ML,Seattle,17,144,0.7,64.66,0
+4.17,5,EdTech,London,15,56,10.2,63.78,1
+30.06,1,CleanTech,Berlin,5,181,1.3,52.82,1
+1.63,5,CleanTech,Seattle,14,49,0.8,56.12,1
+34.76,7,EdTech,New York,8,209,3.5,70.84,1
+4.09,4,SaaS,San Francisco,15,107,5.9,63.29,1
+19.17,4,HealthTech,Singapore,15,103,10.8,72.24,1
+16.13,3,HealthTech,Bangalore,7,98,9.5,65.62,0
+58.53,7,EdTech,Austin,5,106,2.6,58.64,1
+15.2,1,EdTech,Austin,17,166,4.7,50.77,0
+9.08,3,EdTech,Boston,8,125,9.4,62.7,1
+10.95,1,HealthTech,Austin,7,33,6.5,57.28,1
+64.9,7,SaaS,Austin,11,142,2.3,63.52,1
+31.07,4,AI/ML,Seattle,16,68,4.9,64.79,0
+12.36,7,EdTech,Singapore,2,28,7.6,56.97,1
+14.35,5,AI/ML,Singapore,17,210,11.7,75.57,0
+3.79,4,EdTech,Bangalore,7,79,8.0,66.45,1
+26.8,4,E-commerce,Boston,0,149,0.5,52.02,1
+3.13,2,E-commerce,Seattle,5,44,8.5,57.87,0
+38.54,4,Cybersecurity,Boston,8,86,3.2,62.08,0
+20.67,5,FinTech,San Francisco,12,97,10.4,72.29,1
+197.74,7,CleanTech,Boston,10,35,4.8,73.85,0
+6.05,4,EdTech,Austin,2,243,2.6,63.84,0
+16.4,7,FinTech,Seattle,8,79,5.8,71.12,1
+109.76,7,E-commerce,New York,4,146,3.3,74.98,1
+59.82,4,HealthTech,Singapore,4,142,3.1,57.27,1
+9.06,4,HealthTech,Toronto,12,108,7.0,60.59,1
+22.74,1,Cybersecurity,Bangalore,14,147,9.3,61.1,0
+18.21,2,HealthTech,San Francisco,2,142,10.1,65.42,1
+24.09,7,AI/ML,New York,10,21,5.0,77.58,1
+9.04,1,HealthTech,Bangalore,7,167,1.1,49.06,0
+16.62,3,FinTech,Toronto,6,30,6.0,55.85,1
+3.68,5,FinTech,London,12,109,5.4,63.45,0
+20.8,2,FinTech,Boston,4,92,2.6,59.91,1
+28.5,7,SaaS,London,13,113,10.8,80.2,1
+14.48,5,SaaS,London,7,19,11.7,69.31,1
+3.61,1,FinTech,Toronto,1,175,0.9,38.28,1
+48.84,2,EdTech,London,14,105,9.6,61.22,0
+26.17,6,EdTech,San Francisco,15,17,7.9,75.65,1
+8.79,7,AI/ML,Berlin,10,2,3.4,64.74,1
+13.73,7,Cybersecurity,Singapore,13,135,7.7,73.46,1
+4.05,6,E-commerce,Austin,2,167,1.8,64.55,0
+6.52,1,Cybersecurity,New York,6,137,1.1,60.32,0
+10.61,6,HealthTech,New York,6,180,11.9,76.39,1
+62.08,1,HealthTech,Toronto,13,189,7.7,63.12,0
+9.59,1,CleanTech,Seattle,6,218,3.3,51.14,1
+34.47,5,EdTech,London,13,245,5.6,66.05,1
+10.61,4,CleanTech,Bangalore,5,221,11.4,63.19,0
+23.29,5,SaaS,San Francisco,10,199,5.4,62.82,1
+15.78,6,HealthTech,Austin,3,108,10.8,65.88,0
+43.51,1,CleanTech,Toronto,10,126,10.5,68.34,1
+10.65,4,AI/ML,London,1,154,4.3,53.87,0
+3.77,6,CleanTech,San Francisco,13,44,8.4,77.65,1
+4.56,4,SaaS,Singapore,0,170,8.0,57.85,0
+10.68,4,HealthTech,New York,17,147,9.3,77.86,1
+5.21,4,E-commerce,Singapore,15,131,4.6,59.1,1
+27.39,7,FinTech,Singapore,10,208,0.9,59.11,1
+11.41,1,E-commerce,Toronto,16,172,2.3,57.13,1
+195.31,7,SaaS,Seattle,14,233,7.5,79.82,1
+3.2,6,CleanTech,Austin,2,244,9.4,65.41,0
+22.28,6,CleanTech,Toronto,13,206,9.1,71.05,1
+5.88,3,SaaS,London,6,75,7.1,58.64,0
+11.1,4,Cybersecurity,Berlin,15,48,1.3,56.55,1
+20.93,3,FinTech,New York,15,76,0.5,58.17,1
+1.78,2,FinTech,Berlin,17,178,9.5,65.39,0
+23.03,7,Cybersecurity,London,8,216,6.7,65.86,1
+121.86,4,AI/ML,Austin,3,220,9.5,68.36,1
+11.55,6,SaaS,Singapore,2,171,2.2,63.2,1
+23.57,1,HealthTech,New York,2,170,5.1,55.82,1
+50.65,6,EdTech,Singapore,17,238,11.1,74.44,1
+15.43,5,E-commerce,Bangalore,10,172,2.3,54.45,0
+10.17,7,CleanTech,London,6,36,1.0,57.43,1
+1.87,1,Cybersecurity,New York,8,126,7.9,67.32,0
+34.5,4,SaaS,London,3,90,7.3,59.89,0
+16.23,4,SaaS,London,10,159,11.4,75.26,1
+6.6,4,HealthTech,London,7,159,10.9,71.77,1
+20.63,1,FinTech,Austin,14,75,9.1,65.3,1
+10.14,4,SaaS,Berlin,0,76,0.5,45.26,1
+10.71,3,AI/ML,Austin,16,24,5.9,61.1,1
+33.32,5,FinTech,London,1,74,10.8,70.25,1
+4.77,2,SaaS,London,7,207,5.4,57.73,1
+51.8,4,E-commerce,Berlin,6,164,11.6,70.64,1
+4.49,5,CleanTech,Singapore,12,235,7.9,70.55,1
+9.37,1,Cybersecurity,Toronto,11,231,1.6,62.3,1
+124.33,6,EdTech,Singapore,3,214,6.3,67.74,1
+56.11,6,SaaS,Singapore,8,46,8.4,62.58,1
+20.04,1,CleanTech,Toronto,9,84,1.1,53.99,0
+7.1,1,E-commerce,Austin,8,16,4.3,48.12,1
+10.71,6,EdTech,Austin,0,25,8.7,69.66,1
+19.56,2,E-commerce,London,3,59,2.1,56.08,1
+18.87,7,HealthTech,Seattle,9,71,4.4,66.47,0
+16.6,4,SaaS,Singapore,4,5,8.4,64.03,1
+17.62,3,EdTech,San Francisco,9,211,9.4,65.98,1
+14.67,2,Cybersecurity,New York,2,132,6.4,59.74,1
+4.3,5,FinTech,Singapore,13,164,11.5,76.87,1
+10.84,1,CleanTech,Toronto,3,164,11.1,66.38,1
+45.36,3,EdTech,Boston,11,241,5.8,66.58,1
+4.63,3,FinTech,Boston,15,38,2.2,57.45,1
+15.04,2,E-commerce,London,6,86,9.3,71.9,1
+8.01,3,E-commerce,Seattle,2,78,3.1,50.34,1
+20.31,4,HealthTech,New York,0,138,10.2,59.96,1
+12.32,5,FinTech,London,6,132,7.2,63.21,1
+79.63,1,FinTech,Toronto,2,197,4.9,62.21,1
+30.16,7,SaaS,Singapore,15,141,6.8,72.26,0
+4.89,7,HealthTech,Toronto,17,60,6.5,70.87,0
+35.56,5,E-commerce,Berlin,17,142,11.1,70.25,1
+8.38,7,FinTech,Toronto,16,241,2.8,66.38,1
+10.21,3,CleanTech,Austin,10,145,11.2,65.6,1
+24.87,6,CleanTech,San Francisco,5,148,0.7,63.54,0
+11.11,6,E-commerce,New York,8,45,9.3,69.21,1
+44.38,4,Cybersecurity,Bangalore,4,3,11.1,66.04,1
+8.38,2,Cybersecurity,Berlin,15,53,4.9,59.68,0
+9.79,4,FinTech,Austin,7,8,1.2,51.36,1
+9.43,7,EdTech,Toronto,6,114,9.7,65.39,1
+10.32,7,CleanTech,Boston,12,220,10.2,70.2,1
+54.55,4,EdTech,London,6,112,4.2,72.6,1
+34.08,2,E-commerce,Austin,6,162,6.4,64.8,0
+100.48,6,CleanTech,San Francisco,4,214,9.8,78.61,1
+175.5,1,Cybersecurity,Austin,1,191,2.5,48.57,1
+6.48,2,EdTech,Austin,0,163,7.7,54.66,1
+19.5,4,EdTech,London,7,196,5.3,59.25,1
+5.61,7,FinTech,San Francisco,17,71,2.3,63.11,0
+8.35,3,EdTech,Austin,4,106,10.0,61.2,0
+9.68,4,EdTech,London,11,100,4.1,66.09,0
+6.31,3,SaaS,Boston,5,200,11.2,71.96,0
+6.35,4,SaaS,Berlin,5,103,7.0,58.99,1
+15.73,1,CleanTech,Berlin,2,234,6.3,53.7,1
+5.38,5,CleanTech,Bangalore,10,48,5.3,64.7,1
+42.19,5,E-commerce,Toronto,11,44,5.0,58.84,1
+7.26,3,FinTech,Austin,6,179,9.9,68.35,1
+301.74,2,SaaS,Berlin,9,191,8.2,67.16,1
+11.57,6,E-commerce,Berlin,8,170,9.4,71.44,1
+19.53,2,HealthTech,London,4,78,5.2,59.51,0
+4.98,1,SaaS,Singapore,12,4,3.4,45.91,0
+100.09,1,E-commerce,New York,9,81,1.3,48.37,0
+55.67,7,CleanTech,Boston,1,117,9.4,66.33,0
+24.46,3,CleanTech,Toronto,8,104,5.2,52.35,0
+4.73,1,SaaS,Toronto,7,230,6.3,57.22,1
+22.44,7,SaaS,San Francisco,14,216,5.8,76.36,1
+5.92,2,SaaS,Seattle,5,194,5.3,52.75,0
+78.44,3,E-commerce,Austin,17,7,8.3,62.44,0
+40.82,1,SaaS,New York,11,33,7.4,63.99,1
+19.99,5,SaaS,San Francisco,2,109,11.7,65.73,1
+1.59,5,HealthTech,London,7,156,1.9,59.62,0
+6.8,6,SaaS,Berlin,15,170,7.0,75.93,1
+36.15,2,HealthTech,London,4,75,1.0,55.0,0
+61.12,3,AI/ML,Boston,12,29,9.8,61.35,0
+55.1,7,Cybersecurity,Singapore,14,83,7.5,75.48,0
+3.7,6,CleanTech,Berlin,12,198,5.3,63.4,0
+24.57,1,SaaS,Bangalore,1,246,9.7,62.81,1
+50.17,5,Cybersecurity,Boston,6,235,5.6,64.65,0
+3.46,6,Cybersecurity,Austin,6,149,3.0,62.88,0
+18.03,4,SaaS,Seattle,6,24,5.8,58.98,1
+23.9,5,CleanTech,London,15,241,1.1,62.03,0
+13.45,1,EdTech,Seattle,0,39,10.8,53.34,0
+2.85,1,Cybersecurity,Toronto,9,68,8.9,59.3,0
+13.12,1,EdTech,San Francisco,17,243,9.2,60.88,1
+13.1,2,EdTech,London,15,126,10.5,68.71,1
+15.67,7,HealthTech,Seattle,10,51,9.6,75.06,0
+10.35,5,CleanTech,Austin,17,126,5.4,58.98,1
+11.67,6,EdTech,Berlin,7,21,1.7,60.51,0
+17.47,3,CleanTech,Toronto,11,80,4.7,57.88,1
+28.29,7,FinTech,London,9,238,11.2,79.2,1
+13.4,2,AI/ML,San Francisco,0,76,11.4,68.36,1
+12.07,7,SaaS,San Francisco,0,223,9.3,72.77,0
+19.93,1,SaaS,Seattle,16,136,2.7,61.01,1
+2.66,1,HealthTech,Berlin,3,164,2.6,49.11,1
+29.28,1,FinTech,Boston,6,176,10.6,70.46,0
+18.16,6,EdTech,Boston,11,138,2.0,62.56,0
+18.91,2,SaaS,Toronto,10,10,7.1,59.69,1
+47.5,4,CleanTech,San Francisco,9,229,4.7,67.2,1
+2.58,4,SaaS,San Francisco,17,119,3.8,69.0,0
+2.52,6,HealthTech,New York,14,164,8.2,75.63,1
+23.9,3,EdTech,Bangalore,16,139,11.5,67.1,1
+18.05,1,AI/ML,Seattle,11,165,9.4,64.04,0
+21.55,3,SaaS,New York,17,89,6.0,64.71,1
+11.45,3,Cybersecurity,Boston,10,211,5.5,60.29,1
+35.32,6,SaaS,Bangalore,9,57,10.9,68.84,0
+46.18,6,AI/ML,Berlin,14,164,7.1,64.48,1
+29.49,1,FinTech,Austin,15,145,6.1,54.78,1
+14.0,6,HealthTech,Austin,1,126,8.3,75.15,1
+2.21,1,CleanTech,San Francisco,16,7,3.1,48.07,1
+39.22,5,EdTech,Singapore,12,98,1.0,66.26,0
+61.67,3,SaaS,New York,16,13,10.3,69.8,0
+34.62,3,AI/ML,Austin,12,126,7.4,67.07,0
+7.54,4,FinTech,Boston,16,172,2.2,55.58,1
+35.65,3,AI/ML,Berlin,4,131,3.8,59.47,0
+42.97,6,EdTech,Berlin,3,189,11.9,78.76,1
+86.39,7,HealthTech,Singapore,3,91,7.7,76.52,0
+7.57,6,SaaS,Austin,4,77,7.7,68.64,0
+14.49,4,SaaS,Boston,3,113,1.1,50.0,0
+38.37,4,HealthTech,Boston,7,58,11.6,67.93,0
+19.25,4,AI/ML,San Francisco,3,200,10.7,69.77,1
+5.95,6,E-commerce,Singapore,2,202,6.7,69.19,1
+27.51,4,EdTech,London,9,105,3.9,67.29,1
+32.42,4,Cybersecurity,Seattle,14,198,8.5,71.54,0
+19.85,3,AI/ML,Bangalore,2,8,10.1,60.5,1
+22.64,3,CleanTech,New York,9,40,9.5,72.02,1
+14.03,4,FinTech,Bangalore,11,72,11.7,67.82,0
+79.7,5,CleanTech,Berlin,12,98,7.8,68.76,1
+7.38,4,EdTech,Austin,1,59,4.1,55.77,1
+10.1,6,E-commerce,Berlin,13,129,6.1,62.69,0
+18.37,6,CleanTech,Singapore,0,198,9.9,65.09,1
+43.77,4,EdTech,Boston,4,115,3.4,54.78,1
+4.07,7,EdTech,Boston,5,113,3.0,68.22,1
+4.9,2,FinTech,Toronto,15,16,8.8,69.75,0
+2.37,7,AI/ML,New York,3,71,5.5,68.82,1
+18.78,3,CleanTech,San Francisco,14,202,9.9,69.72,1
+5.94,4,SaaS,Berlin,17,203,2.0,57.36,0
+12.37,2,HealthTech,Bangalore,17,27,4.2,56.37,1
+35.21,4,EdTech,London,5,6,3.4,51.47,0
+9.57,3,SaaS,New York,1,208,8.5,63.27,0
+22.9,5,Cybersecurity,London,3,45,9.2,69.86,0
+13.47,1,FinTech,Austin,13,144,5.6,58.21,1
+35.59,6,EdTech,Toronto,3,207,5.9,63.8,1
+29.23,7,E-commerce,Berlin,11,197,1.8,62.45,0
+9.1,4,HealthTech,Boston,6,138,8.5,66.53,0
+15.35,4,Cybersecurity,Berlin,13,95,11.9,70.74,0
+51.61,5,Cybersecurity,Berlin,10,193,9.4,74.83,1
+26.93,2,SaaS,Berlin,10,174,2.9,48.6,1
+4.5,6,E-commerce,Boston,14,209,7.6,75.2,1
+35.01,2,CleanTech,London,17,129,3.8,59.9,0
+6.14,5,E-commerce,San Francisco,6,235,0.7,61.02,0
+74.63,3,HealthTech,Seattle,9,192,2.4,63.47,0
+50.61,6,FinTech,Boston,11,17,1.5,58.63,1
+24.29,6,EdTech,London,14,74,2.6,59.19,0
+21.27,2,HealthTech,Bangalore,8,200,9.6,61.54,1
+14.75,5,EdTech,Bangalore,6,30,3.7,55.83,1
+35.82,4,E-commerce,Seattle,15,177,9.2,71.84,1
+12.54,3,AI/ML,Berlin,17,86,11.4,69.37,1
+23.0,5,HealthTech,New York,10,53,7.0,71.02,0
+43.46,7,FinTech,Seattle,1,135,6.0,58.79,0
+10.36,1,HealthTech,Berlin,5,233,9.1,60.79,1
+9.81,7,SaaS,Berlin,8,224,1.4,68.49,1
+5.5,6,CleanTech,Bangalore,12,102,5.3,64.48,1
+6.27,4,EdTech,Seattle,12,2,6.1,53.53,0
+2.92,5,EdTech,Bangalore,14,222,10.0,67.29,1
+37.71,3,AI/ML,Bangalore,0,224,9.8,50.99,1
+110.93,1,FinTech,London,8,152,10.2,63.43,1
+75.59,5,HealthTech,San Francisco,12,157,8.5,77.44,0
+3.57,6,FinTech,Boston,17,132,6.5,68.74,1
+37.52,2,AI/ML,Singapore,2,5,10.0,58.29,1
+75.35,6,SaaS,London,15,41,10.5,66.11,1
+11.51,6,AI/ML,Bangalore,0,37,5.9,53.89,1
+20.11,6,AI/ML,Toronto,3,228,11.8,78.93,1
+2.44,3,SaaS,San Francisco,15,14,10.5,69.96,1
+23.73,3,CleanTech,Toronto,14,140,6.3,57.04,0
+6.27,3,Cybersecurity,Boston,17,91,1.1,53.93,1
+22.19,6,FinTech,Toronto,10,3,2.9,59.09,1
+3.81,7,Cybersecurity,London,11,229,9.4,71.54,0
+31.28,3,HealthTech,Seattle,9,6,1.6,43.96,0
+50.63,7,HealthTech,San Francisco,9,214,5.8,73.18,1
+8.3,4,AI/ML,New York,9,194,7.4,71.75,1
+5.83,3,FinTech,London,5,198,10.6,71.69,1
+2.1,1,EdTech,London,15,42,10.2,65.35,1
+13.92,5,HealthTech,London,6,220,9.2,65.81,0
+10.16,5,SaaS,New York,10,150,5.1,66.91,1
+3.85,7,CleanTech,London,12,101,2.0,63.11,0
+28.59,6,Cybersecurity,San Francisco,9,170,8.1,73.66,0
+11.59,1,HealthTech,New York,11,86,2.4,53.94,1
+6.2,4,AI/ML,Seattle,0,71,6.9,57.93,0
+10.44,6,SaaS,Berlin,5,73,11.8,60.86,1
+53.05,4,SaaS,Berlin,8,143,6.7,70.11,1
+33.21,4,E-commerce,Bangalore,7,151,7.9,65.31,0
+15.96,6,Cybersecurity,Toronto,16,61,8.2,65.13,1
+33.75,5,SaaS,Boston,16,62,10.0,74.1,0
+5.69,5,FinTech,Singapore,12,236,5.4,65.85,1
+18.77,4,Cybersecurity,San Francisco,6,129,6.1,64.77,1
+21.06,2,Cybersecurity,Toronto,0,215,2.4,46.22,0
+11.36,4,EdTech,Boston,13,83,7.5,67.21,1
+28.09,7,AI/ML,Singapore,15,73,3.8,66.37,1
+8.33,5,CleanTech,Bangalore,8,72,6.2,58.52,1
+30.26,5,AI/ML,Singapore,14,133,9.3,77.27,1
+31.56,1,SaaS,Bangalore,16,195,0.5,51.04,1
+0.98,7,Cybersecurity,San Francisco,9,126,6.9,71.79,0
+59.76,2,CleanTech,New York,3,75,2.3,56.05,1
+0.86,7,AI/ML,Berlin,0,240,3.6,59.2,1
+9.82,4,HealthTech,London,13,143,0.7,57.26,0
+50.67,7,SaaS,New York,10,99,2.3,68.24,0
+13.23,7,E-commerce,Singapore,2,4,11.8,61.14,0
+4.19,6,EdTech,San Francisco,0,141,12.0,71.15,0
+6.09,7,AI/ML,Bangalore,17,156,8.7,72.47,1
+50.75,5,E-commerce,New York,5,232,7.5,71.06,1
+2.66,6,FinTech,Seattle,5,59,9.4,72.96,1
+56.2,2,AI/ML,Toronto,11,42,10.8,69.27,1
+17.2,1,E-commerce,London,6,249,6.4,50.54,0
+5.52,4,HealthTech,Singapore,16,138,0.7,58.0,1
+10.14,6,AI/ML,Singapore,12,8,8.6,64.97,0
+6.57,6,E-commerce,Bangalore,6,28,11.8,68.95,0
+43.22,4,FinTech,Seattle,4,119,3.3,50.99,0
+37.8,4,E-commerce,Bangalore,15,155,5.7,56.11,1
+3.26,5,EdTech,London,10,62,4.5,66.45,0
+12.14,7,SaaS,Toronto,16,92,4.9,69.98,0
+7.67,6,E-commerce,Singapore,6,184,8.7,67.44,0
+66.25,1,FinTech,New York,0,241,4.7,50.89,0
+4.71,5,FinTech,Berlin,16,123,11.3,70.18,1
+90.4,3,SaaS,Toronto,4,105,9.5,66.39,1
+17.58,6,Cybersecurity,New York,15,91,0.6,61.95,1
+5.69,4,FinTech,Toronto,12,35,9.9,73.86,1
+9.23,7,CleanTech,New York,4,15,9.3,68.91,1
+8.15,4,FinTech,Toronto,13,208,6.3,66.7,1
+5.08,5,SaaS,Singapore,1,11,6.1,51.54,0
+19.98,1,SaaS,New York,7,205,10.1,64.4,1
+5.32,7,SaaS,Singapore,6,63,5.3,67.3,0
+2.05,2,FinTech,New York,11,174,2.2,55.75,1
+12.43,3,CleanTech,London,9,237,4.0,58.34,1
+3.0,6,EdTech,Bangalore,11,187,3.4,63.45,1
+8.57,7,CleanTech,Austin,8,182,8.3,77.12,1
+7.32,4,E-commerce,New York,13,67,2.4,58.3,0
+7.6,4,AI/ML,Seattle,2,150,7.8,70.6,1
+134.42,1,EdTech,Boston,12,161,5.8,61.79,1
+19.23,7,E-commerce,San Francisco,0,107,10.1,73.66,1
+23.23,1,Cybersecurity,Seattle,1,11,6.0,48.62,0
+3.08,1,Cybersecurity,Austin,13,228,11.2,66.15,1
+9.45,4,Cybersecurity,New York,2,50,10.8,67.11,1
+22.54,1,HealthTech,Austin,13,243,2.5,58.59,0
+6.52,2,AI/ML,San Francisco,2,233,8.3,68.35,0
+45.06,5,SaaS,Bangalore,2,6,2.8,53.99,1
+5.46,5,Cybersecurity,Bangalore,16,185,9.9,75.15,0
+13.65,3,Cybersecurity,Boston,3,159,7.7,61.27,1
+10.11,6,CleanTech,Toronto,16,59,3.7,66.97,0
+21.42,5,HealthTech,Seattle,6,203,3.2,67.99,1
+9.58,2,EdTech,Bangalore,14,29,5.3,57.74,1
+13.86,5,E-commerce,New York,16,63,9.7,70.88,0
+14.35,5,E-commerce,Austin,2,237,9.6,69.63,1
+8.72,6,EdTech,Singapore,5,186,0.7,53.94,0
+29.52,2,HealthTech,Austin,10,29,3.8,56.99,0
+23.07,2,HealthTech,Toronto,15,37,5.2,59.98,0
+16.63,3,E-commerce,Seattle,3,65,7.2,53.09,0
+11.82,3,SaaS,Seattle,3,19,2.0,53.59,0
+40.31,7,SaaS,Seattle,6,47,4.2,61.34,1
+14.36,6,CleanTech,Singapore,3,143,10.7,69.67,1
+13.37,4,FinTech,San Francisco,4,3,5.9,60.34,0
+20.18,4,CleanTech,Singapore,2,73,9.0,60.73,1
+99.15,7,EdTech,Singapore,14,79,6.0,69.92,1
+4.76,4,Cybersecurity,Toronto,14,242,5.7,65.37,1
+39.25,2,Cybersecurity,Bangalore,2,243,7.6,57.14,0
+2.74,1,AI/ML,Singapore,9,211,3.3,58.67,0
+22.58,3,EdTech,London,11,86,3.2,54.09,1
+87.8,5,HealthTech,Seattle,11,132,11.9,82.81,1
+29.63,4,HealthTech,Boston,17,127,10.5,72.59,0
+21.56,3,Cybersecurity,Toronto,11,215,8.9,62.83,1
+10.38,4,HealthTech,Boston,12,186,1.9,56.54,0
+18.75,7,SaaS,London,0,226,0.7,63.8,0
+14.12,7,SaaS,San Francisco,1,138,2.4,61.85,0
+8.28,2,E-commerce,Boston,11,229,11.3,61.28,1
+13.6,1,CleanTech,Austin,16,186,9.9,68.26,0
+22.16,2,AI/ML,Seattle,7,185,6.4,62.05,0
+8.44,6,CleanTech,London,11,166,11.6,77.52,1
+8.12,4,AI/ML,Singapore,3,85,2.0,61.17,0
+4.66,7,SaaS,Seattle,8,152,6.8,72.01,1
+26.86,5,HealthTech,New York,13,90,2.4,73.29,0
+31.35,4,HealthTech,London,11,163,3.9,56.98,0
+22.91,2,SaaS,San Francisco,2,65,11.3,62.8,1
+47.71,3,FinTech,Toronto,15,200,10.5,70.35,1
+19.84,2,EdTech,Singapore,16,143,1.5,63.45,1
+26.9,4,SaaS,Austin,8,178,3.2,68.43,1
+24.63,2,SaaS,Austin,6,57,7.3,65.68,0
+16.58,3,CleanTech,San Francisco,9,198,1.0,53.9,1
+10.69,1,Cybersecurity,Boston,14,201,6.7,58.99,0
+166.36,6,E-commerce,San Francisco,8,38,7.1,65.66,1
+11.57,7,FinTech,Bangalore,0,88,3.7,57.23,0
+9.34,4,SaaS,New York,1,170,3.7,64.85,0
+28.05,4,E-commerce,Berlin,14,218,3.0,58.55,0
+23.38,7,AI/ML,London,14,184,11.2,79.24,0
+4.46,4,SaaS,Austin,13,118,4.8,65.92,0
+55.85,5,SaaS,Toronto,2,76,7.1,56.95,0
+16.54,3,SaaS,New York,3,227,3.8,59.51,0
+5.98,4,AI/ML,Toronto,7,218,8.5,64.17,1
+59.67,4,HealthTech,Singapore,4,224,1.5,57.4,1
+33.98,5,AI/ML,Berlin,6,77,1.1,57.05,1
+5.13,5,HealthTech,Toronto,10,110,9.0,67.14,0
+107.47,4,E-commerce,Seattle,5,62,8.8,66.31,0
+35.12,1,CleanTech,Austin,2,238,3.4,52.83,0
+17.99,7,AI/ML,New York,7,217,4.5,70.55,0
+89.14,7,SaaS,Bangalore,13,44,11.5,77.11,1
+21.31,2,Cybersecurity,Seattle,11,63,1.5,50.63,0
+17.67,3,E-commerce,Toronto,5,138,2.4,55.88,1
+9.39,7,SaaS,Boston,5,105,5.3,66.93,1
+32.52,3,FinTech,Bangalore,10,116,3.6,57.67,0
+29.27,6,FinTech,Toronto,3,93,7.9,65.63,1
+18.44,6,HealthTech,Boston,15,169,8.4,72.87,1
+8.25,7,HealthTech,Seattle,15,224,6.5,79.38,1
+20.7,1,E-commerce,Singapore,0,229,7.5,52.76,0
+16.95,4,AI/ML,Austin,17,114,5.4,61.99,1
+4.79,4,Cybersecurity,San Francisco,0,207,9.2,69.43,1
+4.17,6,AI/ML,Austin,8,174,0.8,60.4,1
+31.98,2,Cybersecurity,London,12,50,4.0,59.78,1
+1.35,3,AI/ML,New York,5,198,8.3,64.46,1
+22.32,2,EdTech,Boston,3,88,4.2,59.08,1
+11.27,6,E-commerce,Bangalore,0,157,1.2,49.51,1
+67.24,7,SaaS,San Francisco,13,180,4.3,76.8,0
+11.1,1,EdTech,San Francisco,0,236,8.6,52.62,0
+35.15,2,SaaS,Seattle,8,237,1.7,54.85,1
+12.22,3,E-commerce,San Francisco,7,201,8.8,71.66,1
+20.36,7,SaaS,San Francisco,17,127,9.4,77.77,1
+37.97,4,E-commerce,New York,16,101,7.7,75.56,1
+11.44,2,Cybersecurity,New York,14,111,3.2,57.75,1
+49.23,3,SaaS,Toronto,13,237,9.7,70.19,0
+6.73,5,EdTech,New York,9,52,2.8,67.36,1
+24.4,3,SaaS,London,6,132,10.9,63.26,1
+45.72,1,CleanTech,Singapore,2,170,8.6,51.86,0
+35.16,6,HealthTech,Berlin,17,7,0.9,55.35,0
+123.53,3,Cybersecurity,Berlin,6,159,9.7,71.26,1
+8.47,2,SaaS,Boston,7,66,6.2,51.96,0
+4.58,6,CleanTech,Toronto,2,71,5.6,63.92,1
+6.72,6,CleanTech,San Francisco,4,156,5.2,68.68,1
+35.18,2,CleanTech,New York,11,4,7.4,66.89,0
+29.9,1,Cybersecurity,Toronto,7,40,8.8,64.47,1
+20.13,1,HealthTech,San Francisco,10,114,10.8,69.63,0
+5.91,6,AI/ML,New York,3,146,3.5,70.69,1
+39.13,5,FinTech,New York,1,29,7.7,67.52,1
+5.34,6,EdTech,San Francisco,15,91,8.3,69.81,1
+57.91,5,FinTech,New York,7,78,8.2,66.59,0
+316.54,3,E-commerce,London,6,134,6.1,59.8,0
+26.22,5,AI/ML,Berlin,5,76,4.9,64.23,0
+32.56,6,E-commerce,San Francisco,11,2,9.2,68.18,1
+11.1,3,HealthTech,Bangalore,10,133,3.8,49.63,0
+2.97,7,EdTech,San Francisco,7,212,2.7,64.57,1
+9.95,7,E-commerce,Berlin,16,147,6.7,69.65,1
+6.09,6,CleanTech,Toronto,16,91,3.4,65.6,1
+4.28,7,Cybersecurity,London,3,121,0.7,67.81,0
+101.73,3,FinTech,Seattle,11,36,0.9,57.4,1
+23.88,1,SaaS,New York,17,60,8.4,59.89,1
+26.57,4,FinTech,Austin,8,110,11.7,65.68,0
+13.34,6,CleanTech,Toronto,0,148,5.6,63.29,1
+15.29,6,FinTech,Boston,2,122,2.0,57.43,0
+47.68,3,CleanTech,San Francisco,12,240,9.9,74.27,1
+17.6,3,HealthTech,Singapore,16,160,3.4,67.03,1
+30.9,4,FinTech,Berlin,2,7,11.9,59.61,0
+14.94,6,Cybersecurity,San Francisco,9,132,6.9,73.82,1
+12.91,1,SaaS,San Francisco,8,146,3.0,61.83,0
+4.45,3,SaaS,New York,5,12,6.1,62.45,1
+2.51,2,E-commerce,San Francisco,11,97,4.2,47.35,0
+13.99,6,EdTech,Berlin,15,218,9.4,68.96,1
+19.23,4,E-commerce,New York,4,90,1.5,48.91,0
+5.02,1,SaaS,Berlin,0,115,10.3,59.39,1
+17.56,2,EdTech,New York,6,56,9.3,64.14,0
+19.18,1,SaaS,Bangalore,5,21,10.4,47.53,1
+2.1,4,FinTech,Singapore,13,80,10.8,69.71,1
+7.28,7,EdTech,Boston,9,193,3.0,68.14,1
+27.31,4,AI/ML,Seattle,0,245,6.4,63.64,1
+26.76,7,HealthTech,San Francisco,6,165,10.2,77.7,1
+5.73,6,FinTech,San Francisco,13,208,4.7,69.29,0
+21.29,7,E-commerce,London,8,163,1.0,57.69,0
+50.52,3,SaaS,San Francisco,10,165,3.7,62.85,0
+39.53,7,HealthTech,Berlin,4,107,3.1,65.22,1
+16.52,2,E-commerce,Boston,5,17,10.5,62.96,1
+11.38,4,CleanTech,New York,2,103,5.7,63.73,0
+9.69,5,FinTech,London,1,216,8.3,68.3,1
+29.02,3,HealthTech,London,0,135,11.6,70.62,1
+22.09,2,EdTech,Singapore,11,190,3.8,54.97,0
+34.1,1,E-commerce,New York,2,14,9.2,49.18,0
+20.74,1,FinTech,London,10,51,0.6,53.58,0
+41.21,4,CleanTech,Toronto,17,76,1.5,58.16,1
+19.98,7,EdTech,Austin,12,91,2.2,65.48,1
+39.83,2,HealthTech,Toronto,10,246,4.0,53.88,1
+43.42,4,CleanTech,Singapore,2,116,5.0,66.88,1
+8.13,7,FinTech,Seattle,8,166,5.9,73.86,1
+2.98,6,HealthTech,Toronto,16,161,3.2,64.03,0
+85.07,1,Cybersecurity,Bangalore,6,105,1.1,46.2,1
+23.49,4,AI/ML,Austin,14,241,8.2,74.98,1
+3.27,2,SaaS,Bangalore,12,57,0.6,44.89,0
+8.9,2,E-commerce,San Francisco,4,10,9.8,68.87,1
+39.33,2,E-commerce,New York,2,186,11.2,62.3,1
+13.74,5,AI/ML,San Francisco,0,164,8.6,74.71,0
+10.89,2,FinTech,Boston,4,66,7.3,60.0,1
+73.76,2,AI/ML,Bangalore,5,217,8.0,70.88,0
+6.38,2,EdTech,Berlin,11,42,7.9,55.58,1
+8.18,3,CleanTech,Berlin,10,64,11.2,67.01,1
+22.45,5,AI/ML,San Francisco,8,40,11.6,77.83,1
+26.86,3,FinTech,London,13,48,5.3,65.88,1
+29.85,3,Cybersecurity,Boston,13,182,7.5,71.38,1
+45.21,4,EdTech,Seattle,12,176,9.7,68.05,1
+22.17,5,EdTech,Austin,16,161,0.3,58.76,0
+29.65,1,Cybersecurity,Austin,6,215,6.5,65.16,1
+14.02,7,CleanTech,Bangalore,14,19,7.9,66.05,1
+19.35,7,CleanTech,London,7,155,8.7,75.15,1
+20.24,5,E-commerce,Seattle,3,30,4.6,57.2,1
+22.54,5,Cybersecurity,San Francisco,2,239,3.8,65.09,0
+39.35,5,FinTech,Singapore,1,159,2.4,59.61,1
+31.66,4,AI/ML,Seattle,17,190,6.8,67.25,1
+19.0,3,EdTech,Boston,3,143,11.1,64.98,1
+8.09,3,SaaS,Berlin,15,97,10.8,69.36,1
+19.45,2,HealthTech,New York,14,172,4.5,61.65,0
+17.67,6,HealthTech,London,7,209,3.3,72.43,1
+22.05,3,SaaS,Toronto,16,46,9.5,70.39,0
+165.1,2,Cybersecurity,Seattle,16,218,8.8,70.1,1
+10.76,7,E-commerce,San Francisco,16,182,6.2,68.89,1
+27.72,4,EdTech,Austin,8,23,4.9,54.58,1
+52.9,5,SaaS,San Francisco,5,234,1.7,70.95,1
+20.05,2,AI/ML,London,0,46,9.5,56.29,1
+188.26,2,HealthTech,Boston,15,151,7.5,67.13,1
+12.45,6,AI/ML,New York,15,34,4.7,69.92,0
+25.13,4,E-commerce,Berlin,9,50,11.0,66.01,0
+8.18,2,HealthTech,New York,1,161,8.0,56.81,1
+12.79,6,AI/ML,Boston,14,170,11.2,74.88,1
+23.31,3,E-commerce,Bangalore,5,172,5.9,55.92,0
+42.36,5,AI/ML,San Francisco,9,87,5.6,66.94,1
+25.01,3,EdTech,Austin,11,205,11.3,74.07,1
+64.01,4,AI/ML,Boston,2,14,11.5,68.47,0
+16.53,6,CleanTech,London,1,213,11.5,70.22,1
+13.04,7,HealthTech,Austin,1,76,9.9,71.35,1
+271.51,2,AI/ML,Bangalore,17,155,5.7,67.28,1
+26.96,5,E-commerce,San Francisco,17,226,2.8,63.23,1
+8.85,7,EdTech,Bangalore,7,65,4.8,67.51,0
+9.08,5,SaaS,London,7,103,11.3,67.98,0
+7.08,2,Cybersecurity,San Francisco,7,207,4.6,65.87,0
+46.37,2,EdTech,New York,6,216,9.2,65.0,1
+12.62,2,AI/ML,New York,9,60,11.1,69.03,0
+20.64,1,HealthTech,Austin,6,128,11.7,63.47,0
+17.06,6,Cybersecurity,Boston,11,84,11.4,71.06,1
+37.77,7,AI/ML,Berlin,6,130,6.8,65.49,0
+7.79,4,CleanTech,Boston,11,96,6.1,60.42,0
+6.2,5,AI/ML,Singapore,17,3,11.9,73.4,0
+22.74,6,EdTech,Austin,3,231,2.9,56.79,0
+33.15,3,EdTech,Austin,1,160,2.5,44.94,1
+25.34,4,E-commerce,Austin,9,116,11.6,66.16,1
+8.09,5,CleanTech,Boston,2,28,8.4,61.73,0
+35.78,3,HealthTech,Toronto,4,19,6.6,57.36,0
+8.64,1,CleanTech,Austin,14,120,1.8,51.17,1
+10.79,4,CleanTech,Austin,7,162,6.3,67.66,1
+7.07,6,FinTech,Bangalore,9,66,11.3,77.71,1
+66.76,1,FinTech,Berlin,13,186,7.4,71.39,0
+34.24,2,E-commerce,New York,2,99,5.0,47.51,0
+33.28,2,CleanTech,Toronto,8,4,6.7,50.53,1
+63.26,6,SaaS,New York,0,135,10.7,73.46,1
+302.67,4,E-commerce,New York,8,46,11.0,68.34,1
+3.29,4,Cybersecurity,Seattle,4,5,5.0,60.07,0
+8.69,5,EdTech,Berlin,16,34,7.4,65.71,1
+9.81,2,HealthTech,New York,4,72,3.6,62.81,1
+7.76,5,Cybersecurity,Singapore,3,129,5.6,67.76,1
+6.19,1,EdTech,New York,0,247,2.9,52.28,0
+13.47,1,SaaS,Singapore,2,56,6.5,52.49,0
+5.38,6,SaaS,San Francisco,3,16,7.1,65.5,1
+25.41,5,AI/ML,Seattle,4,49,4.3,62.26,1
+19.14,2,EdTech,Berlin,13,81,3.5,47.8,1
+29.4,4,E-commerce,Austin,15,52,2.1,62.93,0
+30.2,1,E-commerce,Berlin,15,81,1.9,53.57,0
+33.22,5,HealthTech,Berlin,17,242,8.6,71.31,1
+12.51,6,SaaS,Berlin,16,96,2.9,69.5,0
+151.58,2,FinTech,Boston,8,159,1.7,54.64,0
+22.98,3,HealthTech,Singapore,7,171,12.0,63.93,1
+2.82,2,Cybersecurity,Singapore,11,34,3.3,58.64,0
+6.67,3,AI/ML,Boston,5,63,10.8,63.14,0
+3.19,2,AI/ML,Singapore,10,105,7.4,62.46,0
+18.49,2,Cybersecurity,Bangalore,17,116,8.7,66.01,0
+16.09,4,E-commerce,Toronto,3,5,6.9,56.73,1
+11.38,7,CleanTech,Singapore,13,161,2.4,68.75,1
+135.77,6,E-commerce,Singapore,16,76,10.2,75.03,1
+31.47,3,SaaS,Toronto,9,81,10.0,69.07,1
+37.57,7,E-commerce,Austin,6,151,4.4,62.36,1
+7.16,2,EdTech,Singapore,4,237,9.2,63.04,1
+6.69,7,Cybersecurity,New York,3,216,6.7,64.84,0
+18.86,3,HealthTech,Boston,5,244,10.9,75.51,1
+21.61,4,Cybersecurity,Bangalore,13,104,9.7,63.94,0
+2.84,2,Cybersecurity,Austin,9,31,0.8,48.23,0
+15.18,6,HealthTech,Toronto,3,55,10.6,65.49,1
+18.43,3,E-commerce,Seattle,9,87,11.6,65.01,1
+14.66,7,Cybersecurity,Austin,14,76,9.0,74.2,1
+8.06,1,AI/ML,San Francisco,0,53,1.7,45.83,0
+10.6,4,EdTech,London,0,39,9.7,65.36,1
+15.23,2,Cybersecurity,Seattle,17,48,7.9,65.1,0
+19.9,7,AI/ML,London,13,165,4.3,69.91,1
+33.27,3,FinTech,San Francisco,10,123,10.6,71.85,1
+53.56,5,HealthTech,Austin,16,11,6.9,71.22,1
+13.54,7,E-commerce,San Francisco,10,141,10.3,78.28,1
+11.52,4,SaaS,Boston,9,210,8.1,63.64,1
+28.15,1,HealthTech,Bangalore,3,107,3.7,49.23,0
+33.48,2,CleanTech,New York,14,81,11.7,71.16,1
+11.77,2,FinTech,Berlin,13,69,7.0,63.71,0
+40.06,7,HealthTech,San Francisco,5,96,6.3,68.03,0
+48.4,7,SaaS,London,13,71,5.0,72.88,0
+66.13,4,FinTech,Bangalore,13,231,1.9,57.76,1
+107.59,7,SaaS,Boston,1,248,8.3,76.16,1
+7.64,2,Cybersecurity,New York,2,87,5.3,59.34,1
+18.43,5,Cybersecurity,London,10,231,11.2,71.12,1
+18.38,3,CleanTech,Austin,11,213,11.6,68.3,1
+16.48,2,EdTech,Toronto,11,20,9.3,57.6,1
+9.49,2,FinTech,Toronto,6,123,3.1,56.02,0
+4.11,3,CleanTech,Berlin,15,164,8.7,64.76,1
+19.94,3,EdTech,Berlin,8,106,0.5,46.33,0
+8.43,2,E-commerce,Berlin,3,115,10.0,54.17,0
+19.81,3,FinTech,Singapore,2,124,6.1,63.03,1
+8.21,1,E-commerce,Seattle,15,172,11.3,66.65,1
+6.05,7,AI/ML,Bangalore,12,74,4.7,68.89,1
+22.97,3,Cybersecurity,Boston,8,150,3.4,61.05,1
+21.13,1,FinTech,San Francisco,3,62,11.9,64.26,0
+32.44,5,SaaS,Berlin,1,222,6.5,64.59,0
+161.72,7,Cybersecurity,Berlin,2,22,10.4,79.88,1
+23.98,3,SaaS,Bangalore,1,18,11.0,66.35,1
+29.52,6,E-commerce,Boston,9,11,6.4,62.36,1
+6.19,5,HealthTech,Seattle,3,88,5.6,61.51,1
+5.02,6,E-commerce,London,2,152,6.8,52.16,1
+88.48,3,EdTech,Boston,5,246,10.2,71.67,1
+7.22,1,AI/ML,Singapore,12,114,11.6,71.01,1
+6.4,3,Cybersecurity,Seattle,8,47,4.1,56.02,0
+17.48,7,E-commerce,Singapore,2,93,8.9,62.52,0
+16.61,6,SaaS,Seattle,13,33,3.6,59.52,0
+7.37,6,HealthTech,Austin,8,119,7.4,71.51,1
+13.4,7,EdTech,Bangalore,3,182,9.7,70.11,0
+62.14,3,CleanTech,London,12,10,10.7,69.16,0
+8.12,3,HealthTech,Singapore,17,194,5.5,64.55,1
+4.51,7,E-commerce,London,9,58,4.6,68.82,1
+46.65,5,SaaS,Boston,2,168,3.3,62.66,1
+29.73,3,EdTech,Bangalore,5,204,1.9,57.05,0
+9.77,2,E-commerce,Boston,10,194,4.6,47.73,1
+3.74,7,EdTech,Bangalore,17,168,10.5,69.5,0
+8.63,1,EdTech,Seattle,16,174,5.2,55.92,1
+17.21,1,AI/ML,San Francisco,16,48,4.0,64.21,0
+58.3,6,CleanTech,San Francisco,14,35,8.9,79.01,1
+6.45,1,CleanTech,Bangalore,10,96,2.8,50.09,1
+16.7,2,E-commerce,London,11,152,3.3,53.09,0
+35.7,7,E-commerce,Boston,13,155,11.3,69.12,0
+1.68,3,CleanTech,Toronto,12,194,1.3,57.87,0
+51.1,6,EdTech,Berlin,11,78,5.2,63.01,1
+5.57,4,EdTech,Berlin,2,216,7.0,72.37,1
+25.33,1,SaaS,Berlin,15,113,3.0,51.5,1
+23.26,2,E-commerce,New York,0,63,3.6,58.06,1
+53.76,6,E-commerce,San Francisco,7,184,2.9,67.81,0
+31.53,1,HealthTech,Singapore,7,33,4.3,49.52,0
+1.69,5,CleanTech,San Francisco,17,102,10.8,74.36,1
+8.29,3,EdTech,Singapore,1,195,5.3,58.9,1
+20.87,3,Cybersecurity,New York,8,193,5.2,62.79,0
+14.95,7,E-commerce,Austin,6,65,4.8,67.67,0
+29.3,5,Cybersecurity,Singapore,1,43,11.6,72.0,1
+40.02,5,E-commerce,Berlin,4,9,1.7,54.4,1
+33.4,3,AI/ML,Singapore,7,24,10.5,67.59,0
+14.67,3,HealthTech,Berlin,16,206,4.1,56.99,1
+2.87,5,SaaS,San Francisco,6,196,11.5,73.94,1
+11.53,1,CleanTech,Toronto,15,127,4.0,55.53,1
+27.56,2,SaaS,Austin,13,143,1.3,46.56,1
+6.11,5,FinTech,New York,14,83,6.4,69.69,0
+34.17,5,HealthTech,Toronto,15,49,3.0,61.92,1
+45.08,1,AI/ML,New York,12,4,9.1,56.46,1
+20.63,6,E-commerce,London,13,168,8.0,69.54,1
+0.85,4,Cybersecurity,Seattle,2,10,8.3,58.85,1
+5.06,2,Cybersecurity,Singapore,12,28,2.6,61.82,1
+119.84,6,AI/ML,San Francisco,0,198,8.6,72.52,1
+10.52,7,AI/ML,New York,13,146,3.9,74.72,1
+2.5,3,CleanTech,Seattle,11,123,12.0,69.2,1
+62.51,2,FinTech,Seattle,13,56,8.9,58.81,1
+18.42,3,AI/ML,Singapore,11,39,7.2,67.32,1
+54.87,5,SaaS,Berlin,6,117,10.4,68.81,0
+23.97,1,CleanTech,New York,6,90,7.2,57.85,1
+28.75,4,CleanTech,Bangalore,10,134,6.8,59.88,0
+26.13,1,E-commerce,Seattle,8,42,3.1,50.79,0
+36.51,1,E-commerce,Bangalore,6,59,8.2,61.08,0
+177.23,4,E-commerce,Bangalore,8,29,4.7,62.12,1
+47.99,6,AI/ML,San Francisco,9,107,0.8,71.78,1
+3.74,7,HealthTech,London,4,70,9.8,78.63,1
+28.41,1,EdTech,Seattle,11,57,0.9,39.96,0
+56.91,2,E-commerce,Seattle,5,138,8.2,56.3,1
+60.5,3,AI/ML,Boston,4,125,2.1,50.16,1
+11.86,5,HealthTech,London,7,54,5.4,67.56,1
+58.26,7,Cybersecurity,Seattle,1,175,10.4,71.44,0
+45.96,5,Cybersecurity,New York,10,87,1.4,60.01,1
+238.06,4,E-commerce,Austin,13,86,8.1,66.0,0
+8.58,1,HealthTech,New York,17,120,7.5,65.27,0
+10.94,1,Cybersecurity,Toronto,5,36,10.5,54.41,1
+13.38,2,HealthTech,Berlin,9,106,2.3,49.16,0
+11.13,5,SaaS,Boston,9,146,9.7,71.5,1
+7.46,3,CleanTech,Boston,13,33,5.6,64.65,0
+1.15,2,AI/ML,San Francisco,11,142,5.3,62.85,0
+11.77,5,HealthTech,Austin,14,11,4.5,58.56,0
+26.29,6,FinTech,Bangalore,15,151,4.8,59.64,0
+11.1,4,EdTech,San Francisco,2,10,6.4,62.1,1
+125.89,7,E-commerce,New York,6,45,1.5,58.67,0
+18.42,6,E-commerce,Toronto,11,88,5.3,59.44,0
+66.09,6,HealthTech,London,9,154,7.9,66.58,0
+23.6,7,HealthTech,San Francisco,8,180,6.1,67.86,1
+41.53,2,E-commerce,Seattle,3,118,2.2,46.78,0
+24.03,6,HealthTech,Singapore,10,34,4.5,64.33,1
+71.43,7,FinTech,Boston,13,98,5.5,67.47,1
+19.22,7,SaaS,Boston,0,197,8.1,69.19,1
+29.85,5,AI/ML,Berlin,10,24,10.8,70.97,0
+26.22,6,HealthTech,London,16,179,6.7,79.73,0
+13.62,7,HealthTech,Bangalore,10,97,8.2,65.7,1
+27.25,6,HealthTech,Austin,17,2,1.2,58.65,1
+169.76,7,EdTech,Austin,6,174,11.5,76.42,1
+13.87,6,FinTech,New York,0,8,4.0,53.09,0
+27.65,3,FinTech,Berlin,12,93,4.4,61.78,0
+63.93,6,EdTech,London,3,50,2.9,63.35,1
+56.84,3,FinTech,Boston,0,146,1.3,52.58,0
+18.39,6,EdTech,Berlin,3,15,9.5,70.66,1
+1.68,6,AI/ML,Boston,16,24,3.1,54.7,1
+30.47,7,FinTech,New York,14,133,3.6,67.41,1
+1.97,5,AI/ML,London,4,248,2.4,68.31,1
+79.04,4,AI/ML,Seattle,10,11,11.7,74.96,1
+21.53,2,AI/ML,Seattle,6,116,9.4,68.91,1
+49.39,5,E-commerce,Seattle,3,201,11.2,75.08,1
+7.37,4,CleanTech,Bangalore,17,74,10.4,60.79,0
+3.85,4,FinTech,Austin,14,124,10.9,74.79,1
+23.59,5,HealthTech,Austin,6,209,5.9,71.07,1
+17.57,6,EdTech,London,6,182,2.3,59.14,0
+11.12,2,E-commerce,San Francisco,14,74,4.1,68.55,1
+19.78,4,CleanTech,New York,8,188,3.7,62.97,0
+289.29,6,Cybersecurity,London,6,169,8.7,65.69,1
+41.87,6,AI/ML,London,6,127,0.6,64.88,0
+51.91,6,SaaS,Berlin,8,111,2.0,59.47,1
+42.26,6,SaaS,New York,9,231,8.3,77.52,1
+79.8,6,FinTech,Toronto,0,218,1.7,61.08,1
+15.03,7,SaaS,Seattle,8,247,0.9,62.17,0
+2.33,5,AI/ML,New York,7,169,1.6,68.42,1
+15.05,2,HealthTech,Boston,4,91,8.4,66.47,0
+40.92,4,CleanTech,Austin,6,29,1.9,51.04,1
+6.89,5,CleanTech,Seattle,7,33,2.0,56.49,0
+15.24,1,EdTech,Seattle,6,237,3.0,55.06,0
+9.1,6,Cybersecurity,Seattle,16,92,9.1,72.19,1
+81.62,4,FinTech,Seattle,9,29,2.6,58.68,1
+38.45,7,Cybersecurity,Bangalore,9,57,0.7,61.87,1
+34.87,2,CleanTech,Bangalore,4,7,10.9,54.86,0
+33.84,7,HealthTech,Seattle,16,133,10.6,70.33,1
+17.51,4,E-commerce,Bangalore,0,148,2.5,51.13,1
+22.14,5,EdTech,Toronto,9,95,3.4,51.04,0
+5.56,5,CleanTech,Toronto,3,186,2.5,52.94,0
+2.04,5,HealthTech,Austin,13,121,8.7,63.08,1
+21.12,7,HealthTech,Seattle,6,240,3.2,61.18,0
+25.13,2,EdTech,Boston,5,191,11.2,67.6,1
+60.9,6,HealthTech,San Francisco,1,20,10.0,69.53,0
+87.47,7,EdTech,San Francisco,14,69,7.2,71.94,1
+87.36,2,AI/ML,Berlin,7,189,0.4,48.97,0
+6.7,2,E-commerce,Seattle,4,135,10.6,60.25,0
+12.78,4,AI/ML,Toronto,15,188,8.8,72.13,1
+29.38,6,HealthTech,Berlin,0,85,9.5,67.0,0
+228.58,7,HealthTech,San Francisco,8,11,1.1,67.41,1
+79.85,6,Cybersecurity,Toronto,2,196,8.6,73.56,1
+55.67,6,EdTech,Seattle,2,196,9.7,69.43,0
+12.33,4,FinTech,London,0,160,11.5,60.7,1
+7.51,5,SaaS,Bangalore,3,102,7.1,60.63,0
+40.0,2,FinTech,Berlin,17,4,6.2,57.66,0
+6.05,4,EdTech,San Francisco,8,182,5.3,60.33,1
+14.32,2,CleanTech,New York,17,165,8.5,61.83,1
+16.2,1,EdTech,Seattle,4,167,11.1,63.39,1
+89.38,6,E-commerce,San Francisco,13,44,7.3,78.39,1
+12.75,6,SaaS,New York,1,183,3.0,59.79,1
+1.59,4,EdTech,Singapore,1,181,0.5,49.42,0
+30.1,1,E-commerce,New York,0,214,7.5,48.78,1
+9.03,1,AI/ML,New York,16,142,10.4,73.43,1
+18.97,1,EdTech,London,12,183,1.1,55.47,0
+16.66,6,HealthTech,San Francisco,13,101,5.0,73.1,1
+13.82,2,Cybersecurity,Austin,16,174,11.3,74.68,1
+40.06,2,HealthTech,Bangalore,5,174,6.2,58.36,1
+3.92,7,Cybersecurity,Berlin,13,195,2.9,65.45,1
+10.84,7,SaaS,Bangalore,9,214,4.4,73.99,1
+36.02,6,Cybersecurity,Boston,9,2,5.1,65.05,1
+9.83,3,EdTech,Berlin,11,195,1.7,44.7,1
+3.64,5,AI/ML,Austin,8,198,8.0,71.95,0
+35.47,2,AI/ML,Boston,0,137,7.2,56.53,1
+55.87,7,EdTech,New York,1,130,7.9,72.34,0
+17.37,1,HealthTech,Toronto,9,181,7.4,62.75,0
+2.56,6,AI/ML,New York,10,114,0.5,55.43,1
+36.82,4,E-commerce,Austin,13,104,2.3,59.01,0
+3.46,6,EdTech,Seattle,10,201,2.2,62.88,1
+24.75,4,CleanTech,Seattle,3,197,1.4,57.76,0
+7.48,2,E-commerce,Boston,6,53,8.9,62.26,1
+5.7,6,HealthTech,Boston,7,207,1.7,69.14,0
+11.68,5,Cybersecurity,Austin,17,82,8.1,71.58,0
+15.13,4,FinTech,Bangalore,9,36,2.4,57.49,0
+9.54,3,E-commerce,London,11,219,1.7,60.84,0
+32.74,3,SaaS,Bangalore,13,61,2.2,65.67,1
+11.63,4,E-commerce,Bangalore,6,52,6.2,62.71,0
+48.43,2,CleanTech,Berlin,17,68,7.9,63.75,1
+24.07,2,E-commerce,Toronto,12,123,9.8,65.38,1
+9.05,2,E-commerce,New York,15,43,1.8,53.46,1
+7.65,1,CleanTech,Bangalore,13,41,7.5,57.22,0
+3.5,7,E-commerce,Seattle,11,99,9.4,79.19,1
+24.31,2,CleanTech,Singapore,0,56,4.0,45.73,0
+12.75,2,SaaS,Austin,10,49,1.2,56.98,0
+1.7,2,HealthTech,San Francisco,2,228,2.1,53.8,0
+10.64,7,HealthTech,Toronto,10,149,1.4,57.83,1
+7.38,4,AI/ML,Seattle,12,5,10.7,67.81,1
+87.85,3,AI/ML,New York,9,27,4.7,60.13,0
+3.31,3,FinTech,Berlin,5,203,6.4,64.64,0
+4.3,1,HealthTech,San Francisco,1,68,9.3,60.56,1
+55.15,3,Cybersecurity,Seattle,12,39,4.6,56.71,1
+70.58,2,E-commerce,Singapore,12,167,7.9,68.77,1
+8.63,6,CleanTech,Singapore,8,209,1.2,65.42,1
+9.66,1,HealthTech,Seattle,12,100,5.9,66.28,1
+33.66,3,FinTech,Boston,14,186,1.4,60.71,1
+1.77,6,EdTech,Toronto,9,106,3.2,60.22,1
+2.83,6,CleanTech,New York,0,28,3.7,59.19,0
+13.73,4,AI/ML,San Francisco,15,199,8.7,71.28,1
+85.62,2,CleanTech,New York,8,229,8.2,66.21,1
+11.75,3,SaaS,Toronto,12,246,9.0,66.65,1
+20.1,2,SaaS,Seattle,16,26,1.0,46.13,1
+56.47,5,AI/ML,San Francisco,6,142,11.9,77.5,1
+149.44,3,Cybersecurity,New York,11,156,0.9,57.38,1
+10.21,5,SaaS,San Francisco,0,21,10.0,64.23,1
+17.87,5,AI/ML,Toronto,15,238,9.0,74.48,1
+112.4,7,Cybersecurity,Seattle,1,27,7.2,72.47,1
+3.97,3,EdTech,San Francisco,9,68,5.4,56.48,1
+50.78,7,CleanTech,Austin,6,242,9.2,72.62,0
+6.56,3,AI/ML,Berlin,0,139,9.0,58.42,0
+20.14,5,Cybersecurity,London,8,170,1.9,58.82,1
+14.26,5,SaaS,Toronto,16,124,9.6,69.21,1
+6.97,6,E-commerce,San Francisco,3,188,1.2,58.52,0
+6.8,4,EdTech,San Francisco,5,22,6.2,62.98,0
+23.96,6,E-commerce,San Francisco,3,169,7.8,70.22,0
+49.18,3,EdTech,Boston,2,18,9.9,56.35,0
+15.96,4,AI/ML,Singapore,4,46,5.7,67.72,0
+19.49,4,CleanTech,Berlin,10,127,3.1,63.27,0
+32.17,5,SaaS,Austin,14,113,6.0,63.88,1
+6.88,5,SaaS,Berlin,12,39,3.2,65.37,0
+38.08,1,EdTech,Berlin,13,199,6.5,60.29,0
+41.24,6,E-commerce,New York,12,76,5.7,66.7,1
+245.58,6,AI/ML,Singapore,6,216,9.4,76.55,1
+12.48,1,AI/ML,Seattle,16,5,3.1,52.65,1
+11.5,7,FinTech,San Francisco,3,60,2.6,67.48,0
+39.21,5,FinTech,Boston,12,75,5.8,68.69,1
+41.23,1,FinTech,Singapore,1,149,0.9,47.01,0
+10.64,4,CleanTech,Berlin,13,101,3.0,49.95,1
+12.14,6,CleanTech,Austin,1,40,4.4,61.24,1
+31.22,2,FinTech,Singapore,3,143,6.0,58.18,1
+7.94,7,FinTech,Boston,7,239,3.5,71.27,1
+12.05,3,CleanTech,Seattle,12,35,6.9,63.89,1
+19.88,2,AI/ML,San Francisco,0,64,10.6,62.73,1
+49.2,3,EdTech,Bangalore,4,120,6.7,63.73,1
+9.93,4,AI/ML,Toronto,6,182,3.7,62.59,1
+2.88,5,HealthTech,New York,13,35,1.0,59.95,0
+2.67,7,HealthTech,London,17,59,1.9,64.91,0
+5.16,2,EdTech,Singapore,11,60,6.9,65.45,0
+4.89,7,Cybersecurity,London,9,154,8.3,71.11,0
+15.57,4,CleanTech,Austin,6,22,0.9,50.7,1
+5.54,1,HealthTech,Bangalore,14,165,2.5,48.27,0
+9.0,7,AI/ML,Austin,1,107,4.0,67.57,0
+8.38,3,Cybersecurity,Boston,2,83,4.0,53.59,1
+11.7,5,Cybersecurity,Boston,3,215,11.5,70.9,1
+68.2,5,CleanTech,Toronto,4,205,2.7,57.75,1
+35.23,1,HealthTech,London,8,201,1.0,53.99,0
+18.47,2,HealthTech,Singapore,17,221,4.4,55.93,1
+11.46,5,HealthTech,Bangalore,11,60,1.9,49.42,0
+11.78,3,HealthTech,Bangalore,6,214,1.8,57.85,0
+25.22,1,HealthTech,Toronto,3,45,5.1,43.6,0
+32.6,1,EdTech,Bangalore,11,84,3.9,56.35,1
+7.33,6,AI/ML,Bangalore,4,139,1.4,67.19,0
+18.85,2,SaaS,Bangalore,17,186,7.4,63.0,0
+2.38,1,SaaS,Berlin,8,145,6.2,62.61,1
+22.46,4,HealthTech,New York,9,140,1.2,60.01,1
+38.94,1,HealthTech,New York,16,95,10.4,73.91,1
+13.73,5,Cybersecurity,Singapore,5,148,3.6,60.39,1
+111.78,4,AI/ML,Boston,8,119,11.5,65.33,0
+7.53,5,HealthTech,Toronto,9,120,11.2,72.14,1
+22.59,4,CleanTech,Bangalore,4,147,5.4,67.41,1
+17.53,6,CleanTech,Berlin,0,150,3.0,59.37,0
+16.44,5,Cybersecurity,Singapore,5,83,10.1,68.26,1
+16.21,3,HealthTech,Austin,2,35,4.5,57.09,1
+20.23,1,E-commerce,Seattle,12,76,2.2,55.32,0
+42.43,2,Cybersecurity,Bangalore,0,103,6.8,54.82,1
+72.08,1,CleanTech,Toronto,5,41,6.0,65.63,1
+18.13,1,HealthTech,Austin,15,46,10.2,62.5,0
+41.07,2,Cybersecurity,Bangalore,10,237,8.8,69.64,1
+9.01,2,SaaS,Seattle,12,71,10.6,69.83,1
+39.09,1,SaaS,Toronto,12,185,8.9,60.69,1
+8.48,3,AI/ML,London,5,33,7.8,62.09,1
+54.09,4,CleanTech,Berlin,11,243,6.2,69.54,1
+165.78,2,FinTech,New York,3,54,11.9,69.35,1
+16.09,2,AI/ML,Boston,11,99,11.5,71.42,1
+2.03,1,CleanTech,Singapore,12,195,10.2,56.59,1
+10.51,1,AI/ML,Toronto,15,51,9.4,66.53,1
+62.29,2,EdTech,San Francisco,16,138,7.1,65.95,0

@@ -1,86 +1,66 @@
-import os
-import pickle
 from pathlib import Path
 
+import pandas as pd
 import streamlit as st
+
+from model.predict import load_metrics
+from model.train import save_artifacts, train_model
+from pages import comparison, dashboard, model_insights, startup_analysis
+from ui import inject_theme
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-MODEL_PATH = PROJECT_ROOT / "model" / "model.pkl"
-METRICS_PATH = PROJECT_ROOT / "model" / "metrics.pkl"
+DATA_PATH = PROJECT_ROOT / "data" / "startup_data.csv"
+MODEL_PATH = PROJECT_ROOT / "model" / "startup_success_model.joblib"
 
-st.set_page_config(page_title="VentureScope AI", page_icon="🚀", layout="wide")
+st.set_page_config(page_title="VentureScope AI", page_icon="🧠", layout="wide", initial_sidebar_state="expanded")
+inject_theme()
 
-st.markdown(
-    """
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
-.stApp { background-color: #0A1628; color: #E0E0E0; }
-section[data-testid="stSidebar"] { background-color: #0D1F38; }
-h1, h2, h3 { color: #00B4D8; }
-.stButton>button {
-    background-color: #00B4D8;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
-}
-.card {
-    background:#0D1F38;
-    padding:20px;
-    border-radius:12px;
-    border:1px solid #1E3A5F;
-}
-</style>
-""",
-    unsafe_allow_html=True,
-)
-
-with st.sidebar:
-    st.markdown("# VentureScope AI")
-    st.markdown("*AI-Powered Startup Intelligence*")
-    st.markdown("---")
-    page = st.radio(
-        "Navigation",
-        ["Dashboard", "Startup Analysis", "Market Insights", "Compare Startups"],
-    )
-    st.markdown("---")
-    st.markdown("**Model:** Random Forest")
-
-    if METRICS_PATH.exists():
-        with open(METRICS_PATH, "rb") as f:
-            metrics = pickle.load(f)
-        st.markdown(f"**Rows:** {metrics.get('rows', 0):,}")
-        st.markdown(f"**Accuracy:** {metrics.get('accuracy', 0):.1%}")
-        st.markdown(f"**ROC-AUC:** {metrics.get('roc_auc', 0):.3f}")
+if not DATA_PATH.exists():
+    st.error("Dataset not found. Run `python data/generate_data.py` first.")
+    st.stop()
 
 if not MODEL_PATH.exists():
-    with st.spinner("Training model on startup data..."):
-        from model.train import train_model
+    with st.spinner("Model artifact missing. Training model..."):
+        pipeline, metrics = train_model(DATA_PATH)
+        save_artifacts(pipeline, metrics, PROJECT_ROOT / "model")
+    st.success("Model trained successfully.")
 
-        train_model()
-    st.success("Model is ready.")
+df = pd.read_csv(DATA_PATH)
+metrics = load_metrics()
 
-if page == "Dashboard":
-    st.markdown("# VentureScope AI")
-    st.markdown("### AI-Powered Venture Capital Intelligence Platform")
+bar_l, bar_r = st.columns([6, 1])
+with bar_l:
+    st.markdown(
+        "<div class='topbar'><div><div class='brand-title'>VentureScope AI</div>"
+        "<div class='brand-sub'>AI Venture Intelligence Copilot</div></div></div>",
+        unsafe_allow_html=True,
+    )
+with bar_r:
+    st.button("⚙️", width="stretch", key="settings_btn")
+
+with st.sidebar:
+    st.markdown("### Navigation")
+    section = st.radio(
+        "Pages",
+        ["Overview", "Analyze", "Compare", "Model"],
+        label_visibility="collapsed",
+    )
     st.markdown("---")
+    st.caption("Predict. Compare. Decide.")
+    if metrics:
+        st.caption(f"Accuracy: {metrics.get('accuracy', 0) * 100:.1f}%")
+        st.caption(f"ROC-AUC: {metrics.get('roc_auc', 0):.3f}")
 
-    col1, col2, col3 = st.columns(3)
-    col1.markdown("<div class='card'><h3>Startup Analysis</h3><p>Enter startup details and get an AI-powered success probability score.</p></div>", unsafe_allow_html=True)
-    col2.markdown("<div class='card'><h3>Market Insights</h3><p>Explore industry trends, funding patterns, and geographic clusters.</p></div>", unsafe_allow_html=True)
-    col3.markdown("<div class='card'><h3>Compare Startups</h3><p>Compare multiple startups side-by-side across key investment signals.</p></div>", unsafe_allow_html=True)
-
-elif page == "Startup Analysis":
-    from pages.startup_analysis import show
-
-    show()
-elif page == "Market Insights":
-    from pages.market_insights import show
-
-    show()
-else:
-    from pages.comparison import show
-
-    show()
+try:
+    if section == "Overview":
+        dashboard.render(df)
+    elif section == "Analyze":
+        startup_analysis.render(df)
+    elif section == "Compare":
+        comparison.render(df)
+    else:
+        model_insights.render(df)
+except Exception as exc:
+    st.error("A runtime error occurred in this page.")
+    st.code(str(exc))

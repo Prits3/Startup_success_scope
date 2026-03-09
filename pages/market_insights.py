@@ -1,104 +1,135 @@
-from pathlib import Path
-
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+LOCATION_TO_COUNTRY = {
+    "San Francisco": "United States",
+    "New York": "United States",
+    "Austin": "United States",
+    "Boston": "United States",
+    "Seattle": "United States",
+    "London": "United Kingdom",
+    "Berlin": "Germany",
+    "Singapore": "Singapore",
+    "Toronto": "Canada",
+    "Bangalore": "India",
+}
 
 
-def _data_path() -> Path:
-    for p in [
-        PROJECT_ROOT / "data" / "startups_raw.csv",
-        PROJECT_ROOT / "data" / "big_startup_secsees_dataset.csv",
-    ]:
-        if p.exists():
-            return p
-    raise FileNotFoundError("Startup dataset not found in data/")
-
-
-def show():
-    st.markdown("## Market Insights")
-
-    df = pd.read_csv(_data_path())
-    df["success"] = df["status"].apply(lambda x: 1 if str(x).lower() in ["acquired", "ipo"] else 0)
-    df["primary_category"] = df["category_list"].fillna("Unknown").astype(str).apply(lambda x: x.split("|")[0])
-    df["funding_total_usd"] = pd.to_numeric(df["funding_total_usd"], errors="coerce").fillna(0)
-
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Total Startups", f"{len(df):,}")
-    c2.metric("Success Rate", f"{df['success'].mean():.1%}")
-    c3.metric("Avg Funding", f"${df['funding_total_usd'].mean():,.0f}")
-    c4.metric("Countries", f"{df['country_code'].nunique()}")
-    st.markdown("---")
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        st.markdown("### Top Industries by Success Rate")
-        ind = df.groupby("primary_category")["success"].agg(["mean", "count"]).reset_index()
-        ind = ind[ind["count"] > 50].sort_values("mean", ascending=True).tail(15)
-        fig = px.bar(
-            ind,
-            x="mean",
-            y="primary_category",
-            orientation="h",
-            color="mean",
-            color_continuous_scale=["#0A1628", "#00B4D8"],
-        )
-        fig.update_layout(
-            paper_bgcolor="#0A1628",
-            plot_bgcolor="#0A1628",
-            font_color="white",
-            showlegend=False,
-            xaxis_title="Success Rate",
-            coloraxis_showscale=False,
-        )
-        st.plotly_chart(fig, use_container_width=True)
-
-    with col2:
-        st.markdown("### Top Countries by Success Rate")
-        ctry = df.groupby("country_code")["success"].agg(["mean", "count"]).reset_index()
-        ctry = ctry[ctry["count"] > 100].sort_values("mean", ascending=False).head(15)
-        fig2 = px.bar(
-            ctry,
-            x="country_code",
-            y="mean",
-            color="mean",
-            color_continuous_scale=["#0A1628", "#00C897"],
-        )
-        fig2.update_layout(
-            paper_bgcolor="#0A1628",
-            plot_bgcolor="#0A1628",
-            font_color="white",
-            showlegend=False,
-            yaxis_title="Success Rate",
-            coloraxis_showscale=False,
-        )
-        st.plotly_chart(fig2, use_container_width=True)
-
-    st.markdown("### Funding vs Success")
-    df["funding_bucket"] = pd.cut(
-        df["funding_total_usd"],
-        bins=[0, 100_000, 1_000_000, 10_000_000, 100_000_000, 500_000_000, float("inf")],
-        labels=["<100K", "100K-1M", "1M-10M", "10M-100M", "100M-500M", "500M+"],
+def _market_brief(df: pd.DataFrame) -> str:
+    sectors = (
+        df.groupby("industry_sector", as_index=False)
+        .agg(success=("success_probability", "mean"), funding=("funding_amount", "mean"))
+        .sort_values("success", ascending=False)
     )
-    fb = df.groupby("funding_bucket", observed=True)["success"].mean().reset_index()
-    fig3 = px.bar(
-        fb,
-        x="funding_bucket",
-        y="success",
-        color="success",
-        color_continuous_scale=["#0A1628", "#00B4D8"],
+    s1 = sectors.iloc[0]["industry_sector"]
+    s2 = sectors.iloc[1]["industry_sector"]
+    spread = sectors["success"].max() - sectors["success"].min()
+    return (
+        f"{s1} and {s2} currently lead the signal stack. "
+        f"Sector outcome spread is {spread:.1f} points, indicating meaningful dispersion in venture quality."
     )
-    fig3.update_layout(
-        paper_bgcolor="#0A1628",
-        plot_bgcolor="#0A1628",
-        font_color="white",
-        showlegend=False,
-        xaxis_title="Funding Range",
-        yaxis_title="Success Rate",
+
+
+def render(df: pd.DataFrame) -> None:
+    st.subheader("Signals")
+    st.caption("Ecosystem-level market signals for strategic venture decisions.")
+
+    st.markdown("<div class='ai-note'><b>AI Market Brief</b><br/>" + _market_brief(df) + "</div>", unsafe_allow_html=True)
+
+    sector = (
+        df.groupby("industry_sector", as_index=False)
+        .agg(success_rate=("success_outcome", "mean"), avg_funding=("funding_amount", "mean"))
+    )
+    sector["success_rate"] = sector["success_rate"] * 100
+
+    fig1 = px.density_heatmap(
+        df,
+        x="industry_sector",
+        y="location",
+        z="success_probability",
+        histfunc="avg",
+        color_continuous_scale=["#1b2b46", "#27c9f5"],
+        title="Sector-Region Heatmap (Avg Success Probability)",
+    )
+    fig1.update_layout(
+        paper_bgcolor="#070d17",
+        plot_bgcolor="#070d17",
+        font_color="#e7eef9",
         coloraxis_showscale=False,
     )
-    st.plotly_chart(fig3, use_container_width=True)
+    st.plotly_chart(fig1, width='stretch')
+
+    row1, row2 = st.columns(2)
+    with row1:
+        fig2 = px.bar(
+            sector.sort_values("success_rate", ascending=False),
+            x="industry_sector",
+            y="success_rate",
+            color="success_rate",
+            title="Strongest Sectors",
+            color_continuous_scale=["#1b2b46", "#27c9f5"],
+        )
+        fig2.update_layout(
+            paper_bgcolor="#070d17",
+            plot_bgcolor="#070d17",
+            font_color="#e7eef9",
+            yaxis_title="Success Rate (%)",
+            xaxis_title="Industry",
+            coloraxis_showscale=False,
+        )
+        st.plotly_chart(fig2, width='stretch')
+
+    with row2:
+        stage = df.copy()
+        stage["stage"] = pd.cut(
+            stage["num_funding_rounds"],
+            bins=[0, 2, 4, 6, 10],
+            labels=["Early", "Growth", "Late", "Scale"],
+        )
+        stage_summary = stage.groupby("stage", as_index=False).agg(
+            avg_success=("success_probability", "mean"),
+            avg_funding=("funding_amount", "mean"),
+        )
+        fig3 = px.line(
+            stage_summary,
+            x="stage",
+            y="avg_success",
+            markers=True,
+            title="Funding Stage Analysis",
+            color_discrete_sequence=["#7c8cff"],
+        )
+        fig3.update_layout(
+            paper_bgcolor="#070d17",
+            plot_bgcolor="#070d17",
+            font_color="#e7eef9",
+            yaxis_title="Avg Success Probability (%)",
+            xaxis_title="Stage",
+        )
+        st.plotly_chart(fig3, width='stretch')
+
+    geo_df = df.copy()
+    geo_df["country"] = geo_df["location"].map(LOCATION_TO_COUNTRY)
+    region_success = geo_df.groupby("country", as_index=False).agg(
+        success=("success_probability", "mean"),
+        count=("location", "count"),
+    )
+
+    fig4 = px.choropleth(
+        region_success,
+        locations="country",
+        locationmode="country names",
+        color="success",
+        hover_data=["count"],
+        color_continuous_scale=["#1b2b46", "#27c9f5"],
+        title="Geography Clusters and Performance",
+    )
+    fig4.update_layout(
+        paper_bgcolor="#070d17",
+        plot_bgcolor="#070d17",
+        font_color="#e7eef9",
+        geo=dict(bgcolor="#070d17", showcoastlines=True, showframe=False),
+        coloraxis_showscale=False,
+    )
+    st.plotly_chart(fig4, width='stretch')
