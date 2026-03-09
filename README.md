@@ -2,6 +2,10 @@
 
 VentureScope AI is an AI-powered startup evaluation platform built with Streamlit and a RandomForest model.
 
+## Live App (Most Workable Link)
+
+https://startupsuccessscope-ln3jyjrspb8iusbqmvgats.streamlit.app/
+
 ## Features
 
 - Startup success probability prediction (0-100%)
